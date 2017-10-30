@@ -1,4 +1,4 @@
-name,price,rating,zip code,latitude,longitude,review count,categories,
+name,price,rating,zip code,latitude,longitude,review count,categories
 Dim Sum Palace,$$,4.0,10036,40.76015,-73.9893699,493,['dimsum', 'cantonese']
 Wah Fung No 1,$,4.5,10002,40.71735,-73.99457,819,['chinese', 'hotdogs']
 Tasty Garden,$,5.0,10009,40.72485,-73.98306,16,['dimsum', 'noodles']
