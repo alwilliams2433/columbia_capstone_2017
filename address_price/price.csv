@@ -1,20 +1,18 @@
 address,price,zipcode
-270 Madison Ave,NA,10016
-41 E 11th St,$58.00 - $172.80,10003
 17 State St,NA,10004
 145 E 57th St,NA,10022
 14 Wall St,NA,10005
 275 Seventh Ave,NA,10001
 One World Trade Center,NA,10007
 54 Thompson St,NA,10012
+161 Avenue of the Americas,NA,10013
 590 Madison Ave,NA,10022
 1185 Avenue of the Americas,NA,10036
 1155 Avenue of the Americas,NA,10036
 485 Lexington Ave,NA,10017
 114 W 47th St,NA,10036
-71 W 47th St,$44.00 - $48.00,10036
-133 E 58th St,$75.00,10022
-30 E 60th St,$70.00,10022
+270 Madison Ave,NA,10016
+41 E 11th St,$58.00 - $172.80,10003
 385 Fifth Ave,$55.00,10016
 45-47 W 27th St,NA,10001
 1156 Avenue of the Americas,NA,10036
@@ -26,10 +24,8 @@ One World Trade Center,NA,10007
 225-235 E 64th St,NA,10065
 50 West St,$95.00,10006
 777 Third Ave,$63.00,10017
-695-709 Avenue Of The Americas,NA,10010
 1441 Broadway,$54.00 - $96.00,10018
 1115 Broadway,NA,10010
-90 Broad St,NA,10004
 28 W 44th St,NA,10036
 10 E 38th St,$45.00 - $49.00,10016
 4 Bryant Park,$55.00 - $68.00,10036
@@ -63,7 +59,7 @@ One World Trade Center,NA,10007
 75 Broad St,NA,10004
 680 Madison Ave,NA,10065
 521 Fifth Ave,$65.00,10175
-810 Seventh Ave,$63.00 - $70.00,10019
+810 Seventh Ave,NA,10019
 100 Park Ave,NA,10017
 155 W 23rd St,$68.00 - $75.00,10011
 155 W 23rd St,NA,10011
@@ -73,7 +69,6 @@ One World Trade Center,NA,10007
 712-714 Broadway,$185.00,10003
 55 W 46th St,NA,10036
 104-110 Greene St,NA,10012
-19 W 44th St,NA,10036
 800 Third Ave,NA,10022
 685 Washington St,$27.55,10014
 264 W 40th St,NA,10018
@@ -106,7 +101,9 @@ One World Trade Center,NA,10007
 110 E 42nd St,$58.00 - $65.00,10017
 880 Third Ave,$58.00 - $65.00,10022
 25 W 45th St,NA,10036
-305 E 47th St,NA,10017
+71 W 47th St,$44.00 - $48.00,10036
+133 E 58th St,$75.00,10022
+30 E 60th St,$70.00,10022
 151 E 80th St,$205.63,10075
 1120 Avenue of the Americas,NA,10036
 54 W 47th St,$56.00 - $65.00,10036
@@ -115,13 +112,14 @@ One World Trade Center,NA,10007
 1380 First Ave,$127.50,10021
 137 Hudson St,$79.80,10013
 336-342 W 37th St,$51.69,10018
-647 Broadway,$160.00,10012
+647 Broadway,$150.00,10012
 168 Canal St,NA,10013
 126-134 Nagle Ave,$73.00,10040
 34-36 W 44th St,$62.00,10036
 38 W 21st St,NA,10010
 37 Union Sq W,$81.40 - $383.72,10003
 325 W 38th St,$37.50 - $49.71,10018
+305 E 47th St,NA,10017
 555 W 25th St,$80.41,10001
 22 W 32nd St,$48.00,10001
 418-420 Broadway,NA,10013
@@ -201,7 +199,7 @@ One World Trade Center,NA,10007
 140 W 30th St,$45.00,10001
 375 W Broadway,NA,10012
 3 W 30th St,$48.00 - $108.00,10001
-605 Madison Ave,$75.00 - $1000,10022
+605 Madison Ave,$75.00 - $1,000,10022
 516-530 W 25th St,$39.00 - $51.00,10001
 152 W 36th St,$32.28 - $45.43,10018
 1261-1281 Second Ave,NA,10065
@@ -231,7 +229,6 @@ One World Trade Center,NA,10007
 66-70 W 40th St,$58.00,10018
 10 W 33rd St,$49.00 - $75.00,10001
 218-232 W 40th St,NA,10018
-375 Greenwich St,NA,10013
 147 W 35th St,$41.33 - $46.50,10001
 1978 Third Ave,NA,10029
 234 W 39th St,$53.00,10018
@@ -349,6 +346,7 @@ One World Trade Center,$69.00 - $80.00,10007
 304 W 49th St,NA,10019
 340 Madison Ave,NA,10173
 1 Rockefeller Plaza,NA,10020
+695-709 Avenue Of The Americas,NA,10010
 104 W 40th St,NA,10018
 299 Park Ave,NA,10171
 134 W 23rd St,$170.00,10011
@@ -389,7 +387,6 @@ One World Trade Center,$69.00 - $80.00,10007
 41 Madison Ave,NA,10010
 200 Vesey St,NA,10285
 242 W 30th St,NA,10001
-780 Third Ave,$108.00,10017
 445 Park Ave,NA,10022
 353 W 57th St,NA,10019
 136 Madison Ave,NA,10016
@@ -426,7 +423,7 @@ One World Trade Center,$69.00 - $80.00,10007
 20 W 22nd St,NA,10010
 2037-2049 Broadway,NA,10023
 121-123 W 138th St,$1.24,10030
-1006 First Ave,NA,10022
+400-416 E 56th St,NA,10022
 130 Delancey St,$150.00,10002
 118 Nagle Ave,$74.28,10040
 2451-2459 Broadway,$213.27,10024
@@ -479,3 +476,6 @@ One World Trade Center,$69.00 - $80.00,10007
 137 W 19th St,$54.00 - $67.00,10011
 146 W 29th St,$39.00 - $45.00,10001
 425-437 W 125th St,$75.00,10027
+452 W Broadway,NA,10012
+208 W 29th St,$40.00,10001
+49-55 W 47th St,$40.00,10036
