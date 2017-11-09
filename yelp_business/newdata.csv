@@ -1,983 +1,983 @@
-name,price,rating,zip code,latitude,longitude,review count,categories
-Dim Sum Palace,$$,4.0,10036,40.76015,-73.9893699,493,['dimsum', 'cantonese']
-Wah Fung No 1,$,4.5,10002,40.71735,-73.99457,819,['chinese', 'hotdogs']
-Tasty Garden,$,5.0,10009,40.72485,-73.98306,16,['dimsum', 'noodles']
-Peng's Noodle Folk,$$,4.5,10028,40.77726,-73.94932,174,['chinese', 'noodles', 'ramen']
-Zest Szechuan,$$,4.0,10018,40.75274,-73.98445,240,['szechuan', 'seafood', 'soup']
-Tuome,$$$,4.5,10009,40.72412482724,-73.9828906263924,290,['newamerican', 'chinese']
-Shu Jiao Fu Zhou Cuisine Restaurant,$,4.5,10002,40.7184290357839,-73.9916928979573,387,['chinese', 'noodles']
-China Jade,$$,4.5,10028,40.77747,-73.95239,19,['chinese']
-China Xiang,$$,4.0,10036,40.7582902125633,-73.9925113993899,235,['chinese']
-Han Dynasty,$$,4.0,10024,40.78752,-73.97647,339,['szechuan']
-Han Dynasty,$$,4.0,10003,40.732072,-73.988074,904,['szechuan', 'bars']
-Xi'an Famous Foods,$,4.0,10075,40.77197,-73.95452,344,['chinese', 'noodles', 'burgers']
-Café China,$$,4.0,10016,40.7499225208569,-73.9819464127197,867,['szechuan']
-Xi'an Famous Foods,$,4.0,10036,40.75574,-73.98085,1169,['chinese', 'burgers', 'noodles']
-Szechuan Garden,$$,4.0,10025,40.8003719688892,-73.9676491308602,159,['szechuan']
-Jasmine Restaurant,$$,4.0,10017,40.75467,-73.97057,104,['shanghainese', 'dimsum', 'szechuan']
-Tri Dim Shanghai,$$,4.0,10075,40.77395,-73.95793,86,['shanghainese', 'dimsum', 'szechuan']
-Auntie Guan's Kitchen 108,$$,4.0,10011,40.7377213477598,-73.9974148512518,234,['chinese', 'asianfusion']
-Excellent Dumpling House,$$,4.0,10011,40.7440494396358,-73.995028194335,222,['dimsum', 'seafood', 'soup']
-Xi'an Famous Foods,$,4.0,10016,40.747844,-73.983901,440,['chinese', 'noodles', 'burgers']
-La Salle Dumpling Room,$$,4.0,10023,40.7731596,-73.98951,36,['chinese']
-Chaan Teng,$$,4.0,10036,40.7622036680455,-73.9898682385683,108,['chinese']
-Burp Bowl Cafe,$,4.5,10010,40.74183,-73.98271,104,['chinese', 'noodles', 'soup']
-Shanghai,$,4.0,10021,40.768291,-73.958381,57,['chinese']
-Radiance Tea House and Books,$$,4.0,10019,40.7639799,-73.98065,748,['asianfusion', 'tea', 'chinese']
-Joe's Shanghai,$$,4.0,10013,40.7146691442891,-73.9977602206654,4596,['shanghainese', 'desserts', 'seafood']
-Xi'an Famous Foods,$$,4.0,10019,40.7620964050293,-73.9773178100586,195,['noodles', 'burgers', 'chinese']
-Buddakan,$$$,4.0,10011,40.7422275387194,-74.0047066478157,3216,['chinese', 'asianfusion']
-Noodle Fun,$$,4.0,10128,40.7795333862305,-73.9470367431641,100,['chinese', 'noodles']
-China Blue,$$,4.0,10013,40.724081417449,-74.0098607540131,389,['shanghainese', 'dimsum']
-Very Fresh Noodles,$$,4.0,10011,40.7423387008486,-74.0061374945942,289,['taiwanese', 'chinese', 'noodles']
-Xi'an Famous Foods,$,4.0,10003,40.72782,-73.98551,1394,['chinese', 'noodles', 'burgers']
-Asura Asian Bistro,$$,4.0,10001,40.7522492,-73.991222,248,['chinese', 'asianfusion', 'bars']
-Pig Heaven,$$,4.0,10028,40.775433,-73.956856,177,['bbq', 'chinese']
-Hunan Bistro,$$,4.0,10003,40.73234,-73.9881,144,['chinese']
-MáLà Project,$$,4.0,10009,40.72713,-73.98542,298,['seafood', 'dimsum', 'chicken_wings']
-Decoy,$$$,4.0,10014,40.734196,-74.006519,245,['chinese', 'bars']
-Fishmarket Restaurant,$$,4.5,10038,40.70717,-74.00192,380,['seafood', 'chinese', 'asianfusion']
-Joe's Shanghai,$$,3.5,10019,40.7627694517048,-73.9759005803566,1158,['shanghainese']
-Lam Zhou Handmade Noodle & Dumpling,$,4.0,10013,40.71556,-73.99692,1168,['chinese', 'noodles', 'ramen']
-Uncle Ted's Modern Chinese Cuisine,$$,4.0,10012,40.72882,-73.999961,345,['chinese']
-Niu Noodle House,$$,4.0,10014,40.734352,-74.000082,524,['chinese', 'asianfusion', 'noodles']
-Flor De Mayo,$$,4.0,10024,40.7860908508301,-73.9765853881836,983,['chinese', 'peruvian', 'spanish']
-Dim Sum Palace,$$,4.0,10019,40.76259,-73.97681,66,['dimsum', 'seafood', 'noodles']
-Chop Shop II,$$,4.0,10010,40.7433280944824,-73.9911651611328,150,['chinese', 'thai', 'asianfusion']
-Shanghai Asian Manor,$$,4.0,10013,40.71441,-73.99902,1152,['shanghainese']
-Ding Szechuan and Hot Pot Restaurant,$$,3.5,10036,40.7605285644531,-73.9863891601562,118,['hotpot', 'bbq', 'szechuan']
-The Bao,$$,3.5,10003,40.72939,-73.988912,838,['chinese']
-Yummy City,$,4.5,10029,40.7879244458184,-73.948986355818,21,['chinese']
-Fu Xing,$,4.0,10018,40.754589387013,-73.9912518276348,33,['cantonese', 'cafeteria', 'bakeries']
-Bugis Street Brasserie & Bar,$$,5.0,10036,40.7567689,-73.9843329,8,['singaporean', 'panasian', 'chinese']
-Spice Symphony,$$,4.0,10016,40.744722,-73.981202,432,['indpak', 'chinese', 'wine_bars']
-Nom Wah Tu,$$,4.0,10002,40.71534,-73.9914,9,['chinese', 'newamerican']
-Szechuan Gourmet,$$,3.5,10018,40.75236,-73.98355,814,['szechuan']
-Wu Liang Ye,$$,3.5,10036,40.7578086853027,-73.9799423217773,427,['szechuan']
-Spicy Village,$,4.0,10002,40.71695,-73.99327,395,['chinese']
-The Tang,$$,4.0,10009,40.72703,-73.98539,168,['noodles', 'chinese', 'taiwanese']
-Lotus Blue,$$,3.5,10003,40.736070750946,-73.9917466058785,6,['chinese']
-Hunan Manor,$$,3.5,10016,40.74965,-73.97707,197,['chinese']
-Xi'an Famous Foods,$,4.0,10025,40.79847,-73.96934,267,['chinese', 'noodles', 'burgers']
-Radiance,$$,4.0,10022,40.7555779423723,-73.9703503944427,117,['chinese', 'tea', 'venues']
-Legend 72,$$,3.0,10023,40.77796,-73.9796901,146,['chinese', 'seafood', 'noodles']
-Spice Symphony,$$,4.0,10022,40.7558937072754,-73.9715347290039,86,['chinese', 'indpak', 'bars']
-Little Alley,$$,4.0,10016,40.74744,-73.97728,81,['shanghainese']
-Pa Pa Thai Cuisine,$,4.5,10022,40.7593778206059,-73.9624154842934,56,['thai', 'chinese', 'salad']
-Ningbo Cafe,$$,4.0,10280,40.708141,-74.017791,78,['shanghainese', 'szechuan', 'asianfusion']
-Sun Hing Lung Co,$,4.5,10002,40.7129253167705,-73.9949862286448,103,['chinese']
-Vanessa's Dumpling House,$,4.0,10002,40.71839,-73.9917399,2093,['chinese']
-Land of Plenty,$$,3.5,10022,40.76063,-73.96664,239,['chinese']
-Xi'an Famous Foods,$,4.0,10012,40.7209700345993,-73.9961278438568,104,['chinese', 'noodles', 'burgers']
-21 Shanghai House,$$,4.0,10002,40.7140138244835,-73.9964454932541,319,['shanghainese']
-Carma East,$$,4.0,10009,40.7254099,-73.98327,112,['bars', 'dimsum', 'taiwanese']
-Tasty Hand-Pulled Noodles,$,4.0,10013,40.7142,-73.99787,1239,['chinese', 'noodles']
-Grand Sichuan,$$,3.5,10001,40.747413,-74.001052,369,['chinese']
-Hao Noodle and Tea By Madam Zhu's Kitchen,$$,3.5,10014,40.7334863190479,-73.9998929006093,278,['chinese', 'noodles']
-La Salle Dumpling Room,$$,4.0,10027,40.81403,-73.95983,118,['asianfusion', 'chinese']
-Tang Pavilion,$$,3.5,10019,40.762849,-73.977189,264,['chinese']
-Yuan,$$,3.5,10003,40.72975,-73.98724,49,['noodles', 'dimsum', 'bars']
-Junzi Kitchen,$$,4.0,10025,40.8057641877461,-73.9652019005902,54,['chinese', 'noodles', 'tea']
-Cheong Fun Cart,$,5.0,10013,40.7176279773311,-73.9963736857056,35,['foodstands', 'chinese', 'streetvendors']
-Shu Han Ju,$$,3.5,10011,40.73558,-73.99843,110,['chinese']
-Little Tong Noodle Shop,$$,4.0,10003,40.72939,-73.98434,111,['noodles', 'chinese']
-Noodle Village,$,4.0,10013,40.714167,-73.998803,700,['chinese', 'noodles']
-Savour Sichuan,$$,3.5,10018,40.75311,-73.98614,142,['szechuan', 'dimsum', 'asianfusion']
-Golden Forest,$,4.0,10002,40.716648,-73.989471,104,['chinese']
-Ahana,$$,4.0,10065,40.7622458,-73.9598571,100,['japanese', 'chinese', 'thai']
-Hakkasan,$$$$,3.5,10036,40.758619,-73.989961,680,['chinese']
-Spice Noodle,$$$,3.5,10029,40.7867088,-73.9499588,25,['vietnamese', 'chinese']
-La Vie en Szechuan,$$,3.5,10016,40.7473584983999,-73.9843980932541,365,['szechuan']
-Pinch Chinese,$$,4.0,10012,40.72645,-74.0018,106,['chinese', 'wine_bars', 'cocktailbars']
-Happy Hot Hunan,$$,3.5,10025,40.80133,-73.96466,95,['chinese']
-Hot Kitchen,$$,3.5,10022,40.7570698,-73.9674267,133,['szechuan']
-Asia Express,$,3.5,10016,40.741,-73.97906,37,['chinese']
-Auntie Guan's Kitchen,$,3.5,10011,40.73863,-73.98193,104,['chinese']
-Shorty Tang Noodle Shop,$$,3.5,10011,40.74019,-74.00187,98,['noodles', 'chinese', 'taiwanese']
-Chef Ho's,$$,3.5,10128,40.77997,-73.95,183,['chinese', 'cocktailbars']
-RedFarm,$$$,3.5,10024,40.782051,-73.980415,447,['dimsum', 'cantonese', 'asianfusion']
-Hing Won,$,3.5,10036,40.7579956054688,-73.9803848266602,167,['cantonese']
-Mapo Tofu,$$,3.5,10016,40.749832,-73.977531,275,['chinese']
-Grand Sichuan Eastern,$$,3.5,10022,40.7583084106445,-73.9663619995117,209,['szechuan']
-Ollie's Sichuan,$$,3.0,10036,40.75884,-73.99319,387,['szechuan']
-Wa Jeal Sichuan Chili House,$$,3.5,10028,40.77536,-73.95317,353,['chinese']
-Red Hot HotPot,$$,4.0,10025,40.8014032,-73.9615043,6,['hotpot', 'chinese']
-King's Kitchen,$,4.0,10002,40.713985,-73.993675,122,['chinese']
-Szechuan Garden Kitchen,$,4.0,10026,40.802006,-73.956726,11,['chinese']
-Mee Noodle Shop & Grill,$,3.5,10022,40.7540692621136,-73.9688620062703,239,['noodles', 'cantonese']
-Flor de Mayo,$$,4.0,10025,40.797832,-73.969948,425,['chinese', 'peruvian', 'cocktailbars']
-Rice & Gold,$$,4.0,10013,40.71599,-73.99683,12,['chinese', 'asianfusion', 'cocktailbars']
-Main Noodle House,$$,3.5,10018,40.752143,-73.986396,303,['chinese', 'noodles']
-Szechuan Gourmet 56,$$,3.0,10019,40.765717,-73.9828671,302,['szechuan']
-BaoHaus,$,3.5,10003,40.7324690923782,-73.9857136011124,1650,['chinese', 'taiwanese']
-A Taste Of China,$$,4.0,10010,40.7377036968826,-73.9813949,33,['chinese', 'wine_bars']
-Hot Sichuan,$$,3.5,10011,40.74354,-74.00326,82,['szechuan']
-A-jiao,$$,3.5,10128,40.783159,-73.948244,85,['chinese']
-Wok 88,$$,3.5,10128,40.78042,-73.95322,195,['chinese']
-Congee Village,$$,3.5,10002,40.7187,-73.99031,1276,['cantonese']
-Sichuan Bistro,$$,4.0,10010,40.73772,-73.98139,22,['szechuan']
-The Rice Noodle,$,3.5,10012,40.729087,-74.001525,77,['noodles', 'hotdogs', 'chinese']
-Chen's Buffet Bar,$,4.0,10038,40.70712,-74.00845,22,['chinese']
-Peking Duck House,$$$,3.5,10022,40.756912,-73.968109,316,['chinese']
-Shanghai Mong,$$,3.0,10001,40.7476119995117,-73.9871597290039,397,['korean', 'chinese', 'asianfusion']
-99 Favor Taste - St. Marks,$$,4.0,10003,40.728833,-73.988094,69,['hotpot', 'bbq', 'chinese']
-May Wah Fast Food,$,4.0,10013,40.718135,-73.998497,242,['chinese', 'taiwanese']
-Kung Fu Little Steamed Buns Ramen,$$,3.5,10019,40.7616286634162,-73.9868181646996,713,['chinese', 'ramen']
-S Wan Cafe,$,4.0,10002,40.71729,-73.99269,75,['cafes', 'chinese']
-Hot Kitchen,$$,3.5,10003,40.72741,-73.9881599,368,['chinese']
-Nyonya,$$,4.0,10013,40.7190148,-73.9968228,1649,['asianfusion', 'malaysian', 'chinese']
-Super Taste,$,4.0,10002,40.71511,-73.99332,421,['chinese', 'noodles']
-China North Dumpling,$,4.0,10002,40.715827,-73.989845,252,['chinese']
-Great NY Noodle Town,$,3.5,10013,40.7150363828814,-73.9971172437072,1020,['cantonese', 'noodles']
-108 Food Dried Hot Pot,$$,3.5,10025,40.80271,-73.96738,48,['hotpot', 'chinese']
-Shanghai Asian Cuisine,$$,4.0,10013,40.7159077,-73.997383,365,['shanghainese']
-Ramen Thukpa,$$,4.0,10014,40.7319755554199,-74.0039749145508,166,['chinese', 'ramen', 'vegetarian']
-Dumpling Kingdom,$,3.5,10012,40.7296503,-73.9995577,166,['chinese', 'hotdogs']
-Kung Fu Little Steamed Buns Ramen,$$,3.0,10022,40.7592514705491,-73.9694294705987,189,['ramen', 'chinese']
-Dong Chun Hong,$$,3.5,10001,40.7470559,-73.985959,228,['chinese', 'korean']
-Hunan Delight,$$,3.5,10075,40.770678,-73.951296,153,['chinese', 'japanese']
-Taste Good,$,3.5,10010,40.7433836718734,-73.9901636441803,69,['chinese']
-Lin's Gourmet,$,3.5,10022,40.759891,-73.965187,44,['chinese']
-Legend Bar & Restaurant,$$,3.0,10011,40.73956,-73.99918,282,['szechuan', 'hotpot']
-Hop Lee Restaurant,$$,4.0,10013,40.71426,-73.99849,219,['chinese', 'seafood', 'noodles']
-Ho Yip Restaurant,$,3.5,10006,40.7096772,-74.0120047,220,['chinese']
-Wo Hop,$$,3.5,10013,40.7142239034582,-73.9988691693115,1058,['chinese']
-Hop Won Restaurant,$,3.0,10017,40.7533111572266,-73.9739227294922,121,['chinese']
-Uncle Luoyang,$$,3.5,10025,40.80023,-73.96626,79,['bbq', 'sushi', 'chinese']
-Hong Kong Chinese Restaurant,$,3.5,10016,40.7444,-73.98146,28,['chinese', 'japanese']
-Canteen 82,$$,3.0,10024,40.78406,-73.97354,180,['chinese']
-La Dinastia,$$,3.5,10023,40.77833,-73.98022,127,['asianfusion', 'chinese']
-Asian Spicy Curry Pop-up,$,4.5,10013,40.715031,-73.99931,109,['asianfusion', 'malaysian', 'chinese']
-Bo Ky Restaurant,$,3.5,10013,40.7158451,-73.9987067,591,['chinese', 'vietnamese']
-RedFarm,$$$,3.5,10014,40.7342,-74.00652,546,['dimsum', 'asianfusion', 'cantonese']
-New Double Dragon,$,4.0,10003,40.7242431,-73.9881041,46,['chinese']
-New Moon,$$,5.0,10016,40.74692,-73.97766,4,['chinese']
-Hyo Dong Gak,$$,3.5,10001,40.750167,-73.986186,341,['chinese', 'vietnamese', 'asianfusion']
-Wok City,$,3.0,10023,40.7752417820046,-73.983876645396,64,['chinese']
-Lili's 57,$$,3.5,10019,40.76554,-73.98046,218,['chinese', 'japanese', 'gluten_free']
-Lan Sheng Szechuan Food Restaurant,$$,3.5,10018,40.7517141867087,-73.9883603449123,38,['chinese']
-Mr Bing,$$,4.0,10009,40.72712,-73.98362,5,['chinese']
-Sing Kee Seafood Restaurant,$$,4.0,10013,40.71555,-73.99672,151,['cantonese']
-Home's Kitchen Chinese Restaurant,$$,3.5,10010,40.73944,-73.98913,157,['szechuan']
-Mei Yu Spring,$,4.0,10002,40.7125753536096,-73.9971762470746,40,['chinese']
-Sammy's Noodle Shop & Grill,$$,3.5,10011,40.73516,-73.99875,381,['chinese', 'noodles', 'soup']
-Hop Kee,$$,4.0,10013,40.714416,-73.999023,654,['seafood', 'cantonese']
-Ollie's Noodle Shop & Grille,$$,3.0,10025,40.79942,-73.96868,87,['bbq', 'noodles', 'szechuan']
-Dragon Noodle and Grill,$,4.0,10013,40.71744,-74.00024,76,['chinese', 'noodles']
-Shanghai Cafe,$,3.5,10013,40.71726,-73.99721,1923,['shanghainese']
-A & C Kitchen,$,3.5,10009,40.7250407,-73.9779719,22,['chinese']
-Taiwan Bear House,$,4.0,10013,40.7147185237041,-73.9977966218067,216,['taiwanese', 'bubbletea', 'chinese']
-Jing Fong,$$,3.0,10024,40.7827096147799,-73.9789128775797,61,['dimsum', 'cantonese']
-Evergreen On 38,$$,3.5,10016,40.75051,-73.98192,177,['chinese']
-Chef Yu,$$,3.0,10018,40.753574,-73.991882,447,['chinese']
-Grand Sichuan Eastern,$$,3.0,10011,40.7425,-74.00013,83,['chinese']
-Harvest Chinese & Thai Cuisine,$$,3.5,10075,40.771812,-73.952659,62,['thai', 'chinese']
-Xi'an Famous Foods,$,4.0,10013,40.715082,-73.997342,768,['chinese', 'burgers', 'noodles']
-Mr Bing,$$,3.5,10021,40.7543376550143,-73.976532557234,109,['foodstands', 'chinese', 'food_court']
-Asian Eatery,$,3.5,10022,40.7615318,-73.9659424,46,['japanese', 'chinese']
-Ginger's,$$,3.5,10018,40.753448,-73.989273,326,['chinese']
-Hunan House,$$,2.5,10019,40.76292,-73.97653,126,['chinese']
-Charley Mom Restaurant,$$,3.5,10028,40.7740287780762,-73.9481582641602,65,['chinese']
-The Cottage,$$,3.0,10024,40.7820668155281,-73.9793799398146,254,['chinese']
-Big Bowl,$$,4.0,10128,40.78028,-73.9465,36,['thai', 'chinese', 'chicken_wings']
-Spice Saigon,$$,3.5,10065,40.7645621771246,-73.9585727685255,116,['vietnamese', 'noodles', 'chinese']
-Zongzi lady,$,4.5,10002,40.7182699448353,-73.9938071136549,11,['streetvendors', 'chinese']
-Fay Da Bakery,$,4.0,10012,40.73115,-74.00176,177,['bakeries', 'chinese']
-Mee Noodle Shop,$,3.0,10019,40.76537,-73.98791,423,['chinese', 'noodles']
-Chinatown Restaurant,$$,3.0,10128,40.78286,-73.95126,221,['japanese', 'chinese', 'sushi']
-Great Sichuan,$$,3.0,10016,40.74082,-73.98127,170,['chinese']
-Shun Lee West,$$$,2.5,10023,40.7729,-73.9813485,355,['chinese']
-Xi'an Famous Foods,$$,4.0,10010,40.74033,-73.98744,51,['chinese', 'noodles', 'burgers']
-Shui Mei Cafe,$,4.5,10002,40.7135318,-73.9948386,27,['cafes', 'chinese']
-Cafe Evergreen,$$,3.5,10021,40.76891,-73.9556,118,['chinese', 'lounges']
-Buddha Bodai Kosher Vegetarian Restaurant,$$,4.0,10013,40.7138543,-73.9989484,757,['chinese', 'kosher', 'vegan']
-Golden City Chinese Restaurant,$,3.5,10001,40.753277148143,-73.996643608314,69,['chinese']
-Mr Chow,$$$$,3.0,10022,40.7588502019644,-73.9643376320601,266,['chinese']
-Tim Ho Wan,$$,3.5,10003,40.731505,-73.9899313,802,['dimsum', 'cantonese']
-Kong Kee,$,4.0,10002,40.719047,-73.996139,43,['chinese', 'foodstands']
-Wok Express,$,4.0,10035,40.798202,-73.939417,10,['chinese']
-Shun Lee Palace,$$$,3.0,10022,40.75945,-73.96907,227,['chinese']
-Kungfu Kitchen,$$,3.0,10018,40.7555654203146,-73.9907654374838,134,['chinese', 'ramen']
-Lilli & Loo,$$,3.5,10065,40.763858,-73.967269,322,['chinese', 'sushi', 'gluten_free']
-King Wok,$,3.5,10014,40.7289734,-74.0050888,105,['chinese']
-Chinese Fast Wok - Eat In & Take Out,$,3.0,10011,40.74452,-73.9957,52,['chinese']
-Taste Kitchen,$,4.5,10018,40.75364,-73.9935,3,['chinese']
-Cheung Wong Kitchen,$,4.0,10002,40.7160260528326,-73.9918208867311,27,['chinese', 'hkcafe']
-Tang's Garden,$$,3.0,10021,40.7722574,-73.9589547,82,['chinese', 'chicken_wings']
-New Kam Lai,$,3.5,10025,40.7989112,-73.967015,18,['chinese']
-Lumos Bar,$$,4.5,10012,40.72728,-73.9999,69,['cocktailbars', 'asianfusion', 'chinese']
-Jimmy's House,$,3.5,10010,40.74016,-73.98256,82,['chinese', 'noodles']
-DIM SUM VIP,$,4.0,10013,40.71614,-73.9979,74,['dimsum', 'tapasmallplates']
-Bite of Hong Kong 泰仁軒,$$,4.0,10002,40.7174007,-73.99437,58,['seafood', 'cantonese']
-Jue Lan Club,$$$,3.0,10011,40.7409694,-73.9934031,181,['chinese']
-Wong Restaurant,$,3.0,10065,40.7638749,-73.9590615,36,['chinese']
-La Caridad 78,$$,3.5,10024,40.7832592,-73.9807337,175,['chinese', 'cuban']
-Lychee House,$$,3.5,10022,40.7595977783203,-73.9694213867188,113,['chinese']
-Forever Taste,$,4.0,10002,40.71294,-73.989784,24,['chinese']
-China Taste,$,3.0,10028,40.7749559083727,-73.9537757635117,53,['chinese']
-East Garden Chinese Restaurant,$,3.5,10128,40.7779312,-73.9490204,37,['chinese']
-Legend Upper West,$$,3.0,10025,40.8030047267675,-73.9659275114536,116,['chinese']
-Tung Woo Co,$,4.0,10013,40.71865,-73.99499,60,['desserts', 'chinese']
-Mr Chow,$$$$,3.0,10013,40.7200922292321,-74.0086623709058,309,['chinese']
-Uncle Luoyang,$,4.0,10027,40.8099709,-73.962353,26,['foodtrucks', 'chinese']
-Mee Noodle Shop & Grill,$$,3.0,10003,40.730968,-73.983215,95,['chinese', 'noodles']
-Macao,$$$,4.0,10013,40.71962,-74.00391,622,['asianfusion', 'portuguese', 'chinese']
-Panda Banjum,$,3.5,10001,40.7472085,-73.9861836,107,['korean', 'noodles', 'chinese']
-No.1 Chinese Restaurant,$$,3.0,10004,40.7046671846472,-74.0105490435282,128,['chinese']
-MoonHouse,$,3.5,10029,40.788337,-73.947502,76,['chinese']
-Taiwan Pork Chop House,$,4.0,10013,40.7142303,-73.9979609,245,['taiwanese', 'chinese', 'noodles']
-Mission Chinese,$$,3.0,10002,40.71386,-73.98966,533,['chinese']
-Christopher's Golden Woks,$,3.5,10014,40.73284,-74.00836,43,['chinese']
-Manting,$$,3.0,10019,40.7601476826859,-73.9829980954528,104,['chinese']
-New Sunny East 88,$,3.5,10128,40.7779006958008,-73.9482650756836,49,['chinese']
-Chop Shop,$$,3.5,10001,40.7486687,-74.0031128,198,['asianfusion', 'chinese', 'thai']
-Big Wong,$,3.5,10013,40.71624,-73.99842,1193,['chinese']
-Wu's Wonton King,$$,3.5,10002,40.7139415501646,-73.9899386554248,97,['cantonese', 'seafood', 'dimsum']
-Philippe By Philippe Chow,$$$,3.5,10065,40.76409,-73.97039,497,['chinese', 'asianfusion']
-Jef Chinese,$$,3.5,10017,40.7542031,-73.9694108,8,['shanghainese', 'cantonese']
-Traditional Chinese Food Cart,NA,4.0,10014,40.7293724,-73.995937,7,['chinese']
-King Food Chen,$,3.0,10024,40.78596,-73.97589,48,['chinese']
-Chelsea Golden Wok,$,3.0,10011,40.74401,-73.999824,36,['chinese']
-New Aroma Chinese Restaurant,$,3.5,10027,40.8132171630859,-73.9557037353516,25,['chinese']
-Happy Express Cafe,$,4.0,10002,40.7145133,-73.9924451,30,['cantonese', 'hkcafe']
-Pearls,$$,3.0,10025,40.7958833,-73.9692167,125,['chinese']
-Jian Bing Man,$$,3.0,10001,40.74761,-73.98631,85,['chinese', 'creperies']
-Great Wall Chinese,$,3.5,10002,40.7165,-73.98763,69,['chinese', 'sushi', 'poke']
-Fei Ma,$,3.5,10009,40.725114,-73.9845239,37,['chinese']
-Shu Han Ju II,$$,4.0,10003,40.73117,-73.98909,39,['szechuan', 'seafood']
-Jiangnan Chinese Cuisine,$$,3.0,10006,40.70838,-74.01408,6,['chinese']
-Noodles 28,$$,3.0,10016,40.7426109313965,-73.9799728393555,166,['chinese', 'noodles', 'vietnamese']
-Six Happiness,$,3.0,10021,40.7700042724609,-73.9578247070312,101,['chinese']
-East Palace,$,3.0,10017,40.7510528564453,-73.9716644287109,67,['chinese']
-China Wok,$,4.0,10037,40.8124997466803,-73.9418902248144,11,['chinese']
-Peking Garden,$,3.5,10027,40.81501,-73.959297,25,['chinese']
-69 Chinese Restaurant,$,3.5,10013,40.715423,-73.998397,315,['chinese']
-The Chinese Couple Vendor aka The Dollar Cart!,$,4.5,10013,40.7165422558221,-73.9969864385006,44,['foodstands', 'chinese']
-Fu Zhou Cuisine,$,4.0,10002,40.71837,-73.99133,14,['chinese']
-Modern Szechuan,$,3.0,10036,40.7559013,-73.9800568,11,['chinese']
-Hong Man,$,4.0,10002,40.71516,-73.99374,126,['chinese', 'noodles']
-New King Wok Restaurant,$,4.0,10027,40.806563347578,-73.9499093592167,5,['chinese']
-Kam-Wei Kitchen,$,3.5,10036,40.76128,-73.993919,28,['chinese']
-New Hong Kong Restaurant,$,4.5,10035,40.8001850545406,-73.9404103159904,4,['chinese']
-China King,$,3.0,10010,40.738303810358,-73.9834597706795,27,['chinese']
-Lava Kitchen,$$,3.0,10025,40.7973398628539,-73.9692374467538,38,['chinese', 'asianfusion', 'noodles']
-China King,$,3.5,10029,40.7943,-73.94456,18,['chinese']
-La Nueva Victoria,$$,3.5,10025,40.79372,-73.971954,60,['chinese']
-Rice Noodle Cart,$,4.5,10013,40.71792,-74.00021,44,['chinese', 'noodles']
-China Chalet,$$,3.0,10006,40.7065032987417,-74.012940146627,125,['chinese']
-Wing Kee WK Restaurant,$,4.0,10013,40.715423,-73.998397,31,['chinese']
-Panda Express,$,3.5,10021,40.7658172332478,-73.9577729254961,69,['chinese', 'hotdogs']
-Empire,$,3.5,10039,40.8028688256819,-73.9530954451981,17,['chinese', 'importedfood']
-Carol's Bun,$,4.0,10002,40.7138317002555,-73.9914554524045,18,['chinese']
-Dumpling Man,$,3.5,10009,40.72713,-73.98476,718,['chinese']
-Jing Fong Restaurant,$$,3.5,10013,40.7159552385198,-73.9971831076206,1824,['dimsum', 'cantonese']
-Drunken Dumpling,$$,3.5,10003,40.7279305523596,-73.9851133525372,202,['asianfusion', 'dimsum', 'breakfast_brunch']
-New Asian Cuisine,$,4.0,10013,40.71792,-74.00021,16,['chinese', 'noodles']
-Hunan Park,$$,3.0,10025,40.79222,-73.96774,58,['chinese']
-New Ming's Delight,$,3.0,10016,40.7488403320312,-73.976203918457,46,['chinese']
-Nom Wah Nolita,$$,3.5,10012,40.7204154878855,-73.9944789558649,92,['dimsum', 'cantonese']
-New Kam Lai,$,3.0,10024,40.78701,-73.975899,40,['chinese']
-Ocean Dragon,$,2.5,10019,40.7694396972656,-73.9886703491211,55,['chinese', 'thai']
-J East,$,3.0,10003,40.7347984313965,-73.9857635498047,55,['chinese']
-DiDi Dumpling,$,3.5,10010,40.7401539,-73.9845239,136,['chinese', 'gourmet']
-East Dumpling,$,4.5,10002,40.71586,-73.99288,37,['chinese']
-China 1 Kitchen,$,2.5,10044,40.7632023290684,-73.9490040654764,43,['chinese']
-Lotus Express,$,4.0,10034,40.8662643432617,-73.9245986938477,40,['chinese']
-Little Sheep Mongolian Hot Pot,$$,4.0,10002,40.71759,-73.99489,120,['mongolian', 'hotpot', 'chinese']
-China Gourmet,$,2.5,10019,40.76381,-73.98524,166,['chinese']
-Ollie's To Go,$$,2.5,10024,40.7904902,-73.9752417,114,['chinese', 'sushi', 'bubbletea']
-Wonton Noodle Garden,$,3.5,10013,40.7157921,-73.998189,295,['dimsum']
-Shanghai Sogo,$$,3.5,10036,40.757195,-73.980431,11,['shanghainese', 'foodtrucks']
-China Wok,$,3.0,10009,40.72283,-73.98311,45,['chinese']
-Red Egg,$$,3.5,10013,40.7188628921887,-73.9990730951065,674,['dimsum']
-Halal Kitchen,$,3.5,10029,40.7930498507672,-73.9408185787398,11,['halal', 'chinese']
-Fresh Wok,$,3.5,10128,40.78065,-73.94698,26,['chinese', 'hawaiian']
-Peking Kitchen II,$,3.5,10026,40.80479,-73.954735,17,['chinese']
-August Gatherings,$$,3.5,10013,40.7186556,-74.0011004,118,['cantonese', 'asianfusion']
-Hunan Chen's Kitchen,$,3.0,10025,40.80133,-73.96113,34,['chinese']
-Famous Sichuan,$$,3.5,10013,40.71487,-73.99758,272,['szechuan', 'hotpot']
-Hong Kong,$$,3.5,10029,40.7926783064322,-73.9457814748688,10,['chinese']
-A A JING,$$,3.5,10036,40.761997,-73.990409,244,['chinese', 'asianfusion', 'japanese']
-Northern Tiger,$$,3.0,10281,40.7126462901984,-74.0160110541061,84,['chinese']
-Yip's,$,3.5,10004,40.704818,-74.012382,77,['chinese']
-Pic Up Stix,$,3.0,10128,40.7824593,-73.9536133,50,['chinese']
-Mimi Cheng's Dumplings,$$,3.5,10003,40.7305254,-73.986285,478,['chinese', 'taiwanese']
-Bao Bao Cafe,$,4.0,10010,40.740829,-73.983474,291,['cafes', 'asianfusion', 'ramen']
-Vanessa's Dumpling,$,3.5,10003,40.732666015625,-73.986442565918,913,['chinese']
-Wok Chi - Stir Fry Kitchen,$$,3.5,10022,40.7592222653598,-73.9683998376131,28,['dimsum', 'vegetarian']
-38 Yummy Kitchen,$,4.0,10002,40.7160297577504,-73.991725333035,18,['cantonese']
-Our Place China Chalet,$$,3.0,10075,40.7733383,-73.9558029,33,['chinese']
-Nanjing,$$,3.5,10019,40.7626659,-73.9847093,41,['chinese', 'indpak', 'asianfusion']
-Wa Lung Kitchen,$,3.0,10002,40.713919,-73.980251,38,['chinese']
-Yoan Ming Garden,$,2.5,10029,40.78813,-73.95315,30,['chinese']
-Bei Jing Chinese Foods,$,3.0,10019,40.768619,-73.98851,11,['chinese']
-The China Star,$,3.0,10003,40.7278197743735,-73.9851093292236,47,['chinese', 'hotdogs', 'noodles']
-Son Ja Jang,$$,3.0,10001,40.747684,-73.987358,26,['chinese']
-West Place,$,3.0,10027,40.8116266876459,-73.9576119929552,43,['chinese']
-La Unica Caridad Restaurant,$$,4.0,10024,40.7832742,-73.9807237,5,['cuban', 'chinese']
-Potluck,$$,3.0,10001,40.746761,-73.9957166,50,['asianfusion', 'szechuan', 'thai']
-Cha Chan Tang,$,3.5,10013,40.7153,-73.99896,815,['chinese', 'hkcafe']
-New Golden Chopstick Chinese Restaurant,$,3.0,10004,40.7040405,-74.0104675,28,['chinese']
-Yiwanmen,$,3.5,10013,40.7193132739237,-73.9962630421457,52,['taiwanese', 'noodles', 'chinese']
-New Chinatown Restaurant of New York,$,4.0,10009,40.720527,-73.978652,9,['chinese']
-Peking Duck House,$$$,3.5,10013,40.71464,-73.99856,661,['chinese']
-New Kam Lai Chinese,$,2.5,10025,40.793085,-73.9712575,41,['chinese']
-Shun Cheong Chinese Kitchen,NA,5.0,10026,40.7975311,-73.9491501,1,['chinese']
-Lee Chung Cafe,$,4.0,10002,40.711925,-73.996322,16,['coffee', 'chinese']
-Mee Sum Cafe,$,3.5,10013,40.715045,-73.998291,17,['dimsum', 'cafes']
-Lemon Leaves,$$,3.0,10005,40.70883,-74.00926,27,['thai', 'chinese', 'japanese']
-New Wong Rest,$,4.0,10002,40.7135887,-73.9931488,34,['chinese']
-New China House,$$$$,4.0,10029,40.795303,-73.9486,2,['chinese']
-Asian Gourmet,$,3.0,10029,40.7867732,-73.9501165,28,['chinese', 'asianfusion']
-Our Place Tea Garden,$$,3.5,10022,40.75947,-73.96942,34,['chinese']
-Five Luck Restaurant,$,2.5,10128,40.78326,-73.947448,23,['chinese']
-18th St Bamboo Garden,$,3.5,10003,40.73625,-73.98535,7,['chinese']
-La Preciosa China Restaurant,$$,3.0,10029,40.79859,-73.94081,19,['chinese']
-Radiance Noodle Bar,$,3.0,10022,40.755466,-73.970861,14,['cantonese', 'noodles']
-No 1 Chinese Restaurant,$,2.5,10003,40.732437,-73.982139,31,['chinese']
-Hong Garden,$,3.0,10039,40.8219299316406,-73.9383544921875,7,['chinese']
-XO Kitchen,$,3.5,10013,40.7174496352673,-73.9960413426161,420,['chinese', 'japanese']
-Mimi Cheng's Nolita,$$,3.5,10013,40.72048,-73.99646,82,['taiwanese', 'chinese']
-Fusion Grills,$,3.0,10022,40.757217,-73.969192,29,['chinese']
-Wong Kee Restaurant,$,3.5,10013,40.7172623132685,-73.9974051479728,331,['cantonese']
-The Flying Pig Jianbing,$,3.0,10036,40.7573947,-73.9822584,30,['foodtrucks', 'chinese']
-Char Sue,$$,4.5,10002,40.7196000924977,-73.9879152551293,86,['asianfusion', 'panasian', 'beerbar']
-Mr. Deng's,NA,5.0,10001,40.7533912658691,-73.9957733154297,1,['chinese']
-Empire Corner II,$,3.0,10029,40.800399,-73.946281,14,['chinese']
-New Dynasty Chinese Restaurant,$,2.5,10001,40.749512,-73.995766,17,['chinese']
-Ling Kee Beef Jerky,$,4.5,10002,40.71466,-73.99148,126,['chinese', 'bbq']
-Hung Chow Restaurant,NA,4.0,10035,40.8027,-73.93688,1,['chinese']
-H K Wonton Garden,$,3.5,10013,40.7164307,-73.9991302,680,['cantonese', 'noodles']
-J.J. Noodle Restaurant,$,3.5,10002,40.7128724455833,-73.9968185126781,32,['chinese', 'noodles']
-New China Red,$,2.5,10007,40.715023,-74.008636,27,['chinese']
-Fairview Chinese Restaurant,$,4.5,07022,40.81084,-74.00097,132,['chinese']
-Hop Shing Restaurant,$,3.5,10038,40.7139511,-73.9980164,438,['dimsum']
-Ming's Caffe,$,3.5,10002,40.714321,-73.990509,86,['chinese']
-Great Wok,$,3.5,10029,40.790302,-73.947349,9,['chinese']
-Food King,$,4.0,10002,40.711727,-73.994018,5,['chinese']
-99 Favor Taste,$$,4.0,10002,40.717745,-73.992537,1172,['hotpot', 'bbq', 'asianfusion']
-Steak & Hoagies,$,3.5,10029,40.796352,-73.947189,14,['chinese', 'sandwiches', 'newamerican']
-Sachi Asian Bistro,$$,4.0,10016,40.7477989,-73.9740601,149,['asianfusion', 'sushi', 'cocktailbars']
-Six Happiness,$,2.5,10016,40.7476119995117,-73.9742126464844,95,['chinese']
-Chong Qing Xiao Mian,$$,4.0,10019,40.76507,-73.98739,141,['noodles']
-Fu Wing Chinese Restaurant,$,3.0,10029,40.792308,-73.945686,12,['chinese']
-China Moon,$$,2.0,10017,40.75653,-73.97768,89,['thai', 'cantonese']
-88 Chinese Restaurant,$,3.0,10037,40.8133599154897,-73.9418023908753,12,['chinese']
-Go Noodle Nine Moon,$,2.5,10022,40.75932,-73.96254,43,['chinese', 'noodles']
-City One Restaurant,$$,3.5,10030,40.8225557826076,-73.9419602962225,12,['chinese']
-Hou Yi Hot Pot,$$,4.0,10003,40.72732,-73.98902,86,['hotpot', 'seafood', 'noodles']
-Asian 83,NA,2.5,10028,40.77626,-73.953269,16,['chinese']
-New Wong Asian Food,$,2.5,10065,40.763786524489,-73.9588390469633,10,['chinese']
-Great Wall Kitchen,$,3.5,10027,40.813257470727,-73.9453851431608,5,['chinese']
-Yang's Happy Wok,$,3.5,10009,40.726409,-73.977447,8,['chinese']
-Hua Ji Pork Chop Fast Food,$,4.0,10002,40.714809,-73.993072,64,['chinese']
-Golden Unicorn,$$,3.5,10002,40.7136770496642,-73.997163364418,1353,['dimsum', 'cantonese']
-ABlue Chinese Restaurant,NA,4.0,10024,40.786266,-73.976448,1,['chinese']
-Just for Fen,$$,4.5,10003,40.7311641211205,-73.9830346405506,29,['noodles']
-The Cottage,$$,2.5,10003,40.735746540724,-73.9878559112549,210,['chinese']
-Best Fuzhou Restaurant,NA,5.0,10002,40.7167625427246,-73.9927978515625,4,['chinese']
-Red Star Restaurant,$,3.0,10029,40.7987632751465,-73.9426727294922,13,['chinese']
-Wok To Walk,$,4.0,10003,40.7362871,-73.9891207,163,['asianfusion', 'hotdogs']
-Ming's Restaurant,$,3.0,10001,40.75295,-73.99686,26,['chinese']
-Great Wall,NA,2.5,10016,40.7470505395815,-73.9776204299111,12,['chinese', 'seafood', 'noodles']
-Keming Restaurant,$$,4.0,07030,40.74893,-74.02772,75,['szechuan', 'hotpot']
-New Ah Ping Snacketeria,$,4.5,10002,40.714019,-73.995353,4,['chinese']
-Hoa Kitchen,$$,2.0,10001,40.748641,-73.995635,55,['vietnamese', 'chinese', 'asianfusion']
-Chinese Tuxedo,$$$,3.5,10013,40.71433,-73.99804,108,['chinese', 'seafood', 'noodles']
-Super Red Star Kitchen,$,2.5,10027,40.80765,-73.94963,21,['chinese']
-SunShine,$$,3.5,10013,40.71397,-73.9961364,72,['dimsum']
-Happy Family Chinese Restaurant,$$,2.5,10036,40.7601737976074,-73.9955139160156,61,['chinese']
-China 59 Restaurant,$$,2.5,10038,40.7092934,-74.0088501,48,['chinese']
-Yang Garden Chinese Restaurant,$,3.0,10033,40.855266,-73.937759,15,['chinese', 'soup', 'sandwiches']
-Malaysia Grill,$$,4.0,10024,40.7994155883789,-73.9677886962891,220,['malaysian']
-Carma Asian Tapas,$$,4.0,10014,40.72999,-74.0032,301,['tapasmallplates', 'asianfusion', 'taiwanese']
-Happy Wok Restaurant,$,3.5,10002,40.7180023,-73.9858322,8,['chinese']
-Ping's Seafood,$$,3.5,10013,40.714442,-73.998636,535,['seafood', 'dimsum', 'cantonese']
-Panda Express,$,3.0,10022,40.75624,-73.97012,55,['hotdogs', 'chinese']
-Profit Chinese Restaurant,$,2.5,10016,40.74206,-73.97765,47,['chinese']
-Ms Mi's Hot Pot,$$$,3.5,10011,40.7361133076005,-73.9941993098535,33,['chinese', 'hotpot']
-Wok To Walk,$,3.5,10018,40.7547179,-73.991281,292,['asianfusion', 'hotdogs']
-Sun Sai Gai Restaurant,$,3.0,10013,40.7172966,-73.9992065,186,['chinese']
-Chopstix,$,3.0,10004,40.7043655812028,-74.0091101794667,13,['foodtrucks', 'chinese']
-China Town Chinese Restaurant,$,2.5,10002,40.722095489502,-73.9849090576172,9,['chinese']
-Topaz Noodle Bar,$$,4.0,10019,40.7644424438477,-73.9789733886719,294,['thai']
-Big Hing Wong,$,3.0,10002,40.71761,-73.99168,28,['chinese', 'seafood', 'soup']
-Fatima's Halal Kitchen,$,4.0,11106,40.7631186084319,-73.9275405041124,291,['chinese', 'halal']
-Number 1 Chinese Restaurant,$,3.5,10026,40.80127,-73.94974,6,['chinese']
-Concord Garden,$,2.5,10025,40.80231,-73.96456,25,['chinese', 'seafood', 'soup']
-Go Zen,$$,4.0,10012,40.7314279675484,-74.0005099028349,489,['vegan', 'asianfusion', 'kosher']
-Aki King,$$,3.5,10010,40.73863,-73.98193,10,['chinese']
-Momos & Buns,NA,3.5,10016,40.742844,-73.982628,3,['foodtrucks', 'indpak', 'chinese']
-Chung Lan Gardens,$,3.5,10037,40.8124525,-73.9417837,5,['chinese']
-Nom Wah Tea Parlor,$$,3.5,10013,40.714490521829,-73.998153857324,1425,['dimsum']
-China Taste,NA,3.5,10003,40.73111,-73.98307,3,['chinese']
-Lanzhou Ramen,$,3.5,10038,40.7136041,-73.9930138,27,['noodles', 'chinese', 'ramen']
-Noodle Q,$,4.0,10038,40.7135648935571,-73.9975924790089,11,['chinese', 'noodles']
-Up Thai,$$,4.5,10021,40.76996,-73.95792,1406,['thai', 'vegetarian', 'asianfusion']
-Pure Thai Cookhouse,$$,4.0,10019,40.764291,-73.988159,1990,['thai', 'noodles', 'chicken_wings']
-OBAO,$$,4.0,10036,40.7606166,-73.991225,1382,['vietnamese', 'thai', 'asianfusion']
-Noodies,$$,4.0,10019,40.7662850538302,-73.9866788007826,386,['thai']
-Happy Wok,$,3.5,10029,40.788955,-73.940933,9,['chinese']
-Empire Garden,$,2.5,10025,40.7985736262374,-73.9621864229434,16,['chinese']
-Manna House Bakery,$,4.0,10013,40.71815,-73.99705,58,['bakeries', 'chinese']
-Yummy Chinese,$$,3.5,10002,40.7151107788086,-73.9938049316406,15,['chinese']
-Lo-Fatt-Chow,$,4.0,07030,40.7474615723213,-74.0378006521148,70,['chinese']
-Wok To Walk,$,3.0,10017,40.7516428,-73.9740775,166,['asianfusion', 'hotdogs', 'thai']
-Kungfu Kitchen,NA,4.5,10019,40.7615395,-73.9869963,2,['dimsum', 'ramen']
-New Happy Joy Restaurant,$,2.5,10019,40.765602,-73.990768,11,['chinese']
-Grand Sichuan,$$,3.0,10011,40.742496,-74.000122,9,['chinese']
-Fu Zhou Wei Zhong Wei Jia Xiang Feng Wei,$,4.0,10002,40.714,-73.99439,16,['chinese']
-Spice,$,2.5,10024,40.7900599,-73.97351,51,['chinese']
-Thai Villa,$$,4.5,10003,40.73902,-73.99065,843,['thai', 'asianfusion', 'vegetarian']
-Rice Noodle Cart,NA,5.0,10013,40.71787,-73.99711,4,['chinese', 'noodles']
-Szechuan,NA,3.5,10021,40.768131,-73.959197,2,['chinese']
-Wondee Siam,$$,4.0,10019,40.764945,-73.987472,827,['thai']
-Shun Wei,$,3.0,10038,40.71194,-73.996688,15,['chinese']
-Tasty Hand Pulled Noodles II,$$,4.0,10036,40.7605202331697,-73.9908619970083,127,['noodles']
-Buddha Vegetarian Kosher Cuisine,$$,4.0,10013,40.7164001,-73.999321,202,['vegan', 'kosher', 'chinese']
-Pig and Khao,$$,4.0,10002,40.719253,-73.984748,1108,['filipino', 'thai', 'asianfusion']
-Wing Gong I Kitchen,$,3.5,10029,40.791313,-73.939239,4,['chinese']
-New Asia,$$,2.0,10025,40.7918192446232,-73.972065076232,26,['chinese']
-China Garden,$,4.0,11104,40.74166,-73.92577,48,['chinese']
-M Star Cafe,$,3.5,10002,40.713928,-73.99652,220,['chinese', 'breakfast_brunch', 'sandwiches']
-Fo Ying Chinese Take Out,$,2.5,10019,40.7615277171135,-73.9867260307074,25,['chinese']
-Dragon & Phoenix Restaurant,$,4.0,11105,40.7754678279161,-73.911422342062,101,['chinese']
-Guan Qi Feng BBQ,NA,4.5,10002,40.7147789,-73.9941711,4,['chinese']
-Hong Kong Noodle 2,$,2.5,10016,40.7444,-73.98146,36,['chinese', 'noodles']
-Hua Xia,$$,4.0,10002,40.7142606365804,-73.9951291801726,2,['chinese']
-Vietnaam,$$,4.0,10128,40.7791481018066,-73.9504165649414,528,['vietnamese', 'sandwiches']
-Aunt Wang,$,4.0,10027,40.8079748,-73.9620565,1,['foodtrucks', 'chinese']
-Kings Co Imperial,$$,4.0,11211,40.71512,-73.95097,182,['chinese']
-Foliage Garden,$,4.0,07093,40.7858,-74.00865,37,['chinese']
-Larb Ubol,$$,4.0,10018,40.7550583,-73.9947586,584,['thai']
-China Express,$,4.5,11211,40.7061859,-73.9501435,84,['chinese']
-Oriental Garden Restaurant,$$,3.5,10013,40.7159199,-73.9972499,420,['dimsum', 'seafood', 'cantonese']
-Tao Hong Bakery,$,4.5,10002,40.71735,-73.9945679,19,['bakeries', 'chinese']
-456 Shanghai Cuisine,$$,3.5,10013,40.71627,-73.99822,428,['shanghainese']
-The Chinese Club,$$,4.0,11211,40.713844,-73.96039,138,['indpak', 'asianfusion', 'chinese']
-PACIFIC MOON,$,4.5,11377,40.75119,-73.90269,36,['chinese', 'japanese']
-Silver Palace,NA,3.5,10031,40.82303,-73.9526,7,['chinese', 'seafood', 'soup']
-Chef 28,$$,3.0,10016,40.74393,-73.98493,84,['chinese', 'sushi', 'japanese']
-Grand Bo Ky Restaurant,$,3.5,10013,40.7189831,-73.995878,117,['vietnamese', 'chinese']
-Chatham Seafood Restaurant,$$,3.5,10038,40.714,-73.99833,167,['dimsum', 'cantonese', 'seafood']
-M Greenpoint,$$,4.0,11222,40.726322,-73.951934,57,['chinese']
-Ocean Chinese Restaurant,$$,2.5,10027,40.81086,-73.94356,10,['chinese']
-Profit Chinese Restaurant II,$$,3.0,10016,40.74565,-73.9755799,13,['chinese', 'seafood', 'soup']
-Xi'an Famous Foods,$,4.0,11222,40.7243301734731,-73.9509299397469,151,['chinese', 'noodles', 'burgers']
-Hunan House I,$,4.5,07306,40.72857,-74.06242,21,['chinese']
-Food King,$,4.0,07302,40.72117,-74.04568,70,['chinese']
-Delicious Inc. Chinese Restaurant,$$,3.0,10029,40.7876572,-73.9444213,6,['chinese']
-Hong Cheong Kitchen,NA,3.5,10027,40.812366,-73.949928,3,['chinese']
-spades,NA,4.0,10001,40.7469902,-73.9866333,1,['chinese']
-New Food King,$,3.5,10036,40.76366,-73.99217,48,['chinese']
-Hong Kong Street Cart At Broadway Bites,$$,4.0,10001,40.750717,-73.9869138,1,['chinese', 'vegetarian', 'foodstands']
-Cafe Hong Kong,$$,3.0,10013,40.7153659847304,-73.9975044876337,120,['cantonese', 'hkcafe']
-Birds of a Feather,$$,4.0,11211,40.71442,-73.960441,113,['szechuan']
-Asian Station,$$,2.5,10028,40.77626,-73.956261,64,['asianfusion', 'chinese', 'sushi']
-Amazing 66,$$,3.5,10013,40.716099,-73.997955,245,['cantonese']
-Sichuan Hot Pot Cuisine,$$,3.0,10013,40.7150052171701,-73.9985468135734,132,['szechuan', 'hotpot']
-Wok Wok,$$,4.0,10013,40.71403,-73.99899,408,['malaysian']
-Rasa,$$,4.0,10011,40.7327654,-73.9975674,467,['malaysian', 'sushi', 'halal']
-China Place,$$,2.5,10027,40.8140965,-73.9597942,45,['chinese', 'japanese']
-Bamboo Village,$$,3.5,10013,40.7175244459074,-73.9953510697201,12,['chinese', 'seafood']
-Panda Express,$$,3.0,10036,40.760996,-73.991116,45,['chinese', 'hotdogs']
-Xing's Chef,$,4.5,11105,40.7701092079077,-73.9021204913637,63,['chinese']
-Flaming Kitchen,$$,3.5,10002,40.717325,-73.995023,92,['szechuan']
-Norikoh,$$,4.0,10016,40.7512595504522,-73.9816331863403,313,['sushi', 'japanese', 'asianfusion']
-Gordon Chen Kitchen,$,3.5,10022,40.757358,-73.968002,4,['chinese', 'asianfusion']
-Matsuya,$$,3.5,10021,40.7705892,-73.9512062,3,['japanese', 'chinese']
-Mooncake Foods,$$,4.0,10013,40.723596182527,-74.00409635108,475,['asianfusion']
-Taste Chinese Restaurant,$,2.0,10013,40.7157208,-74.0075003,10,['chinese']
-Precious Chinese Cuisine,$$,3.5,07030,40.73846,-74.03092,217,['chinese']
-Red House,$,2.5,10003,40.7333221435547,-73.9865036010742,75,['chinese']
-Chopstick House,$,2.0,10018,40.7514827,-73.9881506,54,['chinese', 'japanese']
-OK 218,$,3.5,10013,40.71899,-73.995811,49,['chinese', 'bbq']
-Happy Family,$,3.0,10002,40.714043,-73.987556,13,['chinese']
-Kitty's Kitchen,NA,5.0,10019,40.7724199,-73.99335,1,['chinese', 'mexican']
-Crispy Bamboo Village,$,4.0,10030,40.8160789713508,-73.9466381763074,17,['asianfusion']
-Pao & Cha Cha,$$,4.0,11102,40.7718436,-73.9240579,89,['asianfusion', 'chinese', 'venezuelan']
-New Beef King,$$,4.0,10013,40.715768,-73.9992981,61,['cantonese', 'meats']
-Zheng's River Restaurant,$$$$,4.0,10026,40.802009,-73.95671,1,['chinese']
-Nom Wah Kuai,$$,3.5,10013,40.71897,-74.00102,19,['dimsum']
-Doka Square,$$,4.0,10002,40.71932,-73.99152,104,['asianfusion', 'bars', 'diners']
-Fuleen Seafood Restaurant,$$,3.5,10002,40.7139015197754,-73.9968795776367,74,['chinese', 'seafood']
-Unicorn Restaurant,NA,4.0,10035,40.799615,-73.9389766,2,['chinese']
-Peking BBQ,$,4.0,11377,40.7456439082048,-73.9062357614363,198,['chinese', 'peruvian', 'bbq']
-Jaya 888,$$,3.0,10013,40.7169062,-73.9998838,244,['malaysian', 'asianfusion', 'cantonese']
-Wei Williamsburg,$$,4.0,11211,40.7107868,-73.9542168,85,['chinese']
-Soup Dumpling Plus,$$,4.0,07024,40.84757,-73.9706099,349,['shanghainese']
-567 Chinese Asian Express,NA,3.0,10029,40.788955,-73.940933,8,['chinese']
-The Wei,$,4.5,11201,40.68983,-73.98171,159,['chinese']
-Double Dragon,NA,3.0,10029,40.789245,-73.94075,4,['chinese']
-8 Dragon & Phoenix Chinese Restaurant,$,4.5,11105,40.7758518242693,-73.9112854238624,17,['chinese']
-Joy Luck Palace,$$,3.0,10013,40.7169727141044,-73.9975602870106,157,['cantonese', 'dimsum']
-Great China Restaurant,$,3.5,10027,40.81689,-73.953292,2,['chinese']
-Tang S,$,2.0,10027,40.8110183,-73.9523964,13,['chinese']
-Yaso Tangbao,$$,4.0,11201,40.6918206366101,-73.9863992364001,457,['shanghainese']
-AK US Group,$,4.0,10002,40.717793,-73.99438,9,['cantonese']
-Fulton Chef,$,2.5,10038,40.708732,-74.005348,9,['chinese', 'japanese']
-Tian Fu Lou,$$,2.0,10036,40.755909,-73.980064,16,['shanghainese']
-Hung Sang,$,3.5,07087,40.7729837,-74.0285907,11,['chinese']
-Deluxe Green Bo Restaurant,$,3.5,10013,40.715540215765,-73.9981645926656,536,['shanghainese', 'dimsum']
-Tang Tou Wang's Cuisine,$,5.0,10002,40.71492,-73.99391,2,['chinese']
-Min Jiang Mini Cafe,$,3.0,10002,40.7168766,-73.9926044,9,['chinese']
-Baoburg,$$,4.0,11222,40.7234929271998,-73.9503321851175,110,['asianfusion', 'dimsum', 'thai']
-Steamed Rice Rolls Cart,$,4.0,10002,40.7183599,-73.99395,5,['chinese']
-Lan Larb,$$,4.0,10016,40.745373,-73.975807,173,['thai']
-Hometown Hotpot & BBQ,$$,4.0,10013,40.71931,-73.9968899,707,['hotpot', 'bbq']
-An'Nam,$$,4.0,10036,40.7605285644531,-73.9863891601562,149,['vietnamese', 'asianfusion', 'sushi']
-Formosa Cafe,$,3.5,10002,40.7156312539499,-73.9931514282417,80,['bubbletea', 'chinese', 'taiwanese']
-Dragon Town,$$$$,2.5,10029,40.7952288,-73.9421936,7,['chinese']
-Po Wong Restaurant,$,4.0,07087,40.758224,-74.044303,17,['chinese']
-TAO Uptown,$$$,3.5,10022,40.76269,-73.97147,2019,['asianfusion']
-East Noodle Village,$,3.0,10002,40.7175445556641,-73.994499206543,13,['chinese', 'noodles']
-Chinese Food Cart,$$$$,5.0,10292,40.7217900752834,-73.9998465345092,1,['chinese', 'foodstands']
-LoveMama,$$,4.0,10003,40.7303859,-73.9860613,2760,['thai', 'malaysian', 'vietnamese']
-Malii,$$,4.5,10029,40.789432,-73.942962,126,['thai']
-Pho Bang Restaurant,$,4.0,10013,40.719516,-73.996566,435,['vietnamese']
-Thai Market,$$,4.0,10025,40.80132,-73.96529,799,['thai', 'noodles', 'soup']
-Beijing Chinese,$,3.0,10003,40.733059,-73.9861382,18,['chinese', 'seafood', 'soup']
-Good Chinese Kitchen,$,4.0,07047,40.807477,-74.017076,24,['chinese']
-Panda Express,$,3.0,10001,40.7501065718521,-73.9948594942689,26,['chinese', 'hotdogs']
-Empire,$$,2.0,10007,40.7131452,-74.0077389,17,['sushi', 'thai', 'chinese']
-King Food Restaurant,$,2.5,10024,40.784107,-73.977981,3,['chinese', 'hotdogs']
-Young Xinjiang BBQ Cart,$,4.5,10002,40.7142696738464,-73.9941427168956,31,['bbq', 'chinese', 'foodstands']
-Petite Soo Chow,$$,3.5,07010,40.8245099,-73.98781,441,['chinese']
-Dim Sum Bar,$$,4.0,11249,40.714728,-73.961372,107,['dimsum', 'cantonese']
-Hunan Delight,$$,4.0,11215,40.6755282563532,-73.9780712127686,246,['chinese']
-Shanghai Restaurant,$$,4.0,07024,40.8558064526236,-73.9778536185622,169,['dimsum', 'shanghainese']
-Lao Bei Fang Dumpling House,$,4.0,11373,40.741153717041,-73.8796234130859,466,['chinese', 'noodles']
-Food Sing 88 Corp,$,4.0,10038,40.713611,-73.997528,9,['chinese']
-Rice Noodle Cart,$,4.5,10002,40.7139045494042,-73.9901232849436,61,['foodstands', 'noodles']
-Feng Shui,$$,1.5,10017,40.7520370483398,-73.9763336181641,36,['chinese']
-Tsing Garden Chinese Restaurant,NA,3.5,07093,40.7892719,-74.0060948,32,['chinese']
-Taste of China,$,4.0,07087,40.7789153727524,-74.0161604825466,16,['chinese']
-Deng Ji II,$$,3.5,10002,40.714295,-73.9939834,19,['chinese']
-Yang's Chinese Food,NA,2.5,10014,40.7397919,-74.0033188,2,['chinese']
-Hoy Wong Restaurant,$,3.5,10013,40.7165819,-73.9980213,84,['chinese', 'seafood', 'vegetarian']
-Szechun Express,$$,4.5,07010,40.8243995817555,-73.984444908711,18,['chinese']
-Taste of Shanghai,$,3.0,10013,40.715249679603,-73.998610561094,43,['shanghainese']
-Caridad China,$$,4.5,11206,40.7049499,-73.94264,36,['latin', 'chinese']
-New Asian Cuisine,$,4.5,11377,40.7393524,-73.9210213,10,['asianfusion', 'chinese']
-Strange Taste Cuisine,$,5.0,10002,40.7128335739664,-73.9967823028564,1,['chinese']
-Alpha Fusion,$$,3.5,10001,40.7532663,-73.99589,333,['asianfusion']
-Chen Wong Restaurant,$,2.0,10002,40.71276,-73.990287,26,['chinese']
-Sunrise Chinese Restaurant,NA,3.0,10002,40.7159409,-73.9927712,6,['chinese']
-King Dragon,$,2.0,10029,40.792865,-73.950347,5,['chinese']
-China Express,$,4.0,07093,40.79311,-74.00313,13,['chinese']
-Jalan 31,$$,4.5,10016,40.74466,-73.98123,28,['malaysian', 'singaporean', 'thai']
-Eim Khao Mun Kai Elmhurst,$,4.5,11373,40.7429414097644,-73.8832733356575,243,['thai', 'hainan']
-Uncle Zhou,$,4.0,11373,40.74075,-73.87905,201,['chinese', 'noodles', 'soup']
-Siz-In-Pan,$,4.0,11217,40.6880326,-73.9819963,84,['chinese']
-New City Kitchen Express,$,3.5,11101,40.74447,-73.95316,28,['chinese']
-Village Express Asian Cuisine,NA,5.0,10014,40.732387,-74.003319,2,['chinese', 'asianfusion']
-Asian Station,$$,3.5,10022,40.757537,-73.9703339,179,['japanese', 'thai']
-China Town Food Market,$,4.0,10013,40.718555,-73.995567,2,['chinese']
-The Handpulled Noodle,$$,4.0,10031,40.82839,-73.9487,404,['chinese', 'noodles', 'vegan']
-May May Kitchen,NA,3.0,10002,40.7151161134243,-73.9871853590012,9,['cantonese']
-Outer Borough,$,4.5,11249,40.720852,-73.961742,41,['foodstands', 'chinese']
-Green Leaf Restaurant,$,4.0,07022,40.820106,-74.008427,39,['chinese']
-Shun Wang Restaurant,$,4.0,11373,40.7431373596191,-73.8830413818359,118,['chinese']
-Dining Room Management Group,$,2.5,10013,40.7174754,-73.9971571,22,['chinese', 'seafood', 'soup']
-Hanoi House,$$,4.0,10009,40.72698,-73.98357,212,['vietnamese']
-King's Wok,$,4.0,11377,40.76005,-73.90741,13,['chinese']
-Hardee Chinese- American,$,4.5,11205,40.6933441162109,-73.9722290039062,15,['chinese']
-Grand Sichuan,$$,3.0,07302,40.72047,-74.04252,402,['szechuan']
-Bangkok Cuisine Upper East Side,$$,4.0,10028,40.7753105,-73.9532166,197,['thai']
-Snacky,$$,4.0,11211,40.714492,-73.960601,163,['asianfusion', 'dimsum', 'korean']
-Wah Kwoon Chinese Kitchen,$,3.5,11222,40.724628,-73.947486,31,['chinese']
-Nikko,$$,3.5,10027,40.81156,-73.95781,280,['asianfusion', 'thai', 'sushi']
-Taste Of North China,$$,3.0,07302,40.7167868,-74.0377625661521,135,['chinese']
-Wei West,$$,3.0,10282,40.7153829932213,-74.0140242129564,172,['asianfusion', 'japanese', 'singaporean']
-M Shanghai Bistro & Garden,$$,3.5,11211,40.71285,-73.95762,392,['shanghainese', 'szechuan', 'dimsum']
-Great Wall,$,4.5,10029,40.795074,-73.935684,11,['chinese']
-No. 1 Flower Drum House,$,3.5,11105,40.7776458,-73.9086059,50,['chinese']
-Shanghai Best,$$,3.0,07302,40.7168947,-74.0387484,277,['shanghainese']
-Ginger Root Vegan,$$,4.5,10065,40.7624720969574,-73.9595977571168,54,['panasian', 'vegetarian']
-Lucky House Kitchen,$,4.5,11233,40.6838402152061,-73.9351565390825,59,['chinese']
-Friendly Restaurant,$,3.5,11101,40.7559963313064,-73.9424634196434,46,['chinese']
-Satay Malaysian Cuisine,$$,3.5,07030,40.73731,-74.03066,397,['malaysian', 'chinese', 'asianfusion']
-King's Chef,$,4.0,11103,40.764358,-73.910705,26,['chinese']
-Great Wall,NA,2.5,10037,40.8149099511421,-73.9397296879857,2,['chinese']
-Old Peking,$,4.0,07306,40.7255249,-74.068306,28,['chinese']
-Hong Kong Chinese Restaurant,$,3.0,10037,40.8151508,-73.9403584,4,['chinese']
-Weng's Palace,$,2.0,10018,40.75612,-73.99138,56,['chinese', 'seafood', 'soup']
-Nuevo Jardin De China Restaurant,$$,3.5,11106,40.7615513755699,-73.9243148820204,176,['chinese', 'cuban']
-Yeah Shanghai Deluxe,$$,3.0,10013,40.7154938098333,-73.9984104037285,108,['shanghainese']
-Szechaun Mirchi,$$,4.0,07010,40.82583,-73.98787,129,['asianfusion', 'chinese', 'indpak']
-Chan's Dragon Inn,$$,4.0,07657,40.8347854614258,-74.0082931518555,93,['chinese']
-Ming's Garden,NA,3.0,10021,40.763729,-73.959365,2,['chinese']
-Grand Great Wall Restaurant,$,4.0,10031,40.8212837,-73.9506657,14,['chinese']
-Wong Kwong Hop,$,4.5,11373,40.73566,-73.88151,44,['chinese']
-Delight 28 Restaurant,$$,3.0,10013,40.715089,-73.998459,131,['dimsum', 'cantonese']
-Saigon Market,$$,3.5,10003,40.7335422,-73.9928992,752,['vietnamese']
-Sukhumvit 51,$$,4.0,10022,40.7559139831703,-73.9693867939228,538,['thai']
-Taste of China,$,4.0,11378,40.7276191711426,-73.8920135498047,40,['chinese']
-China Chef Restaurant,$$,3.0,07094,40.791615379318,-74.0578033479041,82,['dimsum', 'bars']
-Wing Cheong Restaurant,$,4.5,11216,40.6803741455078,-73.9455108642578,42,['chinese']
-Sunrise Chinese Restaurant,$,3.5,11106,40.760806,-73.923281,38,['chinese']
-Good Taste Restaurant,$,4.0,10031,40.8214624,-73.9543845,36,['chinese']
-Ho May Kitchen,NA,4.0,11211,40.7186,-73.94072,7,['chinese']
-Happy Garden,$,3.5,11102,40.76728,-73.92286,61,['chinese']
-Good Luck Chinese Restaurant,$,4.0,11377,40.7392043166647,-73.9197625899353,9,['chinese']
-Amaze 58 Asian Fusion,$$,3.5,10022,40.7590052,-73.9620854,64,['asianfusion', 'sushi']
-New Peking,$,4.0,11372,40.7494469,-73.8884277,51,['chinese']
-Golden Dragon,$,3.5,11106,40.7628708,-73.9209671,66,['chinese', 'thai']
-U Like,$,4.0,11206,40.6940078735352,-73.9492568969727,38,['chinese']
-Li Wan Restaurant,$$,4.5,11379,40.7122917175293,-73.8961334228516,20,['chinese']
-China Village Restaurant,$$,3.0,10013,40.7169789075851,-73.99971999228,58,['chinese']
-Chinese Musician Restaurant,$,3.0,11222,40.7303597,-73.9537321,99,['chinese']
-Lin's Kitchen,$,3.5,11372,40.7506063047067,-73.8955131021168,35,['chinese']
-Delicious Wok,$,4.5,11385,40.70031,-73.89669,24,['chinese']
-LuAnne's Wild Ginger All-Asian Vegan,$$,4.0,10013,40.7204631,-73.9964956,558,['vegetarian', 'asianfusion', 'vegan']
-Saw Shack,$,3.5,11372,40.7499285042286,-73.8821339607239,130,['chinese']
-Jung's Dried Beef,$,4.5,10013,40.715412,-73.999275,10,['chinese']
-Yung Sun Restaurant,$,3.0,10002,40.71338,-73.99581,11,['chinese']
-King Wah Restaurant,$,4.0,11385,40.7099237520059,-73.8989976712028,61,['chinese', 'seafood', 'fooddeliveryservices']
-New King Foo Chinese Food,$,3.0,10029,40.789493,-73.942916,8,['chinese']
-Dumplings & Things,$,3.5,11104,40.7425888323281,-73.9189697784327,116,['chinese']
-Mr Rice's Kitchen,$,4.0,07307,40.7517,-74.05378,16,['chinese']
-Xifu foods,$,4.5,11217,40.6880326,-73.9819963,16,['chinese']
-Happy Fortune Chinese Restaurant,$,3.5,11377,40.7394203208105,-73.9183913628026,20,['chinese']
-Benny's Lung Sheng,NA,2.0,10025,40.79829,-73.96378,4,['chinese']
-Good Taste,$,3.5,11101,40.7543728,-73.9335449,25,['chinese']
-Happy Eats,NA,3.0,10013,40.71521,-73.99861,2,['chinese']
-New Hardee,$,4.5,11237,40.7006568908691,-73.9261474609375,6,['chinese']
-Pasteur Grill and Noodles,$$,3.5,10013,40.71667,-73.99974,223,['vietnamese', 'chinese', 'asianfusion']
-Good Year Chinese Cuisine,$,3.5,07307,40.74883,-74.04701,74,['chinese']
-Aux Epices,$$,4.0,10013,40.7181073647053,-73.9991025383579,249,['french', 'malaysian', 'asianfusion']
-King Szechuan Palace,$$,3.5,07307,40.739697,-74.051612,89,['szechuan']
-Spice,$$,3.5,10025,40.8016123540962,-73.964790176728,86,['thai']
-Khe-Yo,$$$,4.0,10013,40.716906,-74.008587,511,['thai', 'laotian', 'vietnamese']
-Thai Soup,$$,4.0,10035,40.799678867234,-73.9397361020726,105,['thai']
-Kum Kau,$$,3.5,11205,40.693573,-73.966702,197,['chinese']
-Jade Gourmet,$,4.0,07010,40.81275,-73.9926,28,['chinese']
-New China Wok Chinese Kitchen,$,4.0,11217,40.68257,-73.97927,19,['chinese', 'chicken_wings']
-New Golden Dragon Restaurant,$,4.0,10031,40.8242006,-73.9455163,22,['chinese']
-Dragon Palace,$$,3.5,10013,40.718769,-73.99897,3,['chinese']
-Lin's Garden,$,3.5,11385,40.7034531,-73.9090729,33,['chinese']
-Wong Wah Bakery House,$,4.0,10002,40.7154579,-73.9930816,26,['bakeries', 'chinese']
-Saiguette,$$,4.0,10025,40.79898,-73.962707,438,['vietnamese']
-Great World Chinese Restaurant,NA,2.0,10001,40.747684,-74.000862,2,['chinese']
-Lily's,$,2.5,10038,40.7121047973633,-73.9980621337891,50,['chinese']
-Red Bowl,$$,3.5,11211,40.7170493866292,-73.958762175149,221,['chinese']
-Golden Mandarin Court,$$,2.5,10013,40.715966,-73.998382,160,['chinese']
-Chive Blossom NYC,$$,5.0,11249,40.710796,-73.963901,18,['panasian', 'chinese']
-I Fortune Cookie,$,3.0,11101,40.7477277517319,-73.9474202692509,34,['chinese']
-Francesca Chinese Restaruant,$,3.5,07087,40.7680999,-74.0325,8,['chinese']
-Shanghai Lee,$,3.0,11222,40.7318,-73.9582099,109,['chinese']
-China Garden,$,5.0,11237,40.70327,-73.9216299,4,['chinese']
-Flame,$$,4.0,10024,40.78396,-73.97444,186,['sushi', 'japanese', 'asianfusion']
-Daily Chinese Restaurant,$,3.5,07086,40.7753944,-74.019783,17,['chinese']
-Green Zenphony,$$,4.5,11374,40.730219,-73.863865,86,['vegetarian', 'chinese', 'vegan']
-Chinatown Kitchen,$,4.0,07093,40.7885757502878,-74.0158536518411,6,['chinese']
-Cutting Board,$$,3.0,10013,40.71516,-73.99771,436,['japanese', 'chinese', 'asianfusion']
-Grand Sichuan NY II,$$,4.0,11374,40.7274381816387,-73.8557088375092,166,['szechuan']
-Lovely Day,$$,3.5,10012,40.721771,-73.994247,282,['thai', 'breakfast_brunch', 'irish']
-Xin Lin Chinese Restaurant,$,4.0,07087,40.77735,-74.0187399,12,['chinese']
-Number 1 Chinese Kitchen,$,3.0,07030,40.7446403503418,-74.0289916992188,38,['chinese']
-Vanessa's Dumpling House,$,3.5,11211,40.713795,-73.961983,387,['chinese']
-Wah Yoan Restaurant II,$,3.5,07093,40.78225,-74.01201,13,['chinese']
-Dragon Gate Chinese Cuisine,$$,4.0,11105,40.7784616409036,-73.9019072055817,10,['chinese']
-House Special,NA,5.0,10013,40.71785,-73.9967999,2,['hkcafe', 'cantonese']
-Kien Tuong,$,3.5,10002,40.7174491882324,-73.9945526123047,63,['vietnamese', 'cantonese']
-Hey Hey Canteen,$$,4.0,11215,40.6721575508167,-73.9874984846558,81,['chinese', 'asianfusion', 'comfortfood']
-China Red Restaurant,$,2.0,10007,40.715023,-74.008636,17,['chinese']
-New Golden Bowl Restaurant,$,3.5,10002,40.71412,-73.99509,7,['chinese']
-Hop Lee Kitchen,$,3.5,11222,40.7329216003418,-73.9544906616211,25,['chinese']
-Queens Seafood Restaurant,$$,3.5,11373,40.7415032,-73.8825862,94,['seafood', 'cantonese']
-East Seafood restaurant,NA,4.0,10002,40.713924407959,-73.9966125488281,2,['chinese', 'seafood']
-Sweet House Inc,NA,4.0,10002,40.7182758,-73.9946401,1,['chinese']
-Hong Kong Express,$,4.0,11385,40.6961416,-73.9047676,35,['chinese']
-Fish Cheeks,$$$,4.0,10012,40.7258,-73.9927,138,['seafood', 'thai', 'raw_food']
-Aquarius Seafood Restaurant,$$,3.5,07024,40.8515556,-73.9718064,126,['dimsum', 'cantonese', 'asianfusion']
-Flip Sigi,$$,4.5,10014,40.73405,-74.00642,422,['filipino', 'asianfusion', 'mexican']
-MIGHTY Bowl,$,4.0,10012,40.72979,-74.00035,170,['asianfusion', 'japanese', 'poke']
-Peking Express,$,3.5,11222,40.725971,-73.942817,25,['chinese']
-Zhà Pan Asian,$,4.5,10001,40.7489953,-73.9880316,19,['panasian']
-Asian Bowl,$,2.0,10022,40.7575340270996,-73.9703369140625,4,['chinese']
-Potsticker Cart,NA,4.0,10023,40.7834014892578,-73.9663009643555,2,['chinese', 'streetvendors']
-Shanghai Cuisine,$$,3.0,10013,40.7158458,-73.9992476,272,['shanghainese']
-Herbs Thai Bistro,$$,3.5,10017,40.75193,-73.97099,129,['thai']
-New Hua Yung Kitchen,$,4.5,10033,40.84596,-73.93873,16,['chinese']
-Happy Garden Palace,$,3.5,10002,40.71381,-73.9955,12,['chinese']
-King Garden,$,3.5,11101,40.75524,-73.91837,43,['chinese', 'japanese']
-Canton Lounge,$$,2.5,10013,40.716205,-73.997863,70,['seafood', 'cantonese']
-China Chalet,$$,2.5,10004,40.7065651445594,-74.0129064216347,13,['chinese']
-Chai Thai Kitchen,$$,3.5,10019,40.76541,-73.98352,438,['thai']
-David & Son's Caribbean Flavor,$,4.5,07307,40.7421999,-74.04919,15,['caribbean', 'chinese', 'spanish']
-Taste of China,$,4.0,07650,40.8403441,-73.9987694,43,['chinese']
-Asia de Cuba,$$$,3.5,10003,40.72845,-73.99212,213,['cuban', 'latin', 'asianfusion']
-Te Min Quan,$$,4.0,07650,40.8476677,-73.9978104,98,['korean', 'chinese']
-Golden Wok,$,3.5,11104,40.745129,-73.921549,28,['chinese']
-C & L Dumpling House,$,3.5,10002,40.717277,-73.994598,100,['chinese']
-Nan Xiang Xiao Long Bao,$,4.0,11354,40.7598810063385,-73.8325853625656,2595,['shanghainese', 'gourmet', 'noodles']
-Lucky Jade House,$,2.5,10032,40.84192,-73.93891,9,['chinese']
-Golden Star,$$,4.0,10033,40.8498685,-73.9362273,53,['chinese']
-Off the Wall Chinese Cuisine,$,3.0,07030,40.7426987,-74.0296173,52,['chinese']
-Joe's Ginger,$$,3.0,10013,40.714782,-73.998374,429,['chinese']
-Jardin De China,$$,4.0,11368,40.7505798339844,-73.8699264526367,174,['chinese', 'latin']
-Broadway China Station,$,3.5,11106,40.7616886,-73.9258757,29,['chinese']
-Obao,$$,3.5,10022,40.757122,-73.968566,623,['thai', 'vietnamese']
-Old Sichuan,$$,3.0,10013,40.715309,-73.998199,115,['szechuan']
-Tina,$,3.0,10003,40.73332,-73.98651,9,['chinese']
-Number 1 Chinese Restaurant,$,4.0,11377,40.74965,-73.89898,22,['chinese']
-Wan's Garden,$,4.0,11385,40.702864,-73.901421,17,['chinese']
-Super China Pagoda,$,3.5,11103,40.7610039,-73.9091797,38,['chinese']
-Funny BBQ 98,$$,3.0,10013,40.71773,-73.99554,105,['hotpot', 'bbq']
-East Garden,$,3.5,11106,40.7560263,-73.9285962,31,['chinese']
-Happy World Restaurant,$,3.5,10033,40.8458611,-73.9364502,7,['chinese']
-XO Taste,$$,3.0,10013,40.717025,-73.996971,150,['chinese', 'thai', 'asianfusion']
-Shabu-Tatsu East Village,$$,4.0,10003,40.72927,-73.98585,522,['japanese', 'bbq', 'hotpot']
-Duck King,$$,3.0,07020,40.82533,-73.97495,130,['dimsum', 'shanghainese', 'szechuan']
-Yi Zhang Fishball,$,4.0,10002,40.7154261,-73.9931977,6,['chinese']
-Luu's Baguette,$,4.0,10010,40.7411231994629,-73.9830856323242,427,['vietnamese', 'soup', 'sandwiches']
-Royal Seafood Restaurant,$$,3.0,10013,40.7174,-73.9977,205,['dimsum', 'seafood', 'cantonese']
-ChaamLex,$$,4.0,10010,40.7400681,-73.9845249,128,['thai']
-Tu DO Restaurant,$,4.0,10013,40.7178239198064,-73.9953305925527,266,['vietnamese']
-Xing Wong BBQ,$,3.5,10002,40.7135461657203,-73.9935723692179,25,['chinese']
-Grace Wok,NA,2.5,10029,40.788975,-73.943275,3,['chinese']
-China Moon Restaurant,$,4.5,07650,40.8424225,-74.0010605,13,['chinese']
-Happy Lucky Restaurant,$$,3.0,10013,40.717659,-73.9955597,71,['chinese']
-Mee Noodle Shop and Grill,NA,4.0,10016,40.744396,-73.981475,1,['chinese', 'noodles']
-Kam Sing,$,3.0,11211,40.714324,-73.961257,39,['cantonese']
-The Bao Shoppe,$,4.0,10002,40.7143451,-73.9905184,109,['asianfusion', 'sandwiches', 'bubbletea']
-Sampan Chinese Restaurant,$,3.5,11103,40.7644,-73.9148699,58,['chinese']
-Golden Fried Dumpling,$,3.5,11201,40.6925117969513,-73.9843697100878,307,['chinese']
-No. 1 Chinese Restaurant,$,3.5,07086,40.76734,-74.02903,21,['chinese']
-Franchia Vegan Cafe,$$,4.0,10016,40.7474712051298,-73.9812423408763,700,['korean', 'vegan', 'asianfusion']
-Dragon Land Bakery,$,3.5,10013,40.717323,-73.999931,163,['bakeries', 'chinese', 'desserts']
-MRS. AN,$,4.0,10029,40.7874046,-73.9482732,18,['thai', 'vegetarian']
-Plump Dumpling,$,2.5,10003,40.730397,-73.9861,252,['chinese', 'vietnamese']
-China Sea,$,2.5,10040,40.86477,-73.92718,8,['chinese']
-No Pork Halal Kitchen,$,4.0,11217,40.68332,-73.97936,90,['chinese', 'halal', 'chicken_wings']
-Jean-Georges,$$$$,4.5,10023,40.7691122743293,-73.9814290717583,1588,['french', 'breakfast_brunch', 'asianfusion']
-Yap Express Corporation,$,3.5,10022,40.7575340270996,-73.9703369140625,3,['chinese']
-M&J Asian Cuisine,$$,3.5,10009,40.7292851717997,-73.9780369922164,22,['asianfusion', 'sushi']
-Ajisai Japanese Fusion,$$,3.5,10065,40.763763,-73.966743,126,['japanese', 'asianfusion', 'sushi']
-Ten-Tan Chinese Restaurant,NA,3.0,10034,40.8642578,-73.9192581,6,['chinese']
-Qi,$$,3.5,10036,40.7577638,-73.9895813,1008,['asianfusion', 'thai']
-Hiro Sushi,$$,2.0,10069,40.7777531278516,-73.9881146585633,72,['chinese', 'sushi']
-Sunny Wok Chinese Restaurant,NA,4.5,07087,40.75914,-74.04298,4,['chinese']
-Hang Lung Chinese Restaurant,NA,2.0,10040,40.8552132,-73.9292068,2,['chinese']
-No.1 Chinese Restaurant,$,2.5,11102,40.76715,-73.92144,48,['chinese']
-Demo One,$,3.5,11103,40.76332,-73.91379,6,['chinese']
-Rickshaw Dumpling Truck,$,2.5,10004,40.7058343291283,-74.0083741396666,141,['chinese', 'foodstands']
-Wing Huang Resturaunt,NA,1.0,10013,40.7181399630807,-74.0006024390459,1,['szechuan']
-A Plus Chinese,$$,3.0,10002,40.71713,-73.99238,6,['chinese']
-Sun Wah Restaurant,$,3.5,11106,40.756608,-73.930066,31,['chinese']
-Topaz Thai Authentic,$$,3.5,10019,40.7644157409668,-73.9789047241211,665,['thai']
-Yuba,$$$,4.0,10003,40.7305450439453,-73.9900436401367,316,['japanese', 'sushi', 'asianfusion']
-A-Pou's Taste Cart,$,3.5,10005,40.70865,-74.01011,27,['taiwanese', 'foodstands']
-Dim Sum Go Go,$$,3.5,10038,40.7132415735622,-73.9977319419107,651,['dimsum']
-Great Wall,$,4.0,07302,40.7171163,-74.0539207,8,['chinese']
-A La Saigon,$,3.5,10038,40.7090402,-74.0093809,143,['vietnamese', 'salad', 'soup']
-Ugly Kitchen,$$,4.0,10003,40.7266856651479,-73.9862178981476,476,['bars', 'asianfusion', 'filipino']
-Green Garden,$,3.5,07030,40.7513466,-74.0268326,32,['chinese']
-Cha Pa's Noodles and Grill,$$,3.5,10019,40.7637,-73.98615,424,['vietnamese', 'noodles']
-J J Chan's Garden,$$,3.5,11370,40.758709,-73.8922424,96,['chinese', 'seafood', 'asianfusion']
-Fortune House,$$,3.0,11201,40.6984406,-73.9927368,84,['chinese', 'thai']
-Lichee Nut,$,3.0,11201,40.694149017334,-73.9928207397461,211,['chinese']
-A-Pou's Taste,$,3.5,10003,40.7298465974426,-73.9914308802866,29,['foodstands', 'taiwanese']
-Ajisai Japanese Restaurant,$$,3.5,10036,40.7594744,-73.9920708,397,['japanese', 'asianfusion', 'sushi']
-East Wind Snack Shop,$$,4.5,11215,40.6603409,-73.9799505,110,['chinese']
-Gong Ho,NA,4.0,10013,40.7185185,-73.995628,1,['chinese']
-Yee Li Restaurant,$$,3.0,10013,40.715503692627,-73.997695595026,148,['chinese']
-Chef Pho & Peking Roast Duck,$$,2.5,10019,40.76314,-73.98512,93,['vietnamese']
-New Jin Shing,$,4.0,11207,40.682073,-73.909389,24,['chinese']
-Hub Thai,$$,5.0,10009,40.72587,-73.98385,15,['thai']
-Shanghai Heping Restaurant,$$,3.5,10013,40.7174181193113,-73.997328132391,287,['shanghainese', 'karaoke']
-Golden Wok,$,3.5,10031,40.827003,-73.946723,43,['chinese']
-Little Pepper,$$,4.0,11356,40.78245,-73.84618,226,['szechuan']
-Trinidad Golden Place Restaurant,$,4.0,11216,40.6718291030037,-73.950525317791,83,['chinese', 'trinidadian']
-Japas 38,$$,3.5,10016,40.7508277893066,-73.9815673828125,239,['karaoke', 'newamerican', 'asianfusion']
-East Pacific Pan-Asian Bistro,$$,3.5,10016,40.74633,-73.98032,156,['panasian']
-Chang Le Xin Fan Zhuang,$$,3.0,10002,40.7156673073769,-73.9931733906269,10,['chinese']
-Halal Kitchen,$,3.5,11104,40.740509,-73.9224091,28,['chinese', 'halal']
-Jade Garden,$,4.0,10032,40.8418951405518,-73.9389026440374,46,['chinese', 'japanese', 'seafood']
-China Garden Cliffside Park,$,3.5,07010,40.8181915283203,-73.9931793212891,11,['chinese']
-Asami Shanghai,$$,4.0,10011,40.73699,-73.99744,15,['ramen', 'sushi', 'dimsum']
-Good Chinese Restaurant,$,3.5,11221,40.6951122106303,-73.9116479761463,83,['chinese']
-Confucius Asian Bistro,$$,2.5,07310,40.7283669,-74.0343094,224,['chinese', 'asianfusion']
-Great Wall No 1,$,3.0,11222,40.7318799,-73.95437,36,['hotdogs', 'chinese']
-Puff Cha Ramen,$$,4.0,10019,40.7647,-73.991215,442,['thai', 'bubbletea', 'ramen']
-Xiao Chuan Dian,$$,3.5,07650,40.8462581,-73.9995048,10,['chinese']
-King Wah,$,3.5,11102,40.7719699594225,-73.9257651953376,36,['chinese']
-BoCaphê,$$,4.0,10012,40.7219922719125,-73.9975724296317,399,['vietnamese', 'breakfast_brunch', 'asianfusion']
-Young Chow Garden,$,1.5,10025,40.7918192446232,-73.972065076232,12,['chinese']
-Global Cuisine,NA,1.0,10282,40.7152896,-74.0148746,1,['chinese', 'italian', 'tapasmallplates']
-Lucky Garden,$,4.0,11237,40.7003,-73.91221,9,['chinese']
-Tasty Fusion,$$,4.0,07071,40.8150520324707,-74.1142501831055,63,['japanese', 'chinese']
-88 Reach House,$,2.0,10002,40.71447,-73.99375,2,['chinese']
-Young City Fish Balls 榕城鱼丸店,$,4.0,10002,40.71511,-73.993804,4,['chinese', 'noodles', 'soup']
-New Fresco Tortillas,$,2.0,10007,40.7147827,-74.0064545,36,['mexican', 'chinese']
-P.F. Chang's,$$,3.0,07093,40.7802677928232,-74.0095958081818,325,['chinese', 'asianfusion']
-Hong Kong,$,3.0,11106,40.76302,-73.92822,39,['chinese']
-OBAO,$$,3.0,10004,40.70332,-74.01065,166,['thai', 'asianfusion', 'vietnamese']
-C And Y Chinese,$,4.0,11215,40.67046,-73.98505,33,['chinese']
-Zeng Xing Fu Zhou,$,3.0,10002,40.714851,-73.993935,10,['chinese']
-Fried Dumpling,$,3.5,10013,40.7145984,-73.9993465,415,['chinese']
-New Sze's Garden,$,4.0,11385,40.7082630466795,-73.9197599887848,13,['chinese']
-Grill On Lee,$$,4.5,11211,40.7044641162683,-73.9587070047855,10,['kosher', 'chinese', 'delis']
-New Apolo,$$,3.5,11211,40.71078,-73.95076,104,['chinese', 'spanish']
-Sawadee,$$,3.0,07302,40.72014,-74.04386,426,['thai', 'chinese']
-Sanuria,$,3.5,10013,40.7147,-73.9980099,201,['indonesian', 'malaysian']
-Hong Kong Cafe,$,3.5,11238,40.687202,-73.956611,21,['chinese']
-Chinese Max,NA,2.5,10038,40.706359,-74.003814,3,['chinese']
-Eden Wok,$$,2.5,10016,40.7477,-73.98239,94,['chinese', 'sushi', 'kosher']
-Tum & Yum,$$,4.0,10025,40.7984,-73.96326,263,['thai']
-Yummy Yummy Chinese Restaurant,$,3.5,11378,40.7318726,-73.8999329,27,['chinese']
-Tse's Lay On,NA,5.0,10002,40.7134256511927,-73.9971920102835,1,['chinese']
-Ten Full Restaurant,$,3.0,11104,40.7400043308735,-73.9250949025154,57,['chinese']
-Xiao Dong Bei Chinese Cuisine,$$,4.5,11354,40.7624327,-73.8311868,30,['chinese']
-Aaron's Chinese and Thai,$$,1.5,10001,40.750379,-73.998141,41,['chinese', 'thai']
-Ozen,$$,3.0,10025,40.7948819801249,-73.9700052707462,151,['asianfusion']
-Empire Express,$,3.0,11101,40.7443362968621,-73.9313001176036,16,['chinese']
-Chang Wang Restaurant,$,3.5,10002,40.71599,-73.99175,25,['chinese']
-Lucky Chinese Restaurant,$,4.0,11377,40.7367175,-73.8960949,16,['chinese']
-Kay's Spring Garden,$,3.5,07307,40.750907,-74.046302,20,['chinese']
-Five Loaves and Two Fish Bakery,$$$,3.5,10002,40.71501,-73.99288,2,['bakeries', 'chinese']
-Laut,$$,3.5,10003,40.73763,-73.99105,916,['thai', 'malaysian', 'asianfusion']
-Wen Gee House,$,4.0,11231,40.678898,-74.010712,10,['chinese']
-Chinese Food Cart,$,4.0,11373,40.7386440537572,-73.8773260717161,89,['foodstands', 'chinese']
-Empire Szechuan Garden,$,3.0,11104,40.7442207,-73.9186554,22,['chinese']
-Asian Wok,$,2.5,10038,40.709792012435,-74.0018463134766,27,['newamerican', 'chinese']
-Istana Sushi & Wok,$$,3.0,07030,40.74845,-74.0278699,45,['chinese', 'sushi', 'japanese']
-Fortune Cookie Chinese Kitchen,$,3.5,11222,40.723381,-73.9506989,32,['chinese']
-Hua Du Dumpling,$,3.0,10002,40.714809,-73.993072,10,['chinese']
-Hong Kong Stir Fry,$,4.0,07022,40.822143,-73.998558,10,['chinese']
-Rabu House,$$,3.5,10016,40.742414114696,-73.9776433058961,50,['asianfusion']
-China Spice,$$,3.5,07306,40.7350744307041,-74.0670984238386,16,['chinese']
-RJR Yummy Kitchen,$,4.0,11369,40.7601665,-73.8783152,23,['chinese']
-Marco Polo Noodle Shop,$,3.0,10013,40.7170122,-73.9998158,12,['chinese', 'noodles']
-Wah Yeung's Kitchen,$,3.0,11104,40.745041,-73.9207394,20,['chinese']
-Sao Mai,$$,3.5,10003,40.730362,-73.98362,418,['vietnamese']
-Peking Roast Duck,$$,3.0,10016,40.7425799,-73.97772,8,['chinese']
-Red Square Café,NA,3.5,10013,40.7174690812826,-74.0003221482038,3,['chinese']
-Chelsea Thai Wholesale,$$,3.0,10011,40.7426359869553,-74.0061803595245,213,['thai', 'vegetarian']
-The Old Spot,$$,3.5,07302,40.72108,-74.04676,43,['chinese', 'hotpot']
-Hot Pot Best,$$,3.0,07302,40.7168312,-74.0385971,68,['szechuan', 'hotpot']
-New Wonjo Restaurant,$$,3.5,10001,40.74788,-73.98665,1006,['korean', 'bbq', 'noodles']
-New China Tung,$,4.0,11217,40.678642,-73.97927,30,['chinese', 'asianfusion']
-New Hong Wong Seafood Restaurant,$$,3.5,10013,40.717796,-73.995498,8,['chinese']
-Grand Eastern,NA,3.0,10029,40.786716,-73.949974,9,['chinese', 'japanese']
-Authentic Szechuan,$$,3.5,11215,40.6711753186162,-73.9848930557056,51,['szechuan', 'japanese']
-East Met West,$,3.0,11211,40.71446,-73.94392,45,['chinese']
-Golden House,$,2.5,11103,40.76497,-73.91789,75,['chinese']
-Udon West,$$,4.0,10017,40.7534980773926,-73.9736022949219,732,['japanese', 'noodles']
-Dumpling Town,$,4.0,11373,40.7373229,-73.8771249,11,['dimsum']
-Kelley and Ping,$$,3.0,10012,40.7256,-73.99916,209,['panasian']
-Food Shing,$,3.5,10038,40.713611,-73.997528,40,['chinese']
-Kuai Le Hand Pull Noodles Restaurant,$,3.5,10002,40.715206,-73.994148,17,['chinese', 'noodles']
-Jaiya,$$,3.5,10016,40.742179,-73.980915,665,['thai', 'cocktailbars']
-Hua Rong Chinese Restaurant,$,3.5,11373,40.74084,-73.87921,20,['chinese']
-Ai Zhen Foo Chow Restaurant,NA,3.5,10002,40.713863,-73.994873,2,['chinese']
-Number One Chinese Restaurant,$,3.5,07093,40.78975,-74.00513,9,['chinese', 'seafood', 'thai']
-Banh Mi Saigon,$,4.0,10013,40.71936,-73.996673,1258,['vietnamese', 'sandwiches']
-Zengo,$$$,3.5,10017,40.749757387679,-73.975456614573,743,['latin', 'asianfusion']
-Jing Hui,$,3.5,10039,40.8246154785156,-73.9396286010742,13,['chinese']
-Spice,$$,3.5,10003,40.734539,-73.9918594,1358,['thai']
-Peking Hunan Park,NA,1.0,10017,40.751342,-73.978919,1,['chinese']
-Number One Chinese Restaraunt,$,4.0,07086,40.7673454284668,-74.0290374755859,7,['chinese']
-Pho Shop,$$,4.0,10128,40.77854288396,-73.9477937668562,122,['vietnamese']
-Pam Real Thai Food,$$,3.5,10019,40.762978,-73.98993,572,['thai']
-King's Kitchen,NA,5.0,11221,40.69129,-73.93684,4,['chinese']
-Zen 6,$$,4.0,10003,40.7266999721355,-73.9872980466536,480,['ramen', 'noodles']
-New China,$,4.0,11206,40.69701,-73.9361191,8,['chinese']
-Splendid China,$,4.0,10032,40.835598,-73.940437,13,['chinese']
-Hong Kong Chinese Restaurant,$,4.0,11385,40.71099,-73.9049,16,['chinese']
-East Village Thai,$$,4.0,10003,40.7282104492188,-73.9892120361328,179,['thai']
-A San FuZhou Restaurant,NA,2.0,10002,40.7145636149403,-73.993893008504,1,['chinese']
-Uncle Boons,$$$,4.0,10012,40.7211328622237,-73.9943286309159,551,['thai']
-J's Wong,$,3.5,11238,40.67402,-73.95661,53,['chinese']
-Canton Palace II,$$,3.0,07657,40.8447303369746,-74.0083200176165,149,['dimsum', 'seafood', 'noodles']
-New Malaysia,$$,3.5,10013,40.7158109,-73.9964924,568,['malaysian']
-Tasty Dumpling,$,3.5,10013,40.7149408310765,-73.9995409548283,394,['chinese']
-Empire Express,$,3.5,11215,40.66909,-73.98574,30,['chinese']
-Sing Hing Chinese Restaurant,$,3.5,11211,40.710937,-73.948715,18,['chinese']
-New Szechuan House,$,2.5,11377,40.7459596,-73.9140785,42,['chinese']
-Lantern Thai,$$,3.5,10003,40.7350845336914,-73.9833526611328,330,['thai']
-Yan Asian Restaurant,$$,4.0,07070,40.82739,-74.10491,93,['asianfusion', 'chinese', 'sushi']
-Asian Express,$$,2.0,10010,40.737991,-73.98188,13,['chinese']
-Jing Fu House,$,4.5,11372,40.74928,-73.8700999,7,['chinese']
-First Wok,$,3.5,07047,40.7727099,-74.04002,26,['chinese']
-Sun Hing Chinese Restaurant,$,4.0,11372,40.7560348510742,-73.8782348632812,7,['chinese']
-Fuzhou Anping Fish Ball,NA,2.5,10002,40.7126905,-73.9967719,4,['chinese']
-Jade Terrace,NA,1.5,10036,40.7601222,-73.9871659,2,['chinese']
-Sweet Yummy House,$$,3.5,11373,40.74095,-73.87938,55,['chinese']
-Chung Chun Kitchen,$,4.0,11205,40.69314,-73.973,12,['chinese']
-Gan Asia,$$,2.5,10025,40.7923393,-73.971405,39,['chinese', 'kosher', 'thai']
-Taste of China,$,3.0,11103,40.7571451223932,-73.9148019297323,23,['chinese']
-Ming Wok,$,3.5,11372,40.7555390072011,-73.883957862854,14,['chinese']
-Future Restaurant,$,3.0,07302,40.72214,-74.0468999,82,['chinese']
-Imperial Palace,$$,4.0,11354,40.761867,-73.830619,322,['seafood', 'cantonese']
-Hwa Yuan,NA,3.0,10002,40.7137,-73.99598,6,['szechuan']
-Chan's Garden,$,3.5,11205,40.6947199,-73.95635,23,['chinese']
-Thái Son,$,3.5,10013,40.71683,-73.99963,705,['vietnamese']
-Potjanee Thai Restaurant,$$,3.5,10014,40.73005,-74.003417,268,['thai']
-Saigon Vietnamese Sandwich Deli,$,4.0,10013,40.7199582,-73.9958631,540,['sandwiches', 'vietnamese']
-Golden Dragon Kitchen,$,3.0,11211,40.713829,-73.955184,16,['chinese']
-Sookk,$$,3.5,10025,40.79867,-73.96834,244,['thai', 'asianfusion']
-Lee's Chinese Restaurant,$,4.0,07307,40.7543291,-74.0468573,11,['chinese']
-Min Jiang Restaurant,NA,2.0,10002,40.713554,-73.993515,3,['chinese']
-Good Good Taste,NA,2.5,10002,40.71339,-73.994781,4,['chinese']
-China House,NA,5.0,11385,40.713279,-73.908752,4,['chinese']
-King's Wok,$,3.5,10031,40.82762,-73.9499,16,['chinese']
-Wok Chi Stir Fry Kitchen,$$,5.0,10017,40.7521635914282,-73.9775511657219,2,['dimsum']
-Moon Palace Kitchen,NA,3.5,11378,40.72222,-73.90177,14,['chinese']
-Mr Wonton Chinese Restaurant,$,2.5,11101,40.746978,-73.941986,31,['chinese']
-85 Chinese Restaurant,$$,2.5,10002,40.7175407,-73.9944992,5,['cantonese']
-Talent Thai Kitchen,$$,3.5,10016,40.74525,-73.97768,213,['thai']
-Happy Gathering,$,3.0,11106,40.7589,-73.92601,41,['chinese']
-Foo-Hing Chinese Kitchen,$,4.5,10454,40.8135071,-73.9222373,3,['chinese']
-Pro Thai,$$,4.0,10029,40.78888,-73.94857,124,['thai', 'salad', 'noodles']
-Win Son,$$,4.5,11206,40.70747,-73.94339,170,['taiwanese', 'newamerican', 'asianfusion']
-Xing Wang,NA,4.5,,40.7157550918675,-73.9982862881705,5,['foodstands', 'chinese']
-No 1 Hunan Chinese Restaurant,$,4.5,11373,40.743103,-73.874626,9,['chinese']
-King Hong Restaurant,$,3.5,07024,40.84021,-73.980957,55,['chinese']
-Zhen Good Taste,$,4.0,11378,40.7218974,-73.8928982,18,['chinese']
-Hunan 3 Chinese Restaurant,$,3.0,11106,40.7613425374672,-73.9314051011108,18,['chinese']
-Chun Wai Restaurant,$,4.0,07087,40.7605286187255,-74.0356116927299,6,['chinese']
-Michael & Ping's Modern Chinese Take-Out,$$,3.5,11215,40.672501,-73.990177,206,['chinese']
-Golden Kitchen,$,3.0,11102,40.7704481038437,-73.9190678626333,20,['chinese']
-Amber West Village,$$,3.5,10014,40.733165,-74.006958,166,['sushi', 'asianfusion', 'bars']
-Woks Chinese Cuisine,$,4.0,11372,40.7496071,-73.8868179,15,['chinese']
-Zest,$$,4.0,10002,40.7178344726563,-73.9899597167969,647,['sushi', 'japanese', 'thai']
-Panda Chinese Restaurant,$,3.5,11375,40.717395,-73.8569718,37,['chinese']
-Golden Chopstick,$,3.5,11238,40.6718339,-73.957229,49,['chinese']
-Lunch Box Buffet,$,2.5,10002,40.713916,-73.996704,11,['chinese']
-Siri Thai,$$,4.0,10036,40.7618590612994,-73.9940920472145,162,['thai']
-Weng Garden,$,4.0,11233,40.685707,-73.920722,6,['chinese']
-Chi Dumpling House,$,3.5,10002,40.7172813,-73.9945984,15,['chinese']
-Ajisen Ramen,$$,3.0,10013,40.7141461347865,-73.9986339460327,279,['ramen', 'sushi', 'noodles']
-Fu Run,$$,4.0,11354,40.758782,-73.831712,374,['chinese']
-Eastern Chinese Restaurant,$,3.0,11106,40.7656686822612,-73.9307687804103,17,['chinese']
-Bang Ga Nae,$$,4.5,07657,40.8339181186311,-74.0092921257019,5,['korean', 'chinese']
-Mr Wonton,$$,3.5,11217,40.675098,-73.974708,154,['chinese']
-New Yummy Restaurant,NA,3.5,07087,40.77942,-74.0175299,8,['chinese']
-Jin Mei Dumpling House 津美锅贴,$,3.5,10002,40.7128944396973,-73.9965591430664,48,['chinese']
-Long Spring Garden,$,3.5,11377,40.745848,-73.901984,21,['chinese']
-Soho Thai,$$,3.5,10013,40.720078,-73.999641,92,['thai']
-Chung Ching Restaurant,NA,4.0,10454,40.8101921081543,-73.9247589111328,5,['chinese']
-New Hardee,$,4.0,11221,40.6925659179688,-73.9430160522461,6,['chinese']
-Chopsticks Chinese Restaurant,$,3.0,07087,40.782344,-74.020889,17,['chinese']
-Peking Kitchen,$,3.5,11238,40.688720703125,-73.9602813720703,7,['chinese']
-Sau Voi,$,4.0,10013,40.717712,-74.000885,219,['delis', 'vietnamese', 'sandwiches']
-Great Wall Chinese Restaurant,$,4.0,11369,40.7638765,-73.8816184,14,['chinese']
-Great Wall Chinese Restaurant,$,3.0,07086,40.7737819079407,-74.0202113841939,15,['chinese', 'asianfusion', 'soup']
-Chen's Kitchen,$,3.5,07030,40.74183,-74.03993,9,['chinese']
-No 1 Chinese Restaurant,$,3.5,10033,40.8513816,-73.9394706,104,['chinese']
-Golden House,$,4.0,07093,40.78862,-74.00681,5,['chinese', 'chicken_wings']
-Nha Trang One,$,3.5,10013,40.71671,-73.9995299,640,['vietnamese']
-Gem Bistro,$$,4.5,07032,40.748554,-74.144834,8,['szechuan']
-Dong Fang Chuan Dian,$$,3.5,07650,40.842061,-74.00088,48,['chinese', 'korean', 'bbq']
-East 21,$,3.5,11372,40.7464685299281,-73.8940858840942,60,['japanese', 'chinese']
-Shanghai Dim Sum,NA,5.0,10013,40.7141299241729,-73.9988739506347,1,['dimsum', 'soup', 'asianfusion']
-Great Wok Chinese Restaurant,$,3.5,07087,40.7606899,-74.04245,11,['chinese']
-Bennie's Thai Cafe,$$,3.5,10038,40.70912,-74.00578,278,['thai', 'soup']
-Canaan Restaurant,$,4.0,11356,40.784443,-73.8460002,31,['chinese', 'taiwanese']
-Indochine,$$$,3.5,10003,40.72917,-73.99227,292,['vietnamese', 'french']
-Panda Garden Restaurant,$,3.0,11377,40.7455887091084,-73.9046854516638,17,['chinese']
-China Palace,$$,2.5,10016,40.747486114502,-73.983757019043,2,['chinese']
-Five Loaves And Two Fishes 五餅二魚,$,3.5,11373,40.7413575053731,-73.8815073235202,35,['dimsum', 'bbq', 'sushi']
-China Gourmet,NA,1.0,10029,40.788982,-73.943283,1,['chinese']
+name,price,rating,zip code,latitude,longitude,review count
+Dim Sum Palace,$$,4.0,10036,40.76015,-73.9893699,493
+Wah Fung No 1,$,4.5,10002,40.71735,-73.99457,819
+Tasty Garden,$,5.0,10009,40.72485,-73.98306,16
+Peng's Noodle Folk,$$,4.5,10028,40.77726,-73.94932,174
+Zest Szechuan,$$,4.0,10018,40.75274,-73.98445,240
+Tuome,$$$,4.5,10009,40.72412482724,-73.9828906263924,290
+Shu Jiao Fu Zhou Cuisine Restaurant,$,4.5,10002,40.7184290357839,-73.9916928979573,387
+China Jade,$$,4.5,10028,40.77747,-73.95239,19
+China Xiang,$$,4.0,10036,40.7582902125633,-73.9925113993899,235
+Han Dynasty,$$,4.0,10024,40.78752,-73.97647,339
+Han Dynasty,$$,4.0,10003,40.732072,-73.988074,904
+Xi'an Famous Foods,$,4.0,10075,40.77197,-73.95452,344
+Café China,$$,4.0,10016,40.7499225208569,-73.9819464127197,867
+Xi'an Famous Foods,$,4.0,10036,40.75574,-73.98085,1169
+Szechuan Garden,$$,4.0,10025,40.8003719688892,-73.9676491308602,159
+Jasmine Restaurant,$$,4.0,10017,40.75467,-73.97057,104
+Tri Dim Shanghai,$$,4.0,10075,40.77395,-73.95793,86
+Auntie Guan's Kitchen 108,$$,4.0,10011,40.7377213477598,-73.9974148512518,234
+Excellent Dumpling House,$$,4.0,10011,40.7440494396358,-73.995028194335,222
+Xi'an Famous Foods,$,4.0,10016,40.747844,-73.983901,440
+La Salle Dumpling Room,$$,4.0,10023,40.7731596,-73.98951,36
+Chaan Teng,$$,4.0,10036,40.7622036680455,-73.9898682385683,108
+Burp Bowl Cafe,$,4.5,10010,40.74183,-73.98271,104
+Shanghai,$,4.0,10021,40.768291,-73.958381,57
+Radiance Tea House and Books,$$,4.0,10019,40.7639799,-73.98065,748
+Joe's Shanghai,$$,4.0,10013,40.7146691442891,-73.9977602206654,4596
+Xi'an Famous Foods,$$,4.0,10019,40.7620964050293,-73.9773178100586,195
+Buddakan,$$$,4.0,10011,40.7422275387194,-74.0047066478157,3216
+Noodle Fun,$$,4.0,10128,40.7795333862305,-73.9470367431641,100
+China Blue,$$,4.0,10013,40.724081417449,-74.0098607540131,389
+Very Fresh Noodles,$$,4.0,10011,40.7423387008486,-74.0061374945942,289
+Xi'an Famous Foods,$,4.0,10003,40.72782,-73.98551,1394
+Asura Asian Bistro,$$,4.0,10001,40.7522492,-73.991222,248
+Pig Heaven,$$,4.0,10028,40.775433,-73.956856,177
+Hunan Bistro,$$,4.0,10003,40.73234,-73.9881,144
+MáLà Project,$$,4.0,10009,40.72713,-73.98542,298
+Decoy,$$$,4.0,10014,40.734196,-74.006519,245
+Fishmarket Restaurant,$$,4.5,10038,40.70717,-74.00192,380
+Joe's Shanghai,$$,3.5,10019,40.7627694517048,-73.9759005803566,1158
+Lam Zhou Handmade Noodle & Dumpling,$,4.0,10013,40.71556,-73.99692,1168
+Uncle Ted's Modern Chinese Cuisine,$$,4.0,10012,40.72882,-73.999961,345
+Niu Noodle House,$$,4.0,10014,40.734352,-74.000082,524
+Flor De Mayo,$$,4.0,10024,40.7860908508301,-73.9765853881836,983
+Dim Sum Palace,$$,4.0,10019,40.76259,-73.97681,66
+Chop Shop II,$$,4.0,10010,40.7433280944824,-73.9911651611328,150
+Shanghai Asian Manor,$$,4.0,10013,40.71441,-73.99902,1152
+Ding Szechuan and Hot Pot Restaurant,$$,3.5,10036,40.7605285644531,-73.9863891601562,118
+The Bao,$$,3.5,10003,40.72939,-73.988912,838
+Yummy City,$,4.5,10029,40.7879244458184,-73.948986355818,21
+Fu Xing,$,4.0,10018,40.754589387013,-73.9912518276348,33
+Bugis Street Brasserie & Bar,$$,5.0,10036,40.7567689,-73.9843329,8
+Spice Symphony,$$,4.0,10016,40.744722,-73.981202,432
+Nom Wah Tu,$$,4.0,10002,40.71534,-73.9914,9
+Szechuan Gourmet,$$,3.5,10018,40.75236,-73.98355,814
+Wu Liang Ye,$$,3.5,10036,40.7578086853027,-73.9799423217773,427
+Spicy Village,$,4.0,10002,40.71695,-73.99327,395
+The Tang,$$,4.0,10009,40.72703,-73.98539,168
+Lotus Blue,$$,3.5,10003,40.736070750946,-73.9917466058785,6
+Hunan Manor,$$,3.5,10016,40.74965,-73.97707,197
+Xi'an Famous Foods,$,4.0,10025,40.79847,-73.96934,267
+Radiance,$$,4.0,10022,40.7555779423723,-73.9703503944427,117
+Legend 72,$$,3.0,10023,40.77796,-73.9796901,146
+Spice Symphony,$$,4.0,10022,40.7558937072754,-73.9715347290039,86
+Little Alley,$$,4.0,10016,40.74744,-73.97728,81
+Pa Pa Thai Cuisine,$,4.5,10022,40.7593778206059,-73.9624154842934,56
+Ningbo Cafe,$$,4.0,10280,40.708141,-74.017791,78
+Sun Hing Lung Co,$,4.5,10002,40.7129253167705,-73.9949862286448,103
+Vanessa's Dumpling House,$,4.0,10002,40.71839,-73.9917399,2093
+Land of Plenty,$$,3.5,10022,40.76063,-73.96664,239
+Xi'an Famous Foods,$,4.0,10012,40.7209700345993,-73.9961278438568,104
+21 Shanghai House,$$,4.0,10002,40.7140138244835,-73.9964454932541,319
+Carma East,$$,4.0,10009,40.7254099,-73.98327,112
+Tasty Hand-Pulled Noodles,$,4.0,10013,40.7142,-73.99787,1239
+Grand Sichuan,$$,3.5,10001,40.747413,-74.001052,369
+Hao Noodle and Tea By Madam Zhu's Kitchen,$$,3.5,10014,40.7334863190479,-73.9998929006093,278
+La Salle Dumpling Room,$$,4.0,10027,40.81403,-73.95983,118
+Tang Pavilion,$$,3.5,10019,40.762849,-73.977189,264
+Yuan,$$,3.5,10003,40.72975,-73.98724,49
+Junzi Kitchen,$$,4.0,10025,40.8057641877461,-73.9652019005902,54
+Cheong Fun Cart,$,5.0,10013,40.7176279773311,-73.9963736857056,35
+Shu Han Ju,$$,3.5,10011,40.73558,-73.99843,110
+Little Tong Noodle Shop,$$,4.0,10003,40.72939,-73.98434,111
+Noodle Village,$,4.0,10013,40.714167,-73.998803,700
+Savour Sichuan,$$,3.5,10018,40.75311,-73.98614,142
+Golden Forest,$,4.0,10002,40.716648,-73.989471,104
+Ahana,$$,4.0,10065,40.7622458,-73.9598571,100
+Hakkasan,$$$$,3.5,10036,40.758619,-73.989961,680
+Spice Noodle,$$$,3.5,10029,40.7867088,-73.9499588,25
+La Vie en Szechuan,$$,3.5,10016,40.7473584983999,-73.9843980932541,365
+Pinch Chinese,$$,4.0,10012,40.72645,-74.0018,106
+Happy Hot Hunan,$$,3.5,10025,40.80133,-73.96466,95
+Hot Kitchen,$$,3.5,10022,40.7570698,-73.9674267,133
+Asia Express,$,3.5,10016,40.741,-73.97906,37
+Auntie Guan's Kitchen,$,3.5,10011,40.73863,-73.98193,104
+Shorty Tang Noodle Shop,$$,3.5,10011,40.74019,-74.00187,98
+Chef Ho's,$$,3.5,10128,40.77997,-73.95,183
+RedFarm,$$$,3.5,10024,40.782051,-73.980415,447
+Hing Won,$,3.5,10036,40.7579956054688,-73.9803848266602,167
+Mapo Tofu,$$,3.5,10016,40.749832,-73.977531,275
+Grand Sichuan Eastern,$$,3.5,10022,40.7583084106445,-73.9663619995117,209
+Ollie's Sichuan,$$,3.0,10036,40.75884,-73.99319,387
+Wa Jeal Sichuan Chili House,$$,3.5,10028,40.77536,-73.95317,353
+Red Hot HotPot,$$,4.0,10025,40.8014032,-73.9615043,6
+King's Kitchen,$,4.0,10002,40.713985,-73.993675,122
+Szechuan Garden Kitchen,$,4.0,10026,40.802006,-73.956726,11
+Mee Noodle Shop & Grill,$,3.5,10022,40.7540692621136,-73.9688620062703,239
+Flor de Mayo,$$,4.0,10025,40.797832,-73.969948,425
+Rice & Gold,$$,4.0,10013,40.71599,-73.99683,12
+Main Noodle House,$$,3.5,10018,40.752143,-73.986396,303
+Szechuan Gourmet 56,$$,3.0,10019,40.765717,-73.9828671,302
+BaoHaus,$,3.5,10003,40.7324690923782,-73.9857136011124,1650
+A Taste Of China,$$,4.0,10010,40.7377036968826,-73.9813949,33
+Hot Sichuan,$$,3.5,10011,40.74354,-74.00326,82
+A-jiao,$$,3.5,10128,40.783159,-73.948244,85
+Wok 88,$$,3.5,10128,40.78042,-73.95322,195
+Congee Village,$$,3.5,10002,40.7187,-73.99031,1276
+Sichuan Bistro,$$,4.0,10010,40.73772,-73.98139,22
+The Rice Noodle,$,3.5,10012,40.729087,-74.001525,77
+Chen's Buffet Bar,$,4.0,10038,40.70712,-74.00845,22
+Peking Duck House,$$$,3.5,10022,40.756912,-73.968109,316
+Shanghai Mong,$$,3.0,10001,40.7476119995117,-73.9871597290039,397
+99 Favor Taste - St. Marks,$$,4.0,10003,40.728833,-73.988094,69
+May Wah Fast Food,$,4.0,10013,40.718135,-73.998497,242
+Kung Fu Little Steamed Buns Ramen,$$,3.5,10019,40.7616286634162,-73.9868181646996,713
+S Wan Cafe,$,4.0,10002,40.71729,-73.99269,75
+Hot Kitchen,$$,3.5,10003,40.72741,-73.9881599,368
+Nyonya,$$,4.0,10013,40.7190148,-73.9968228,1649
+Super Taste,$,4.0,10002,40.71511,-73.99332,421
+China North Dumpling,$,4.0,10002,40.715827,-73.989845,252
+Great NY Noodle Town,$,3.5,10013,40.7150363828814,-73.9971172437072,1020
+108 Food Dried Hot Pot,$$,3.5,10025,40.80271,-73.96738,48
+Shanghai Asian Cuisine,$$,4.0,10013,40.7159077,-73.997383,365
+Ramen Thukpa,$$,4.0,10014,40.7319755554199,-74.0039749145508,166
+Dumpling Kingdom,$,3.5,10012,40.7296503,-73.9995577,166
+Kung Fu Little Steamed Buns Ramen,$$,3.0,10022,40.7592514705491,-73.9694294705987,189
+Dong Chun Hong,$$,3.5,10001,40.7470559,-73.985959,228
+Hunan Delight,$$,3.5,10075,40.770678,-73.951296,153
+Taste Good,$,3.5,10010,40.7433836718734,-73.9901636441803,69
+Lin's Gourmet,$,3.5,10022,40.759891,-73.965187,44
+Legend Bar & Restaurant,$$,3.0,10011,40.73956,-73.99918,282
+Hop Lee Restaurant,$$,4.0,10013,40.71426,-73.99849,219
+Ho Yip Restaurant,$,3.5,10006,40.7096772,-74.0120047,220
+Wo Hop,$$,3.5,10013,40.7142239034582,-73.9988691693115,1058
+Hop Won Restaurant,$,3.0,10017,40.7533111572266,-73.9739227294922,121
+Uncle Luoyang,$$,3.5,10025,40.80023,-73.96626,79
+Hong Kong Chinese Restaurant,$,3.5,10016,40.7444,-73.98146,28
+Canteen 82,$$,3.0,10024,40.78406,-73.97354,180
+La Dinastia,$$,3.5,10023,40.77833,-73.98022,127
+Asian Spicy Curry Pop-up,$,4.5,10013,40.715031,-73.99931,109
+Bo Ky Restaurant,$,3.5,10013,40.7158451,-73.9987067,591
+RedFarm,$$$,3.5,10014,40.7342,-74.00652,546
+New Double Dragon,$,4.0,10003,40.7242431,-73.9881041,46
+New Moon,$$,5.0,10016,40.74692,-73.97766,4
+Hyo Dong Gak,$$,3.5,10001,40.750167,-73.986186,341
+Wok City,$,3.0,10023,40.7752417820046,-73.983876645396,64
+Lili's 57,$$,3.5,10019,40.76554,-73.98046,218
+Lan Sheng Szechuan Food Restaurant,$$,3.5,10018,40.7517141867087,-73.9883603449123,38
+Mr Bing,$$,4.0,10009,40.72712,-73.98362,5
+Sing Kee Seafood Restaurant,$$,4.0,10013,40.71555,-73.99672,151
+Home's Kitchen Chinese Restaurant,$$,3.5,10010,40.73944,-73.98913,157
+Mei Yu Spring,$,4.0,10002,40.7125753536096,-73.9971762470746,40
+Sammy's Noodle Shop & Grill,$$,3.5,10011,40.73516,-73.99875,381
+Hop Kee,$$,4.0,10013,40.714416,-73.999023,654
+Ollie's Noodle Shop & Grille,$$,3.0,10025,40.79942,-73.96868,87
+Dragon Noodle and Grill,$,4.0,10013,40.71744,-74.00024,76
+Shanghai Cafe,$,3.5,10013,40.71726,-73.99721,1923
+A & C Kitchen,$,3.5,10009,40.7250407,-73.9779719,22
+Taiwan Bear House,$,4.0,10013,40.7147185237041,-73.9977966218067,216
+Jing Fong,$$,3.0,10024,40.7827096147799,-73.9789128775797,61
+Evergreen On 38,$$,3.5,10016,40.75051,-73.98192,177
+Chef Yu,$$,3.0,10018,40.753574,-73.991882,447
+Grand Sichuan Eastern,$$,3.0,10011,40.7425,-74.00013,83
+Harvest Chinese & Thai Cuisine,$$,3.5,10075,40.771812,-73.952659,62
+Xi'an Famous Foods,$,4.0,10013,40.715082,-73.997342,768
+Mr Bing,$$,3.5,10021,40.7543376550143,-73.976532557234,109
+Asian Eatery,$,3.5,10022,40.7615318,-73.9659424,46
+Ginger's,$$,3.5,10018,40.753448,-73.989273,326
+Hunan House,$$,2.5,10019,40.76292,-73.97653,126
+Charley Mom Restaurant,$$,3.5,10028,40.7740287780762,-73.9481582641602,65
+The Cottage,$$,3.0,10024,40.7820668155281,-73.9793799398146,254
+Big Bowl,$$,4.0,10128,40.78028,-73.9465,36
+Spice Saigon,$$,3.5,10065,40.7645621771246,-73.9585727685255,116
+Zongzi lady,$,4.5,10002,40.7182699448353,-73.9938071136549,11
+Fay Da Bakery,$,4.0,10012,40.73115,-74.00176,177
+Mee Noodle Shop,$,3.0,10019,40.76537,-73.98791,423
+Chinatown Restaurant,$$,3.0,10128,40.78286,-73.95126,221
+Great Sichuan,$$,3.0,10016,40.74082,-73.98127,170
+Shun Lee West,$$$,2.5,10023,40.7729,-73.9813485,355
+Xi'an Famous Foods,$$,4.0,10010,40.74033,-73.98744,51
+Shui Mei Cafe,$,4.5,10002,40.7135318,-73.9948386,27
+Cafe Evergreen,$$,3.5,10021,40.76891,-73.9556,118
+Buddha Bodai Kosher Vegetarian Restaurant,$$,4.0,10013,40.7138543,-73.9989484,757
+Golden City Chinese Restaurant,$,3.5,10001,40.753277148143,-73.996643608314,69
+Mr Chow,$$$$,3.0,10022,40.7588502019644,-73.9643376320601,266
+Tim Ho Wan,$$,3.5,10003,40.731505,-73.9899313,802
+Kong Kee,$,4.0,10002,40.719047,-73.996139,43
+Wok Express,$,4.0,10035,40.798202,-73.939417,10
+Shun Lee Palace,$$$,3.0,10022,40.75945,-73.96907,227
+Kungfu Kitchen,$$,3.0,10018,40.7555654203146,-73.9907654374838,134
+Lilli & Loo,$$,3.5,10065,40.763858,-73.967269,322
+King Wok,$,3.5,10014,40.7289734,-74.0050888,105
+Chinese Fast Wok - Eat In & Take Out,$,3.0,10011,40.74452,-73.9957,52
+Taste Kitchen,$,4.5,10018,40.75364,-73.9935,3
+Cheung Wong Kitchen,$,4.0,10002,40.7160260528326,-73.9918208867311,27
+Tang's Garden,$$,3.0,10021,40.7722574,-73.9589547,82
+New Kam Lai,$,3.5,10025,40.7989112,-73.967015,18
+Lumos Bar,$$,4.5,10012,40.72728,-73.9999,69
+Jimmy's House,$,3.5,10010,40.74016,-73.98256,82
+DIM SUM VIP,$,4.0,10013,40.71614,-73.9979,74
+Bite of Hong Kong 泰仁軒,$$,4.0,10002,40.7174007,-73.99437,58
+Jue Lan Club,$$$,3.0,10011,40.7409694,-73.9934031,181
+Wong Restaurant,$,3.0,10065,40.7638749,-73.9590615,36
+La Caridad 78,$$,3.5,10024,40.7832592,-73.9807337,175
+Lychee House,$$,3.5,10022,40.7595977783203,-73.9694213867188,113
+Forever Taste,$,4.0,10002,40.71294,-73.989784,24
+China Taste,$,3.0,10028,40.7749559083727,-73.9537757635117,53
+East Garden Chinese Restaurant,$,3.5,10128,40.7779312,-73.9490204,37
+Legend Upper West,$$,3.0,10025,40.8030047267675,-73.9659275114536,116
+Tung Woo Co,$,4.0,10013,40.71865,-73.99499,60
+Mr Chow,$$$$,3.0,10013,40.7200922292321,-74.0086623709058,309
+Uncle Luoyang,$,4.0,10027,40.8099709,-73.962353,26
+Mee Noodle Shop & Grill,$$,3.0,10003,40.730968,-73.983215,95
+Macao,$$$,4.0,10013,40.71962,-74.00391,622
+Panda Banjum,$,3.5,10001,40.7472085,-73.9861836,107
+No.1 Chinese Restaurant,$$,3.0,10004,40.7046671846472,-74.0105490435282,128
+MoonHouse,$,3.5,10029,40.788337,-73.947502,76
+Taiwan Pork Chop House,$,4.0,10013,40.7142303,-73.9979609,245
+Mission Chinese,$$,3.0,10002,40.71386,-73.98966,533
+Christopher's Golden Woks,$,3.5,10014,40.73284,-74.00836,43
+Manting,$$,3.0,10019,40.7601476826859,-73.9829980954528,104
+New Sunny East 88,$,3.5,10128,40.7779006958008,-73.9482650756836,49
+Chop Shop,$$,3.5,10001,40.7486687,-74.0031128,198
+Big Wong,$,3.5,10013,40.71624,-73.99842,1193
+Wu's Wonton King,$$,3.5,10002,40.7139415501646,-73.9899386554248,97
+Philippe By Philippe Chow,$$$,3.5,10065,40.76409,-73.97039,497
+Jef Chinese,$$,3.5,10017,40.7542031,-73.9694108,8
+Traditional Chinese Food Cart,NA,4.0,10014,40.7293724,-73.995937,7
+King Food Chen,$,3.0,10024,40.78596,-73.97589,48
+Chelsea Golden Wok,$,3.0,10011,40.74401,-73.999824,36
+New Aroma Chinese Restaurant,$,3.5,10027,40.8132171630859,-73.9557037353516,25
+Happy Express Cafe,$,4.0,10002,40.7145133,-73.9924451,30
+Pearls,$$,3.0,10025,40.7958833,-73.9692167,125
+Jian Bing Man,$$,3.0,10001,40.74761,-73.98631,85
+Great Wall Chinese,$,3.5,10002,40.7165,-73.98763,69
+Fei Ma,$,3.5,10009,40.725114,-73.9845239,37
+Shu Han Ju II,$$,4.0,10003,40.73117,-73.98909,39
+Jiangnan Chinese Cuisine,$$,3.0,10006,40.70838,-74.01408,6
+Noodles 28,$$,3.0,10016,40.7426109313965,-73.9799728393555,166
+Six Happiness,$,3.0,10021,40.7700042724609,-73.9578247070312,101
+East Palace,$,3.0,10017,40.7510528564453,-73.9716644287109,67
+China Wok,$,4.0,10037,40.8124997466803,-73.9418902248144,11
+Peking Garden,$,3.5,10027,40.81501,-73.959297,25
+69 Chinese Restaurant,$,3.5,10013,40.715423,-73.998397,315
+The Chinese Couple Vendor aka The Dollar Cart!,$,4.5,10013,40.7165422558221,-73.9969864385006,44
+Fu Zhou Cuisine,$,4.0,10002,40.71837,-73.99133,14
+Modern Szechuan,$,3.0,10036,40.7559013,-73.9800568,11
+Hong Man,$,4.0,10002,40.71516,-73.99374,126
+New King Wok Restaurant,$,4.0,10027,40.806563347578,-73.9499093592167,5
+Kam-Wei Kitchen,$,3.5,10036,40.76128,-73.993919,28
+New Hong Kong Restaurant,$,4.5,10035,40.8001850545406,-73.9404103159904,4
+China King,$,3.0,10010,40.738303810358,-73.9834597706795,27
+Lava Kitchen,$$,3.0,10025,40.7973398628539,-73.9692374467538,38
+China King,$,3.5,10029,40.7943,-73.94456,18
+La Nueva Victoria,$$,3.5,10025,40.79372,-73.971954,60
+Rice Noodle Cart,$,4.5,10013,40.71792,-74.00021,44
+China Chalet,$$,3.0,10006,40.7065032987417,-74.012940146627,125
+Wing Kee WK Restaurant,$,4.0,10013,40.715423,-73.998397,31
+Panda Express,$,3.5,10021,40.7658172332478,-73.9577729254961,69
+Empire,$,3.5,10039,40.8028688256819,-73.9530954451981,17
+Carol's Bun,$,4.0,10002,40.7138317002555,-73.9914554524045,18
+Dumpling Man,$,3.5,10009,40.72713,-73.98476,718
+Jing Fong Restaurant,$$,3.5,10013,40.7159552385198,-73.9971831076206,1824
+Drunken Dumpling,$$,3.5,10003,40.7279305523596,-73.9851133525372,202
+New Asian Cuisine,$,4.0,10013,40.71792,-74.00021,16
+Hunan Park,$$,3.0,10025,40.79222,-73.96774,58
+New Ming's Delight,$,3.0,10016,40.7488403320312,-73.976203918457,46
+Nom Wah Nolita,$$,3.5,10012,40.7204154878855,-73.9944789558649,92
+New Kam Lai,$,3.0,10024,40.78701,-73.975899,40
+Ocean Dragon,$,2.5,10019,40.7694396972656,-73.9886703491211,55
+J East,$,3.0,10003,40.7347984313965,-73.9857635498047,55
+DiDi Dumpling,$,3.5,10010,40.7401539,-73.9845239,136
+East Dumpling,$,4.5,10002,40.71586,-73.99288,37
+China 1 Kitchen,$,2.5,10044,40.7632023290684,-73.9490040654764,43
+Lotus Express,$,4.0,10034,40.8662643432617,-73.9245986938477,40
+Little Sheep Mongolian Hot Pot,$$,4.0,10002,40.71759,-73.99489,120
+China Gourmet,$,2.5,10019,40.76381,-73.98524,166
+Ollie's To Go,$$,2.5,10024,40.7904902,-73.9752417,114
+Wonton Noodle Garden,$,3.5,10013,40.7157921,-73.998189,295
+Shanghai Sogo,$$,3.5,10036,40.757195,-73.980431,11
+China Wok,$,3.0,10009,40.72283,-73.98311,45
+Red Egg,$$,3.5,10013,40.7188628921887,-73.9990730951065,674
+Halal Kitchen,$,3.5,10029,40.7930498507672,-73.9408185787398,11
+Fresh Wok,$,3.5,10128,40.78065,-73.94698,26
+Peking Kitchen II,$,3.5,10026,40.80479,-73.954735,17
+August Gatherings,$$,3.5,10013,40.7186556,-74.0011004,118
+Hunan Chen's Kitchen,$,3.0,10025,40.80133,-73.96113,34
+Famous Sichuan,$$,3.5,10013,40.71487,-73.99758,272
+Hong Kong,$$,3.5,10029,40.7926783064322,-73.9457814748688,10
+A A JING,$$,3.5,10036,40.761997,-73.990409,244
+Northern Tiger,$$,3.0,10281,40.7126462901984,-74.0160110541061,84
+Yip's,$,3.5,10004,40.704818,-74.012382,77
+Pic Up Stix,$,3.0,10128,40.7824593,-73.9536133,50
+Mimi Cheng's Dumplings,$$,3.5,10003,40.7305254,-73.986285,478
+Bao Bao Cafe,$,4.0,10010,40.740829,-73.983474,291
+Vanessa's Dumpling,$,3.5,10003,40.732666015625,-73.986442565918,913
+Wok Chi - Stir Fry Kitchen,$$,3.5,10022,40.7592222653598,-73.9683998376131,28
+38 Yummy Kitchen,$,4.0,10002,40.7160297577504,-73.991725333035,18
+Our Place China Chalet,$$,3.0,10075,40.7733383,-73.9558029,33
+Nanjing,$$,3.5,10019,40.7626659,-73.9847093,41
+Wa Lung Kitchen,$,3.0,10002,40.713919,-73.980251,38
+Yoan Ming Garden,$,2.5,10029,40.78813,-73.95315,30
+Bei Jing Chinese Foods,$,3.0,10019,40.768619,-73.98851,11
+The China Star,$,3.0,10003,40.7278197743735,-73.9851093292236,47
+Son Ja Jang,$$,3.0,10001,40.747684,-73.987358,26
+West Place,$,3.0,10027,40.8116266876459,-73.9576119929552,43
+La Unica Caridad Restaurant,$$,4.0,10024,40.7832742,-73.9807237,5
+Potluck,$$,3.0,10001,40.746761,-73.9957166,50
+Cha Chan Tang,$,3.5,10013,40.7153,-73.99896,815
+New Golden Chopstick Chinese Restaurant,$,3.0,10004,40.7040405,-74.0104675,28
+Yiwanmen,$,3.5,10013,40.7193132739237,-73.9962630421457,52
+New Chinatown Restaurant of New York,$,4.0,10009,40.720527,-73.978652,9
+Peking Duck House,$$$,3.5,10013,40.71464,-73.99856,661
+New Kam Lai Chinese,$,2.5,10025,40.793085,-73.9712575,41
+Shun Cheong Chinese Kitchen,NA,5.0,10026,40.7975311,-73.9491501,1
+Lee Chung Cafe,$,4.0,10002,40.711925,-73.996322,16
+Mee Sum Cafe,$,3.5,10013,40.715045,-73.998291,17
+Lemon Leaves,$$,3.0,10005,40.70883,-74.00926,27
+New Wong Rest,$,4.0,10002,40.7135887,-73.9931488,34
+New China House,$$$$,4.0,10029,40.795303,-73.9486,2
+Asian Gourmet,$,3.0,10029,40.7867732,-73.9501165,28
+Our Place Tea Garden,$$,3.5,10022,40.75947,-73.96942,34
+Five Luck Restaurant,$,2.5,10128,40.78326,-73.947448,23
+18th St Bamboo Garden,$,3.5,10003,40.73625,-73.98535,7
+La Preciosa China Restaurant,$$,3.0,10029,40.79859,-73.94081,19
+Radiance Noodle Bar,$,3.0,10022,40.755466,-73.970861,14
+No 1 Chinese Restaurant,$,2.5,10003,40.732437,-73.982139,31
+Hong Garden,$,3.0,10039,40.8219299316406,-73.9383544921875,7
+XO Kitchen,$,3.5,10013,40.7174496352673,-73.9960413426161,420
+Mimi Cheng's Nolita,$$,3.5,10013,40.72048,-73.99646,82
+Fusion Grills,$,3.0,10022,40.757217,-73.969192,29
+Wong Kee Restaurant,$,3.5,10013,40.7172623132685,-73.9974051479728,331
+The Flying Pig Jianbing,$,3.0,10036,40.7573947,-73.9822584,30
+Char Sue,$$,4.5,10002,40.7196000924977,-73.9879152551293,86
+Mr. Deng's,NA,5.0,10001,40.7533912658691,-73.9957733154297,1
+Empire Corner II,$,3.0,10029,40.800399,-73.946281,14
+New Dynasty Chinese Restaurant,$,2.5,10001,40.749512,-73.995766,17
+Ling Kee Beef Jerky,$,4.5,10002,40.71466,-73.99148,126
+Hung Chow Restaurant,NA,4.0,10035,40.8027,-73.93688,1
+H K Wonton Garden,$,3.5,10013,40.7164307,-73.9991302,680
+J.J. Noodle Restaurant,$,3.5,10002,40.7128724455833,-73.9968185126781,32
+New China Red,$,2.5,10007,40.715023,-74.008636,27
+Fairview Chinese Restaurant,$,4.5,07022,40.81084,-74.00097,132
+Hop Shing Restaurant,$,3.5,10038,40.7139511,-73.9980164,438
+Ming's Caffe,$,3.5,10002,40.714321,-73.990509,86
+Great Wok,$,3.5,10029,40.790302,-73.947349,9
+Food King,$,4.0,10002,40.711727,-73.994018,5
+99 Favor Taste,$$,4.0,10002,40.717745,-73.992537,1172
+Steak & Hoagies,$,3.5,10029,40.796352,-73.947189,14
+Sachi Asian Bistro,$$,4.0,10016,40.7477989,-73.9740601,149
+Six Happiness,$,2.5,10016,40.7476119995117,-73.9742126464844,95
+Chong Qing Xiao Mian,$$,4.0,10019,40.76507,-73.98739,141
+Fu Wing Chinese Restaurant,$,3.0,10029,40.792308,-73.945686,12
+China Moon,$$,2.0,10017,40.75653,-73.97768,89
+88 Chinese Restaurant,$,3.0,10037,40.8133599154897,-73.9418023908753,12
+Go Noodle Nine Moon,$,2.5,10022,40.75932,-73.96254,43
+City One Restaurant,$$,3.5,10030,40.8225557826076,-73.9419602962225,12
+Hou Yi Hot Pot,$$,4.0,10003,40.72732,-73.98902,86
+Asian 83,NA,2.5,10028,40.77626,-73.953269,16
+New Wong Asian Food,$,2.5,10065,40.763786524489,-73.9588390469633,10
+Great Wall Kitchen,$,3.5,10027,40.813257470727,-73.9453851431608,5
+Yang's Happy Wok,$,3.5,10009,40.726409,-73.977447,8
+Hua Ji Pork Chop Fast Food,$,4.0,10002,40.714809,-73.993072,64
+Golden Unicorn,$$,3.5,10002,40.7136770496642,-73.997163364418,1353
+ABlue Chinese Restaurant,NA,4.0,10024,40.786266,-73.976448,1
+Just for Fen,$$,4.5,10003,40.7311641211205,-73.9830346405506,29
+The Cottage,$$,2.5,10003,40.735746540724,-73.9878559112549,210
+Best Fuzhou Restaurant,NA,5.0,10002,40.7167625427246,-73.9927978515625,4
+Red Star Restaurant,$,3.0,10029,40.7987632751465,-73.9426727294922,13
+Wok To Walk,$,4.0,10003,40.7362871,-73.9891207,163
+Ming's Restaurant,$,3.0,10001,40.75295,-73.99686,26
+Great Wall,NA,2.5,10016,40.7470505395815,-73.9776204299111,12
+Keming Restaurant,$$,4.0,07030,40.74893,-74.02772,75
+New Ah Ping Snacketeria,$,4.5,10002,40.714019,-73.995353,4
+Hoa Kitchen,$$,2.0,10001,40.748641,-73.995635,55
+Chinese Tuxedo,$$$,3.5,10013,40.71433,-73.99804,108
+Super Red Star Kitchen,$,2.5,10027,40.80765,-73.94963,21
+SunShine,$$,3.5,10013,40.71397,-73.9961364,72
+Happy Family Chinese Restaurant,$$,2.5,10036,40.7601737976074,-73.9955139160156,61
+China 59 Restaurant,$$,2.5,10038,40.7092934,-74.0088501,48
+Yang Garden Chinese Restaurant,$,3.0,10033,40.855266,-73.937759,15
+Malaysia Grill,$$,4.0,10024,40.7994155883789,-73.9677886962891,220
+Carma Asian Tapas,$$,4.0,10014,40.72999,-74.0032,301
+Happy Wok Restaurant,$,3.5,10002,40.7180023,-73.9858322,8
+Ping's Seafood,$$,3.5,10013,40.714442,-73.998636,535
+Panda Express,$,3.0,10022,40.75624,-73.97012,55
+Profit Chinese Restaurant,$,2.5,10016,40.74206,-73.97765,47
+Ms Mi's Hot Pot,$$$,3.5,10011,40.7361133076005,-73.9941993098535,33
+Wok To Walk,$,3.5,10018,40.7547179,-73.991281,292
+Sun Sai Gai Restaurant,$,3.0,10013,40.7172966,-73.9992065,186
+Chopstix,$,3.0,10004,40.7043655812028,-74.0091101794667,13
+China Town Chinese Restaurant,$,2.5,10002,40.722095489502,-73.9849090576172,9
+Topaz Noodle Bar,$$,4.0,10019,40.7644424438477,-73.9789733886719,294
+Big Hing Wong,$,3.0,10002,40.71761,-73.99168,28
+Fatima's Halal Kitchen,$,4.0,11106,40.7631186084319,-73.9275405041124,291
+Number 1 Chinese Restaurant,$,3.5,10026,40.80127,-73.94974,6
+Concord Garden,$,2.5,10025,40.80231,-73.96456,25
+Go Zen,$$,4.0,10012,40.7314279675484,-74.0005099028349,489
+Aki King,$$,3.5,10010,40.73863,-73.98193,10
+Momos & Buns,NA,3.5,10016,40.742844,-73.982628,3
+Chung Lan Gardens,$,3.5,10037,40.8124525,-73.9417837,5
+Nom Wah Tea Parlor,$$,3.5,10013,40.714490521829,-73.998153857324,1425
+China Taste,NA,3.5,10003,40.73111,-73.98307,3
+Lanzhou Ramen,$,3.5,10038,40.7136041,-73.9930138,27
+Noodle Q,$,4.0,10038,40.7135648935571,-73.9975924790089,11
+Up Thai,$$,4.5,10021,40.76996,-73.95792,1406
+Pure Thai Cookhouse,$$,4.0,10019,40.764291,-73.988159,1990
+OBAO,$$,4.0,10036,40.7606166,-73.991225,1382
+Noodies,$$,4.0,10019,40.7662850538302,-73.9866788007826,386
+Happy Wok,$,3.5,10029,40.788955,-73.940933,9
+Empire Garden,$,2.5,10025,40.7985736262374,-73.9621864229434,16
+Manna House Bakery,$,4.0,10013,40.71815,-73.99705,58
+Yummy Chinese,$$,3.5,10002,40.7151107788086,-73.9938049316406,15
+Lo-Fatt-Chow,$,4.0,07030,40.7474615723213,-74.0378006521148,70
+Wok To Walk,$,3.0,10017,40.7516428,-73.9740775,166
+Kungfu Kitchen,NA,4.5,10019,40.7615395,-73.9869963,2
+New Happy Joy Restaurant,$,2.5,10019,40.765602,-73.990768,11
+Grand Sichuan,$$,3.0,10011,40.742496,-74.000122,9
+Fu Zhou Wei Zhong Wei Jia Xiang Feng Wei,$,4.0,10002,40.714,-73.99439,16
+Spice,$,2.5,10024,40.7900599,-73.97351,51
+Thai Villa,$$,4.5,10003,40.73902,-73.99065,843
+Rice Noodle Cart,NA,5.0,10013,40.71787,-73.99711,4
+Szechuan,NA,3.5,10021,40.768131,-73.959197,2
+Wondee Siam,$$,4.0,10019,40.764945,-73.987472,827
+Shun Wei,$,3.0,10038,40.71194,-73.996688,15
+Tasty Hand Pulled Noodles II,$$,4.0,10036,40.7605202331697,-73.9908619970083,127
+Buddha Vegetarian Kosher Cuisine,$$,4.0,10013,40.7164001,-73.999321,202
+Pig and Khao,$$,4.0,10002,40.719253,-73.984748,1108
+Wing Gong I Kitchen,$,3.5,10029,40.791313,-73.939239,4
+New Asia,$$,2.0,10025,40.7918192446232,-73.972065076232,26
+China Garden,$,4.0,11104,40.74166,-73.92577,48
+M Star Cafe,$,3.5,10002,40.713928,-73.99652,220
+Fo Ying Chinese Take Out,$,2.5,10019,40.7615277171135,-73.9867260307074,25
+Dragon & Phoenix Restaurant,$,4.0,11105,40.7754678279161,-73.911422342062,101
+Guan Qi Feng BBQ,NA,4.5,10002,40.7147789,-73.9941711,4
+Hong Kong Noodle 2,$,2.5,10016,40.7444,-73.98146,36
+Hua Xia,$$,4.0,10002,40.7142606365804,-73.9951291801726,2
+Vietnaam,$$,4.0,10128,40.7791481018066,-73.9504165649414,528
+Aunt Wang,$,4.0,10027,40.8079748,-73.9620565,1
+Kings Co Imperial,$$,4.0,11211,40.71512,-73.95097,182
+Foliage Garden,$,4.0,07093,40.7858,-74.00865,37
+Larb Ubol,$$,4.0,10018,40.7550583,-73.9947586,584
+China Express,$,4.5,11211,40.7061859,-73.9501435,84
+Oriental Garden Restaurant,$$,3.5,10013,40.7159199,-73.9972499,420
+Tao Hong Bakery,$,4.5,10002,40.71735,-73.9945679,19
+456 Shanghai Cuisine,$$,3.5,10013,40.71627,-73.99822,428
+The Chinese Club,$$,4.0,11211,40.713844,-73.96039,138
+PACIFIC MOON,$,4.5,11377,40.75119,-73.90269,36
+Silver Palace,NA,3.5,10031,40.82303,-73.9526,7
+Chef 28,$$,3.0,10016,40.74393,-73.98493,84
+Grand Bo Ky Restaurant,$,3.5,10013,40.7189831,-73.995878,117
+Chatham Seafood Restaurant,$$,3.5,10038,40.714,-73.99833,167
+M Greenpoint,$$,4.0,11222,40.726322,-73.951934,57
+Ocean Chinese Restaurant,$$,2.5,10027,40.81086,-73.94356,10
+Profit Chinese Restaurant II,$$,3.0,10016,40.74565,-73.9755799,13
+Xi'an Famous Foods,$,4.0,11222,40.7243301734731,-73.9509299397469,151
+Hunan House I,$,4.5,07306,40.72857,-74.06242,21
+Food King,$,4.0,07302,40.72117,-74.04568,70
+Delicious Inc. Chinese Restaurant,$$,3.0,10029,40.7876572,-73.9444213,6
+Hong Cheong Kitchen,NA,3.5,10027,40.812366,-73.949928,3
+spades,NA,4.0,10001,40.7469902,-73.9866333,1
+New Food King,$,3.5,10036,40.76366,-73.99217,48
+Hong Kong Street Cart At Broadway Bites,$$,4.0,10001,40.750717,-73.9869138,1
+Cafe Hong Kong,$$,3.0,10013,40.7153659847304,-73.9975044876337,120
+Birds of a Feather,$$,4.0,11211,40.71442,-73.960441,113
+Asian Station,$$,2.5,10028,40.77626,-73.956261,64
+Amazing 66,$$,3.5,10013,40.716099,-73.997955,245
+Sichuan Hot Pot Cuisine,$$,3.0,10013,40.7150052171701,-73.9985468135734,132
+Wok Wok,$$,4.0,10013,40.71403,-73.99899,408
+Rasa,$$,4.0,10011,40.7327654,-73.9975674,467
+China Place,$$,2.5,10027,40.8140965,-73.9597942,45
+Bamboo Village,$$,3.5,10013,40.7175244459074,-73.9953510697201,12
+Panda Express,$$,3.0,10036,40.760996,-73.991116,45
+Xing's Chef,$,4.5,11105,40.7701092079077,-73.9021204913637,63
+Flaming Kitchen,$$,3.5,10002,40.717325,-73.995023,92
+Norikoh,$$,4.0,10016,40.7512595504522,-73.9816331863403,313
+Gordon Chen Kitchen,$,3.5,10022,40.757358,-73.968002,4
+Matsuya,$$,3.5,10021,40.7705892,-73.9512062,3
+Mooncake Foods,$$,4.0,10013,40.723596182527,-74.00409635108,475
+Taste Chinese Restaurant,$,2.0,10013,40.7157208,-74.0075003,10
+Precious Chinese Cuisine,$$,3.5,07030,40.73846,-74.03092,217
+Red House,$,2.5,10003,40.7333221435547,-73.9865036010742,75
+Chopstick House,$,2.0,10018,40.7514827,-73.9881506,54
+OK 218,$,3.5,10013,40.71899,-73.995811,49
+Happy Family,$,3.0,10002,40.714043,-73.987556,13
+Kitty's Kitchen,NA,5.0,10019,40.7724199,-73.99335,1
+Crispy Bamboo Village,$,4.0,10030,40.8160789713508,-73.9466381763074,17
+Pao & Cha Cha,$$,4.0,11102,40.7718436,-73.9240579,89
+New Beef King,$$,4.0,10013,40.715768,-73.9992981,61
+Zheng's River Restaurant,$$$$,4.0,10026,40.802009,-73.95671,1
+Nom Wah Kuai,$$,3.5,10013,40.71897,-74.00102,19
+Doka Square,$$,4.0,10002,40.71932,-73.99152,104
+Fuleen Seafood Restaurant,$$,3.5,10002,40.7139015197754,-73.9968795776367,74
+Unicorn Restaurant,NA,4.0,10035,40.799615,-73.9389766,2
+Peking BBQ,$,4.0,11377,40.7456439082048,-73.9062357614363,198
+Jaya 888,$$,3.0,10013,40.7169062,-73.9998838,244
+Wei Williamsburg,$$,4.0,11211,40.7107868,-73.9542168,85
+Soup Dumpling Plus,$$,4.0,07024,40.84757,-73.9706099,349
+567 Chinese Asian Express,NA,3.0,10029,40.788955,-73.940933,8
+The Wei,$,4.5,11201,40.68983,-73.98171,159
+Double Dragon,NA,3.0,10029,40.789245,-73.94075,4
+8 Dragon & Phoenix Chinese Restaurant,$,4.5,11105,40.7758518242693,-73.9112854238624,17
+Joy Luck Palace,$$,3.0,10013,40.7169727141044,-73.9975602870106,157
+Great China Restaurant,$,3.5,10027,40.81689,-73.953292,2
+Tang S,$,2.0,10027,40.8110183,-73.9523964,13
+Yaso Tangbao,$$,4.0,11201,40.6918206366101,-73.9863992364001,457
+AK US Group,$,4.0,10002,40.717793,-73.99438,9
+Fulton Chef,$,2.5,10038,40.708732,-74.005348,9
+Tian Fu Lou,$$,2.0,10036,40.755909,-73.980064,16
+Hung Sang,$,3.5,07087,40.7729837,-74.0285907,11
+Deluxe Green Bo Restaurant,$,3.5,10013,40.715540215765,-73.9981645926656,536
+Tang Tou Wang's Cuisine,$,5.0,10002,40.71492,-73.99391,2
+Min Jiang Mini Cafe,$,3.0,10002,40.7168766,-73.9926044,9
+Baoburg,$$,4.0,11222,40.7234929271998,-73.9503321851175,110
+Steamed Rice Rolls Cart,$,4.0,10002,40.7183599,-73.99395,5
+Lan Larb,$$,4.0,10016,40.745373,-73.975807,173
+Hometown Hotpot & BBQ,$$,4.0,10013,40.71931,-73.9968899,707
+An'Nam,$$,4.0,10036,40.7605285644531,-73.9863891601562,149
+Formosa Cafe,$,3.5,10002,40.7156312539499,-73.9931514282417,80
+Dragon Town,$$$$,2.5,10029,40.7952288,-73.9421936,7
+Po Wong Restaurant,$,4.0,07087,40.758224,-74.044303,17
+TAO Uptown,$$$,3.5,10022,40.76269,-73.97147,2019
+East Noodle Village,$,3.0,10002,40.7175445556641,-73.994499206543,13
+Chinese Food Cart,$$$$,5.0,10292,40.7217900752834,-73.9998465345092,1
+LoveMama,$$,4.0,10003,40.7303859,-73.9860613,2760
+Malii,$$,4.5,10029,40.789432,-73.942962,126
+Pho Bang Restaurant,$,4.0,10013,40.719516,-73.996566,435
+Thai Market,$$,4.0,10025,40.80132,-73.96529,799
+Beijing Chinese,$,3.0,10003,40.733059,-73.9861382,18
+Good Chinese Kitchen,$,4.0,07047,40.807477,-74.017076,24
+Panda Express,$,3.0,10001,40.7501065718521,-73.9948594942689,26
+Empire,$$,2.0,10007,40.7131452,-74.0077389,17
+King Food Restaurant,$,2.5,10024,40.784107,-73.977981,3
+Young Xinjiang BBQ Cart,$,4.5,10002,40.7142696738464,-73.9941427168956,31
+Petite Soo Chow,$$,3.5,07010,40.8245099,-73.98781,441
+Dim Sum Bar,$$,4.0,11249,40.714728,-73.961372,107
+Hunan Delight,$$,4.0,11215,40.6755282563532,-73.9780712127686,246
+Shanghai Restaurant,$$,4.0,07024,40.8558064526236,-73.9778536185622,169
+Lao Bei Fang Dumpling House,$,4.0,11373,40.741153717041,-73.8796234130859,466
+Food Sing 88 Corp,$,4.0,10038,40.713611,-73.997528,9
+Rice Noodle Cart,$,4.5,10002,40.7139045494042,-73.9901232849436,61
+Feng Shui,$$,1.5,10017,40.7520370483398,-73.9763336181641,36
+Tsing Garden Chinese Restaurant,NA,3.5,07093,40.7892719,-74.0060948,32
+Taste of China,$,4.0,07087,40.7789153727524,-74.0161604825466,16
+Deng Ji II,$$,3.5,10002,40.714295,-73.9939834,19
+Yang's Chinese Food,NA,2.5,10014,40.7397919,-74.0033188,2
+Hoy Wong Restaurant,$,3.5,10013,40.7165819,-73.9980213,84
+Szechun Express,$$,4.5,07010,40.8243995817555,-73.984444908711,18
+Taste of Shanghai,$,3.0,10013,40.715249679603,-73.998610561094,43
+Caridad China,$$,4.5,11206,40.7049499,-73.94264,36
+New Asian Cuisine,$,4.5,11377,40.7393524,-73.9210213,10
+Strange Taste Cuisine,$,5.0,10002,40.7128335739664,-73.9967823028564,1
+Alpha Fusion,$$,3.5,10001,40.7532663,-73.99589,333
+Chen Wong Restaurant,$,2.0,10002,40.71276,-73.990287,26
+Sunrise Chinese Restaurant,NA,3.0,10002,40.7159409,-73.9927712,6
+King Dragon,$,2.0,10029,40.792865,-73.950347,5
+China Express,$,4.0,07093,40.79311,-74.00313,13
+Jalan 31,$$,4.5,10016,40.74466,-73.98123,28
+Eim Khao Mun Kai Elmhurst,$,4.5,11373,40.7429414097644,-73.8832733356575,243
+Uncle Zhou,$,4.0,11373,40.74075,-73.87905,201
+Siz-In-Pan,$,4.0,11217,40.6880326,-73.9819963,84
+New City Kitchen Express,$,3.5,11101,40.74447,-73.95316,28
+Village Express Asian Cuisine,NA,5.0,10014,40.732387,-74.003319,2
+Asian Station,$$,3.5,10022,40.757537,-73.9703339,179
+China Town Food Market,$,4.0,10013,40.718555,-73.995567,2
+The Handpulled Noodle,$$,4.0,10031,40.82839,-73.9487,404
+May May Kitchen,NA,3.0,10002,40.7151161134243,-73.9871853590012,9
+Outer Borough,$,4.5,11249,40.720852,-73.961742,41
+Green Leaf Restaurant,$,4.0,07022,40.820106,-74.008427,39
+Shun Wang Restaurant,$,4.0,11373,40.7431373596191,-73.8830413818359,118
+Dining Room Management Group,$,2.5,10013,40.7174754,-73.9971571,22
+Hanoi House,$$,4.0,10009,40.72698,-73.98357,212
+King's Wok,$,4.0,11377,40.76005,-73.90741,13
+Hardee Chinese- American,$,4.5,11205,40.6933441162109,-73.9722290039062,15
+Grand Sichuan,$$,3.0,07302,40.72047,-74.04252,402
+Bangkok Cuisine Upper East Side,$$,4.0,10028,40.7753105,-73.9532166,197
+Snacky,$$,4.0,11211,40.714492,-73.960601,163
+Wah Kwoon Chinese Kitchen,$,3.5,11222,40.724628,-73.947486,31
+Nikko,$$,3.5,10027,40.81156,-73.95781,280
+Taste Of North China,$$,3.0,07302,40.7167868,-74.0377625661521,135
+Wei West,$$,3.0,10282,40.7153829932213,-74.0140242129564,172
+M Shanghai Bistro & Garden,$$,3.5,11211,40.71285,-73.95762,392
+Great Wall,$,4.5,10029,40.795074,-73.935684,11
+No. 1 Flower Drum House,$,3.5,11105,40.7776458,-73.9086059,50
+Shanghai Best,$$,3.0,07302,40.7168947,-74.0387484,277
+Ginger Root Vegan,$$,4.5,10065,40.7624720969574,-73.9595977571168,54
+Lucky House Kitchen,$,4.5,11233,40.6838402152061,-73.9351565390825,59
+Friendly Restaurant,$,3.5,11101,40.7559963313064,-73.9424634196434,46
+Satay Malaysian Cuisine,$$,3.5,07030,40.73731,-74.03066,397
+King's Chef,$,4.0,11103,40.764358,-73.910705,26
+Great Wall,NA,2.5,10037,40.8149099511421,-73.9397296879857,2
+Old Peking,$,4.0,07306,40.7255249,-74.068306,28
+Hong Kong Chinese Restaurant,$,3.0,10037,40.8151508,-73.9403584,4
+Weng's Palace,$,2.0,10018,40.75612,-73.99138,56
+Nuevo Jardin De China Restaurant,$$,3.5,11106,40.7615513755699,-73.9243148820204,176
+Yeah Shanghai Deluxe,$$,3.0,10013,40.7154938098333,-73.9984104037285,108
+Szechaun Mirchi,$$,4.0,07010,40.82583,-73.98787,129
+Chan's Dragon Inn,$$,4.0,07657,40.8347854614258,-74.0082931518555,93
+Ming's Garden,NA,3.0,10021,40.763729,-73.959365,2
+Grand Great Wall Restaurant,$,4.0,10031,40.8212837,-73.9506657,14
+Wong Kwong Hop,$,4.5,11373,40.73566,-73.88151,44
+Delight 28 Restaurant,$$,3.0,10013,40.715089,-73.998459,131
+Saigon Market,$$,3.5,10003,40.7335422,-73.9928992,752
+Sukhumvit 51,$$,4.0,10022,40.7559139831703,-73.9693867939228,538
+Taste of China,$,4.0,11378,40.7276191711426,-73.8920135498047,40
+China Chef Restaurant,$$,3.0,07094,40.791615379318,-74.0578033479041,82
+Wing Cheong Restaurant,$,4.5,11216,40.6803741455078,-73.9455108642578,42
+Sunrise Chinese Restaurant,$,3.5,11106,40.760806,-73.923281,38
+Good Taste Restaurant,$,4.0,10031,40.8214624,-73.9543845,36
+Ho May Kitchen,NA,4.0,11211,40.7186,-73.94072,7
+Happy Garden,$,3.5,11102,40.76728,-73.92286,61
+Good Luck Chinese Restaurant,$,4.0,11377,40.7392043166647,-73.9197625899353,9
+Amaze 58 Asian Fusion,$$,3.5,10022,40.7590052,-73.9620854,64
+New Peking,$,4.0,11372,40.7494469,-73.8884277,51
+Golden Dragon,$,3.5,11106,40.7628708,-73.9209671,66
+U Like,$,4.0,11206,40.6940078735352,-73.9492568969727,38
+Li Wan Restaurant,$$,4.5,11379,40.7122917175293,-73.8961334228516,20
+China Village Restaurant,$$,3.0,10013,40.7169789075851,-73.99971999228,58
+Chinese Musician Restaurant,$,3.0,11222,40.7303597,-73.9537321,99
+Lin's Kitchen,$,3.5,11372,40.7506063047067,-73.8955131021168,35
+Delicious Wok,$,4.5,11385,40.70031,-73.89669,24
+LuAnne's Wild Ginger All-Asian Vegan,$$,4.0,10013,40.7204631,-73.9964956,558
+Saw Shack,$,3.5,11372,40.7499285042286,-73.8821339607239,130
+Jung's Dried Beef,$,4.5,10013,40.715412,-73.999275,10
+Yung Sun Restaurant,$,3.0,10002,40.71338,-73.99581,11
+King Wah Restaurant,$,4.0,11385,40.7099237520059,-73.8989976712028,61
+New King Foo Chinese Food,$,3.0,10029,40.789493,-73.942916,8
+Dumplings & Things,$,3.5,11104,40.7425888323281,-73.9189697784327,116
+Mr Rice's Kitchen,$,4.0,07307,40.7517,-74.05378,16
+Xifu foods,$,4.5,11217,40.6880326,-73.9819963,16
+Happy Fortune Chinese Restaurant,$,3.5,11377,40.7394203208105,-73.9183913628026,20
+Benny's Lung Sheng,NA,2.0,10025,40.79829,-73.96378,4
+Good Taste,$,3.5,11101,40.7543728,-73.9335449,25
+Happy Eats,NA,3.0,10013,40.71521,-73.99861,2
+New Hardee,$,4.5,11237,40.7006568908691,-73.9261474609375,6
+Pasteur Grill and Noodles,$$,3.5,10013,40.71667,-73.99974,223
+Good Year Chinese Cuisine,$,3.5,07307,40.74883,-74.04701,74
+Aux Epices,$$,4.0,10013,40.7181073647053,-73.9991025383579,249
+King Szechuan Palace,$$,3.5,07307,40.739697,-74.051612,89
+Spice,$$,3.5,10025,40.8016123540962,-73.964790176728,86
+Khe-Yo,$$$,4.0,10013,40.716906,-74.008587,511
+Thai Soup,$$,4.0,10035,40.799678867234,-73.9397361020726,105
+Kum Kau,$$,3.5,11205,40.693573,-73.966702,197
+Jade Gourmet,$,4.0,07010,40.81275,-73.9926,28
+New China Wok Chinese Kitchen,$,4.0,11217,40.68257,-73.97927,19
+New Golden Dragon Restaurant,$,4.0,10031,40.8242006,-73.9455163,22
+Dragon Palace,$$,3.5,10013,40.718769,-73.99897,3
+Lin's Garden,$,3.5,11385,40.7034531,-73.9090729,33
+Wong Wah Bakery House,$,4.0,10002,40.7154579,-73.9930816,26
+Saiguette,$$,4.0,10025,40.79898,-73.962707,438
+Great World Chinese Restaurant,NA,2.0,10001,40.747684,-74.000862,2
+Lily's,$,2.5,10038,40.7121047973633,-73.9980621337891,50
+Red Bowl,$$,3.5,11211,40.7170493866292,-73.958762175149,221
+Golden Mandarin Court,$$,2.5,10013,40.715966,-73.998382,160
+Chive Blossom NYC,$$,5.0,11249,40.710796,-73.963901,18
+I Fortune Cookie,$,3.0,11101,40.7477277517319,-73.9474202692509,34
+Francesca Chinese Restaruant,$,3.5,07087,40.7680999,-74.0325,8
+Shanghai Lee,$,3.0,11222,40.7318,-73.9582099,109
+China Garden,$,5.0,11237,40.70327,-73.9216299,4
+Flame,$$,4.0,10024,40.78396,-73.97444,186
+Daily Chinese Restaurant,$,3.5,07086,40.7753944,-74.019783,17
+Green Zenphony,$$,4.5,11374,40.730219,-73.863865,86
+Chinatown Kitchen,$,4.0,07093,40.7885757502878,-74.0158536518411,6
+Cutting Board,$$,3.0,10013,40.71516,-73.99771,436
+Grand Sichuan NY II,$$,4.0,11374,40.7274381816387,-73.8557088375092,166
+Lovely Day,$$,3.5,10012,40.721771,-73.994247,282
+Xin Lin Chinese Restaurant,$,4.0,07087,40.77735,-74.0187399,12
+Number 1 Chinese Kitchen,$,3.0,07030,40.7446403503418,-74.0289916992188,38
+Vanessa's Dumpling House,$,3.5,11211,40.713795,-73.961983,387
+Wah Yoan Restaurant II,$,3.5,07093,40.78225,-74.01201,13
+Dragon Gate Chinese Cuisine,$$,4.0,11105,40.7784616409036,-73.9019072055817,10
+House Special,NA,5.0,10013,40.71785,-73.9967999,2
+Kien Tuong,$,3.5,10002,40.7174491882324,-73.9945526123047,63
+Hey Hey Canteen,$$,4.0,11215,40.6721575508167,-73.9874984846558,81
+China Red Restaurant,$,2.0,10007,40.715023,-74.008636,17
+New Golden Bowl Restaurant,$,3.5,10002,40.71412,-73.99509,7
+Hop Lee Kitchen,$,3.5,11222,40.7329216003418,-73.9544906616211,25
+Queens Seafood Restaurant,$$,3.5,11373,40.7415032,-73.8825862,94
+East Seafood restaurant,NA,4.0,10002,40.713924407959,-73.9966125488281,2
+Sweet House Inc,NA,4.0,10002,40.7182758,-73.9946401,1
+Hong Kong Express,$,4.0,11385,40.6961416,-73.9047676,35
+Fish Cheeks,$$$,4.0,10012,40.7258,-73.9927,138
+Aquarius Seafood Restaurant,$$,3.5,07024,40.8515556,-73.9718064,126
+Flip Sigi,$$,4.5,10014,40.73405,-74.00642,422
+MIGHTY Bowl,$,4.0,10012,40.72979,-74.00035,170
+Peking Express,$,3.5,11222,40.725971,-73.942817,25
+Zhà Pan Asian,$,4.5,10001,40.7489953,-73.9880316,19
+Asian Bowl,$,2.0,10022,40.7575340270996,-73.9703369140625,4
+Potsticker Cart,NA,4.0,10023,40.7834014892578,-73.9663009643555,2
+Shanghai Cuisine,$$,3.0,10013,40.7158458,-73.9992476,272
+Herbs Thai Bistro,$$,3.5,10017,40.75193,-73.97099,129
+New Hua Yung Kitchen,$,4.5,10033,40.84596,-73.93873,16
+Happy Garden Palace,$,3.5,10002,40.71381,-73.9955,12
+King Garden,$,3.5,11101,40.75524,-73.91837,43
+Canton Lounge,$$,2.5,10013,40.716205,-73.997863,70
+China Chalet,$$,2.5,10004,40.7065651445594,-74.0129064216347,13
+Chai Thai Kitchen,$$,3.5,10019,40.76541,-73.98352,438
+David & Son's Caribbean Flavor,$,4.5,07307,40.7421999,-74.04919,15
+Taste of China,$,4.0,07650,40.8403441,-73.9987694,43
+Asia de Cuba,$$$,3.5,10003,40.72845,-73.99212,213
+Te Min Quan,$$,4.0,07650,40.8476677,-73.9978104,98
+Golden Wok,$,3.5,11104,40.745129,-73.921549,28
+C & L Dumpling House,$,3.5,10002,40.717277,-73.994598,100
+Nan Xiang Xiao Long Bao,$,4.0,11354,40.7598810063385,-73.8325853625656,2595
+Lucky Jade House,$,2.5,10032,40.84192,-73.93891,9
+Golden Star,$$,4.0,10033,40.8498685,-73.9362273,53
+Off the Wall Chinese Cuisine,$,3.0,07030,40.7426987,-74.0296173,52
+Joe's Ginger,$$,3.0,10013,40.714782,-73.998374,429
+Jardin De China,$$,4.0,11368,40.7505798339844,-73.8699264526367,174
+Broadway China Station,$,3.5,11106,40.7616886,-73.9258757,29
+Obao,$$,3.5,10022,40.757122,-73.968566,623
+Old Sichuan,$$,3.0,10013,40.715309,-73.998199,115
+Tina,$,3.0,10003,40.73332,-73.98651,9
+Number 1 Chinese Restaurant,$,4.0,11377,40.74965,-73.89898,22
+Wan's Garden,$,4.0,11385,40.702864,-73.901421,17
+Super China Pagoda,$,3.5,11103,40.7610039,-73.9091797,38
+Funny BBQ 98,$$,3.0,10013,40.71773,-73.99554,105
+East Garden,$,3.5,11106,40.7560263,-73.9285962,31
+Happy World Restaurant,$,3.5,10033,40.8458611,-73.9364502,7
+XO Taste,$$,3.0,10013,40.717025,-73.996971,150
+Shabu-Tatsu East Village,$$,4.0,10003,40.72927,-73.98585,522
+Duck King,$$,3.0,07020,40.82533,-73.97495,130
+Yi Zhang Fishball,$,4.0,10002,40.7154261,-73.9931977,6
+Luu's Baguette,$,4.0,10010,40.7411231994629,-73.9830856323242,427
+Royal Seafood Restaurant,$$,3.0,10013,40.7174,-73.9977,205
+ChaamLex,$$,4.0,10010,40.7400681,-73.9845249,128
+Tu DO Restaurant,$,4.0,10013,40.7178239198064,-73.9953305925527,266
+Xing Wong BBQ,$,3.5,10002,40.7135461657203,-73.9935723692179,25
+Grace Wok,NA,2.5,10029,40.788975,-73.943275,3
+China Moon Restaurant,$,4.5,07650,40.8424225,-74.0010605,13
+Happy Lucky Restaurant,$$,3.0,10013,40.717659,-73.9955597,71
+Mee Noodle Shop and Grill,NA,4.0,10016,40.744396,-73.981475,1
+Kam Sing,$,3.0,11211,40.714324,-73.961257,39
+The Bao Shoppe,$,4.0,10002,40.7143451,-73.9905184,109
+Sampan Chinese Restaurant,$,3.5,11103,40.7644,-73.9148699,58
+Golden Fried Dumpling,$,3.5,11201,40.6925117969513,-73.9843697100878,307
+No. 1 Chinese Restaurant,$,3.5,07086,40.76734,-74.02903,21
+Franchia Vegan Cafe,$$,4.0,10016,40.7474712051298,-73.9812423408763,700
+Dragon Land Bakery,$,3.5,10013,40.717323,-73.999931,163
+MRS. AN,$,4.0,10029,40.7874046,-73.9482732,18
+Plump Dumpling,$,2.5,10003,40.730397,-73.9861,252
+China Sea,$,2.5,10040,40.86477,-73.92718,8
+No Pork Halal Kitchen,$,4.0,11217,40.68332,-73.97936,90
+Jean-Georges,$$$$,4.5,10023,40.7691122743293,-73.9814290717583,1588
+Yap Express Corporation,$,3.5,10022,40.7575340270996,-73.9703369140625,3
+M&J Asian Cuisine,$$,3.5,10009,40.7292851717997,-73.9780369922164,22
+Ajisai Japanese Fusion,$$,3.5,10065,40.763763,-73.966743,126
+Ten-Tan Chinese Restaurant,NA,3.0,10034,40.8642578,-73.9192581,6
+Qi,$$,3.5,10036,40.7577638,-73.9895813,1008
+Hiro Sushi,$$,2.0,10069,40.7777531278516,-73.9881146585633,72
+Sunny Wok Chinese Restaurant,NA,4.5,07087,40.75914,-74.04298,4
+Hang Lung Chinese Restaurant,NA,2.0,10040,40.8552132,-73.9292068,2
+No.1 Chinese Restaurant,$,2.5,11102,40.76715,-73.92144,48
+Demo One,$,3.5,11103,40.76332,-73.91379,6
+Rickshaw Dumpling Truck,$,2.5,10004,40.7058343291283,-74.0083741396666,141
+Wing Huang Resturaunt,NA,1.0,10013,40.7181399630807,-74.0006024390459,1
+A Plus Chinese,$$,3.0,10002,40.71713,-73.99238,6
+Sun Wah Restaurant,$,3.5,11106,40.756608,-73.930066,31
+Topaz Thai Authentic,$$,3.5,10019,40.7644157409668,-73.9789047241211,665
+Yuba,$$$,4.0,10003,40.7305450439453,-73.9900436401367,316
+A-Pou's Taste Cart,$,3.5,10005,40.70865,-74.01011,27
+Dim Sum Go Go,$$,3.5,10038,40.7132415735622,-73.9977319419107,651
+Great Wall,$,4.0,07302,40.7171163,-74.0539207,8
+A La Saigon,$,3.5,10038,40.7090402,-74.0093809,143
+Ugly Kitchen,$$,4.0,10003,40.7266856651479,-73.9862178981476,476
+Green Garden,$,3.5,07030,40.7513466,-74.0268326,32
+Cha Pa's Noodles and Grill,$$,3.5,10019,40.7637,-73.98615,424
+J J Chan's Garden,$$,3.5,11370,40.758709,-73.8922424,96
+Fortune House,$$,3.0,11201,40.6984406,-73.9927368,84
+Lichee Nut,$,3.0,11201,40.694149017334,-73.9928207397461,211
+A-Pou's Taste,$,3.5,10003,40.7298465974426,-73.9914308802866,29
+Ajisai Japanese Restaurant,$$,3.5,10036,40.7594744,-73.9920708,397
+East Wind Snack Shop,$$,4.5,11215,40.6603409,-73.9799505,110
+Gong Ho,NA,4.0,10013,40.7185185,-73.995628,1
+Yee Li Restaurant,$$,3.0,10013,40.715503692627,-73.997695595026,148
+Chef Pho & Peking Roast Duck,$$,2.5,10019,40.76314,-73.98512,93
+New Jin Shing,$,4.0,11207,40.682073,-73.909389,24
+Hub Thai,$$,5.0,10009,40.72587,-73.98385,15
+Shanghai Heping Restaurant,$$,3.5,10013,40.7174181193113,-73.997328132391,287
+Golden Wok,$,3.5,10031,40.827003,-73.946723,43
+Little Pepper,$$,4.0,11356,40.78245,-73.84618,226
+Trinidad Golden Place Restaurant,$,4.0,11216,40.6718291030037,-73.950525317791,83
+Japas 38,$$,3.5,10016,40.7508277893066,-73.9815673828125,239
+East Pacific Pan-Asian Bistro,$$,3.5,10016,40.74633,-73.98032,156
+Chang Le Xin Fan Zhuang,$$,3.0,10002,40.7156673073769,-73.9931733906269,10
+Halal Kitchen,$,3.5,11104,40.740509,-73.9224091,28
+Jade Garden,$,4.0,10032,40.8418951405518,-73.9389026440374,46
+China Garden Cliffside Park,$,3.5,07010,40.8181915283203,-73.9931793212891,11
+Asami Shanghai,$$,4.0,10011,40.73699,-73.99744,15
+Good Chinese Restaurant,$,3.5,11221,40.6951122106303,-73.9116479761463,83
+Confucius Asian Bistro,$$,2.5,07310,40.7283669,-74.0343094,224
+Great Wall No 1,$,3.0,11222,40.7318799,-73.95437,36
+Puff Cha Ramen,$$,4.0,10019,40.7647,-73.991215,442
+Xiao Chuan Dian,$$,3.5,07650,40.8462581,-73.9995048,10
+King Wah,$,3.5,11102,40.7719699594225,-73.9257651953376,36
+BoCaphê,$$,4.0,10012,40.7219922719125,-73.9975724296317,399
+Young Chow Garden,$,1.5,10025,40.7918192446232,-73.972065076232,12
+Global Cuisine,NA,1.0,10282,40.7152896,-74.0148746,1
+Lucky Garden,$,4.0,11237,40.7003,-73.91221,9
+Tasty Fusion,$$,4.0,07071,40.8150520324707,-74.1142501831055,63
+88 Reach House,$,2.0,10002,40.71447,-73.99375,2
+Young City Fish Balls 榕城鱼丸店,$,4.0,10002,40.71511,-73.993804,4
+New Fresco Tortillas,$,2.0,10007,40.7147827,-74.0064545,36
+P.F. Chang's,$$,3.0,07093,40.7802677928232,-74.0095958081818,325
+Hong Kong,$,3.0,11106,40.76302,-73.92822,39
+OBAO,$$,3.0,10004,40.70332,-74.01065,166
+C And Y Chinese,$,4.0,11215,40.67046,-73.98505,33
+Zeng Xing Fu Zhou,$,3.0,10002,40.714851,-73.993935,10
+Fried Dumpling,$,3.5,10013,40.7145984,-73.9993465,415
+New Sze's Garden,$,4.0,11385,40.7082630466795,-73.9197599887848,13
+Grill On Lee,$$,4.5,11211,40.7044641162683,-73.9587070047855,10
+New Apolo,$$,3.5,11211,40.71078,-73.95076,104
+Sawadee,$$,3.0,07302,40.72014,-74.04386,426
+Sanuria,$,3.5,10013,40.7147,-73.9980099,201
+Hong Kong Cafe,$,3.5,11238,40.687202,-73.956611,21
+Chinese Max,NA,2.5,10038,40.706359,-74.003814,3
+Eden Wok,$$,2.5,10016,40.7477,-73.98239,94
+Tum & Yum,$$,4.0,10025,40.7984,-73.96326,263
+Yummy Yummy Chinese Restaurant,$,3.5,11378,40.7318726,-73.8999329,27
+Tse's Lay On,NA,5.0,10002,40.7134256511927,-73.9971920102835,1
+Ten Full Restaurant,$,3.0,11104,40.7400043308735,-73.9250949025154,57
+Xiao Dong Bei Chinese Cuisine,$$,4.5,11354,40.7624327,-73.8311868,30
+Aaron's Chinese and Thai,$$,1.5,10001,40.750379,-73.998141,41
+Ozen,$$,3.0,10025,40.7948819801249,-73.9700052707462,151
+Empire Express,$,3.0,11101,40.7443362968621,-73.9313001176036,16
+Chang Wang Restaurant,$,3.5,10002,40.71599,-73.99175,25
+Lucky Chinese Restaurant,$,4.0,11377,40.7367175,-73.8960949,16
+Kay's Spring Garden,$,3.5,07307,40.750907,-74.046302,20
+Five Loaves and Two Fish Bakery,$$$,3.5,10002,40.71501,-73.99288,2
+Laut,$$,3.5,10003,40.73763,-73.99105,916
+Wen Gee House,$,4.0,11231,40.678898,-74.010712,10
+Chinese Food Cart,$,4.0,11373,40.7386440537572,-73.8773260717161,89
+Empire Szechuan Garden,$,3.0,11104,40.7442207,-73.9186554,22
+Asian Wok,$,2.5,10038,40.709792012435,-74.0018463134766,27
+Istana Sushi & Wok,$$,3.0,07030,40.74845,-74.0278699,45
+Fortune Cookie Chinese Kitchen,$,3.5,11222,40.723381,-73.9506989,32
+Hua Du Dumpling,$,3.0,10002,40.714809,-73.993072,10
+Hong Kong Stir Fry,$,4.0,07022,40.822143,-73.998558,10
+Rabu House,$$,3.5,10016,40.742414114696,-73.9776433058961,50
+China Spice,$$,3.5,07306,40.7350744307041,-74.0670984238386,16
+RJR Yummy Kitchen,$,4.0,11369,40.7601665,-73.8783152,23
+Marco Polo Noodle Shop,$,3.0,10013,40.7170122,-73.9998158,12
+Wah Yeung's Kitchen,$,3.0,11104,40.745041,-73.9207394,20
+Sao Mai,$$,3.5,10003,40.730362,-73.98362,418
+Peking Roast Duck,$$,3.0,10016,40.7425799,-73.97772,8
+Red Square Café,NA,3.5,10013,40.7174690812826,-74.0003221482038,3
+Chelsea Thai Wholesale,$$,3.0,10011,40.7426359869553,-74.0061803595245,213
+The Old Spot,$$,3.5,07302,40.72108,-74.04676,43
+Hot Pot Best,$$,3.0,07302,40.7168312,-74.0385971,68
+New Wonjo Restaurant,$$,3.5,10001,40.74788,-73.98665,1006
+New China Tung,$,4.0,11217,40.678642,-73.97927,30
+New Hong Wong Seafood Restaurant,$$,3.5,10013,40.717796,-73.995498,8
+Grand Eastern,NA,3.0,10029,40.786716,-73.949974,9
+Authentic Szechuan,$$,3.5,11215,40.6711753186162,-73.9848930557056,51
+East Met West,$,3.0,11211,40.71446,-73.94392,45
+Golden House,$,2.5,11103,40.76497,-73.91789,75
+Udon West,$$,4.0,10017,40.7534980773926,-73.9736022949219,732
+Dumpling Town,$,4.0,11373,40.7373229,-73.8771249,11
+Kelley and Ping,$$,3.0,10012,40.7256,-73.99916,209
+Food Shing,$,3.5,10038,40.713611,-73.997528,40
+Kuai Le Hand Pull Noodles Restaurant,$,3.5,10002,40.715206,-73.994148,17
+Jaiya,$$,3.5,10016,40.742179,-73.980915,665
+Hua Rong Chinese Restaurant,$,3.5,11373,40.74084,-73.87921,20
+Ai Zhen Foo Chow Restaurant,NA,3.5,10002,40.713863,-73.994873,2
+Number One Chinese Restaurant,$,3.5,07093,40.78975,-74.00513,9
+Banh Mi Saigon,$,4.0,10013,40.71936,-73.996673,1258
+Zengo,$$$,3.5,10017,40.749757387679,-73.975456614573,743
+Jing Hui,$,3.5,10039,40.8246154785156,-73.9396286010742,13
+Spice,$$,3.5,10003,40.734539,-73.9918594,1358
+Peking Hunan Park,NA,1.0,10017,40.751342,-73.978919,1
+Number One Chinese Restaraunt,$,4.0,07086,40.7673454284668,-74.0290374755859,7
+Pho Shop,$$,4.0,10128,40.77854288396,-73.9477937668562,122
+Pam Real Thai Food,$$,3.5,10019,40.762978,-73.98993,572
+King's Kitchen,NA,5.0,11221,40.69129,-73.93684,4
+Zen 6,$$,4.0,10003,40.7266999721355,-73.9872980466536,480
+New China,$,4.0,11206,40.69701,-73.9361191,8
+Splendid China,$,4.0,10032,40.835598,-73.940437,13
+Hong Kong Chinese Restaurant,$,4.0,11385,40.71099,-73.9049,16
+East Village Thai,$$,4.0,10003,40.7282104492188,-73.9892120361328,179
+A San FuZhou Restaurant,NA,2.0,10002,40.7145636149403,-73.993893008504,1
+Uncle Boons,$$$,4.0,10012,40.7211328622237,-73.9943286309159,551
+J's Wong,$,3.5,11238,40.67402,-73.95661,53
+Canton Palace II,$$,3.0,07657,40.8447303369746,-74.0083200176165,149
+New Malaysia,$$,3.5,10013,40.7158109,-73.9964924,568
+Tasty Dumpling,$,3.5,10013,40.7149408310765,-73.9995409548283,394
+Empire Express,$,3.5,11215,40.66909,-73.98574,30
+Sing Hing Chinese Restaurant,$,3.5,11211,40.710937,-73.948715,18
+New Szechuan House,$,2.5,11377,40.7459596,-73.9140785,42
+Lantern Thai,$$,3.5,10003,40.7350845336914,-73.9833526611328,330
+Yan Asian Restaurant,$$,4.0,07070,40.82739,-74.10491,93
+Asian Express,$$,2.0,10010,40.737991,-73.98188,13
+Jing Fu House,$,4.5,11372,40.74928,-73.8700999,7
+First Wok,$,3.5,07047,40.7727099,-74.04002,26
+Sun Hing Chinese Restaurant,$,4.0,11372,40.7560348510742,-73.8782348632812,7
+Fuzhou Anping Fish Ball,NA,2.5,10002,40.7126905,-73.9967719,4
+Jade Terrace,NA,1.5,10036,40.7601222,-73.9871659,2
+Sweet Yummy House,$$,3.5,11373,40.74095,-73.87938,55
+Chung Chun Kitchen,$,4.0,11205,40.69314,-73.973,12
+Gan Asia,$$,2.5,10025,40.7923393,-73.971405,39
+Taste of China,$,3.0,11103,40.7571451223932,-73.9148019297323,23
+Ming Wok,$,3.5,11372,40.7555390072011,-73.883957862854,14
+Future Restaurant,$,3.0,07302,40.72214,-74.0468999,82
+Imperial Palace,$$,4.0,11354,40.761867,-73.830619,322
+Hwa Yuan,NA,3.0,10002,40.7137,-73.99598,6
+Chan's Garden,$,3.5,11205,40.6947199,-73.95635,23
+Thái Son,$,3.5,10013,40.71683,-73.99963,705
+Potjanee Thai Restaurant,$$,3.5,10014,40.73005,-74.003417,268
+Saigon Vietnamese Sandwich Deli,$,4.0,10013,40.7199582,-73.9958631,540
+Golden Dragon Kitchen,$,3.0,11211,40.713829,-73.955184,16
+Sookk,$$,3.5,10025,40.79867,-73.96834,244
+Lee's Chinese Restaurant,$,4.0,07307,40.7543291,-74.0468573,11
+Min Jiang Restaurant,NA,2.0,10002,40.713554,-73.993515,3
+Good Good Taste,NA,2.5,10002,40.71339,-73.994781,4
+China House,NA,5.0,11385,40.713279,-73.908752,4
+King's Wok,$,3.5,10031,40.82762,-73.9499,16
+Wok Chi Stir Fry Kitchen,$$,5.0,10017,40.7521635914282,-73.9775511657219,2
+Moon Palace Kitchen,NA,3.5,11378,40.72222,-73.90177,14
+Mr Wonton Chinese Restaurant,$,2.5,11101,40.746978,-73.941986,31
+85 Chinese Restaurant,$$,2.5,10002,40.7175407,-73.9944992,5
+Talent Thai Kitchen,$$,3.5,10016,40.74525,-73.97768,213
+Happy Gathering,$,3.0,11106,40.7589,-73.92601,41
+Foo-Hing Chinese Kitchen,$,4.5,10454,40.8135071,-73.9222373,3
+Pro Thai,$$,4.0,10029,40.78888,-73.94857,124
+Win Son,$$,4.5,11206,40.70747,-73.94339,170
+Xing Wang,NA,4.5,,40.7157550918675,-73.9982862881705,5
+No 1 Hunan Chinese Restaurant,$,4.5,11373,40.743103,-73.874626,9
+King Hong Restaurant,$,3.5,07024,40.84021,-73.980957,55
+Zhen Good Taste,$,4.0,11378,40.7218974,-73.8928982,18
+Hunan 3 Chinese Restaurant,$,3.0,11106,40.7613425374672,-73.9314051011108,18
+Chun Wai Restaurant,$,4.0,07087,40.7605286187255,-74.0356116927299,6
+Michael & Ping's Modern Chinese Take-Out,$$,3.5,11215,40.672501,-73.990177,206
+Golden Kitchen,$,3.0,11102,40.7704481038437,-73.9190678626333,20
+Amber West Village,$$,3.5,10014,40.733165,-74.006958,166
+Woks Chinese Cuisine,$,4.0,11372,40.7496071,-73.8868179,15
+Zest,$$,4.0,10002,40.7178344726563,-73.9899597167969,647
+Panda Chinese Restaurant,$,3.5,11375,40.717395,-73.8569718,37
+Golden Chopstick,$,3.5,11238,40.6718339,-73.957229,49
+Lunch Box Buffet,$,2.5,10002,40.713916,-73.996704,11
+Siri Thai,$$,4.0,10036,40.7618590612994,-73.9940920472145,162
+Weng Garden,$,4.0,11233,40.685707,-73.920722,6
+Chi Dumpling House,$,3.5,10002,40.7172813,-73.9945984,15
+Ajisen Ramen,$$,3.0,10013,40.7141461347865,-73.9986339460327,279
+Fu Run,$$,4.0,11354,40.758782,-73.831712,374
+Eastern Chinese Restaurant,$,3.0,11106,40.7656686822612,-73.9307687804103,17
+Bang Ga Nae,$$,4.5,07657,40.8339181186311,-74.0092921257019,5
+Mr Wonton,$$,3.5,11217,40.675098,-73.974708,154
+New Yummy Restaurant,NA,3.5,07087,40.77942,-74.0175299,8
+Jin Mei Dumpling House 津美锅贴,$,3.5,10002,40.7128944396973,-73.9965591430664,48
+Long Spring Garden,$,3.5,11377,40.745848,-73.901984,21
+Soho Thai,$$,3.5,10013,40.720078,-73.999641,92
+Chung Ching Restaurant,NA,4.0,10454,40.8101921081543,-73.9247589111328,5
+New Hardee,$,4.0,11221,40.6925659179688,-73.9430160522461,6
+Chopsticks Chinese Restaurant,$,3.0,07087,40.782344,-74.020889,17
+Peking Kitchen,$,3.5,11238,40.688720703125,-73.9602813720703,7
+Sau Voi,$,4.0,10013,40.717712,-74.000885,219
+Great Wall Chinese Restaurant,$,4.0,11369,40.7638765,-73.8816184,14
+Great Wall Chinese Restaurant,$,3.0,07086,40.7737819079407,-74.0202113841939,15
+Chen's Kitchen,$,3.5,07030,40.74183,-74.03993,9
+No 1 Chinese Restaurant,$,3.5,10033,40.8513816,-73.9394706,104
+Golden House,$,4.0,07093,40.78862,-74.00681,5
+Nha Trang One,$,3.5,10013,40.71671,-73.9995299,640
+Gem Bistro,$$,4.5,07032,40.748554,-74.144834,8
+Dong Fang Chuan Dian,$$,3.5,07650,40.842061,-74.00088,48
+East 21,$,3.5,11372,40.7464685299281,-73.8940858840942,60
+Shanghai Dim Sum,NA,5.0,10013,40.7141299241729,-73.9988739506347,1
+Great Wok Chinese Restaurant,$,3.5,07087,40.7606899,-74.04245,11
+Bennie's Thai Cafe,$$,3.5,10038,40.70912,-74.00578,278
+Canaan Restaurant,$,4.0,11356,40.784443,-73.8460002,31
+Indochine,$$$,3.5,10003,40.72917,-73.99227,292
+Panda Garden Restaurant,$,3.0,11377,40.7455887091084,-73.9046854516638,17
+China Palace,$$,2.5,10016,40.747486114502,-73.983757019043,2
+Five Loaves And Two Fishes 五餅二魚,$,3.5,11373,40.7413575053731,-73.8815073235202,35
+China Gourmet,NA,1.0,10029,40.788982,-73.943283,1
