@@ -1,0 +1,58 @@
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+   <head profile="http://gmpg.org/xfn/11">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+      <link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+		<link href="/bootstrap.css" rel="stylesheet">      
+      <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+      <script type='text/javascript' src='http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js?2'></script>
+      <script src="jquery.csv-0.71.js"></script>
+      
+   </head>
+
+   <body>
+      <h1>Sample</h1>
+      
+      <p></p>
+      <div class = "row">
+         <div class = "col-sm-3 center-block">
+            <form>
+               <fieldset>
+                 <fieldset class="form-group">
+                   <legend>Radio buttons</legend>
+                   <div class="form-check">
+                     <label class="form-check-label">
+                       <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                       Option one is this and that—be sure to include why it's great
+                     </label>
+                   </div>
+                   <div class="form-check">
+                   <label class="form-check-label">
+                       <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                       Option two can be something else and selecting it will deselect option one
+                     </label>
+                   </div>
+                   <div class="form-check disabled">
+                   <label class="form-check-label">
+                       <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled="">
+                       Option three is disabled
+                     </label>
+                   </div>
+                 </fieldset>
+                 <div class="form-check">
+                   <label class="form-check-label">
+                     <input type="checkbox" class="form-check-input">
+                     Check me out
+                   </label>
+                 </div>
+                 <button type="submit" class="btn btn-primary">Submit</button>
+               </fieldset>
+             </form>
+         </div>
+         <div class = "col-sm-8 text-left">
+            <div id="map" style="width: 600px; height: 560px; border: 1px solid #AAA;"></div>
+            <script type='text/javascript' src='mapfile.js'></script>
+         </div>
+      </div>
+   </body>
+</html>
