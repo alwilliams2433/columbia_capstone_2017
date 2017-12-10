@@ -29,7 +29,8 @@ venues = checkin.drop_duplicates("venueId")
 
 from sklearn.cluster import KMeans
 ven_lat_lng = venues[['latitude', 'longitude']].values
-k = 100
+k = 300
+
 kmeans = KMeans(n_clusters=k, random_state=1).fit(ven_lat_lng)
 label = kmeans.labels_
 label = label.reshape(label.shape[0], 1)
@@ -157,7 +158,7 @@ venue_category_dic = venue_category.set_index("venueId").T.to_dict("list")
 # In[59]:
 
 # create a empty N_CAT Matrix
-k = 100 # Number of cluster
+k = 300 # Number of cluster
 n_cat = pd.DataFrame(0, index=range(k), columns=categoryid_category['venueCategory'])
 # Map from categoriy to column number
 cate_col_dic = {}
