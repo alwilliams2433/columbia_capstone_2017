@@ -17,68 +17,44 @@
    
    <body>
       <h1>Best Location New Business App</h1>
-      <p></p>
-      <div class = "row">
-<!--         <div class = "col-sm-2 center-block">
-            <h4>Rate 1-5 each factor by importance (1 lowest, 5 highest)</h4>         
-            <p>Competition</p>
-            <input type=range min=1 max=5 value=3 id=ImpCompetition step=1 oninput="outputUpdate2(value)">
-            <output for=ImpCompetition id=imp1>3</output>
-            <script>
-               function outputUpdate2(vol) {
-                  document.querySelector('#imp1').value = vol;
-               }
-            </script>
-            </br>            
-            <p>Rent</p>
-            <input type=range min=1 max=5 value=3 id=ImpRent step=1 oninput="outputUpdate3(value)">
-            <output for=ImpRent id=imp2>3</output>
-            <script>
-               function outputUpdate3(vol) {
-                  document.querySelector('#imp2').value = vol;
-               }
-            </script>
-            </br>            
-            <p>Connectivity</p>
-            <input type=range min=1 max=5 value=3 id=ImpConnectivity step=1 oninput="outputUpdate4(value)">
-            <output for=ImpConnectivity id=imp3>3</output>
-            <script>
-               function outputUpdate4(vol) {
-                  document.querySelector('#imp3').value = vol;
-               }
-            </script>
-            </br>            
-            <p>Price</p>
-            <input type=range min=1 max=5 value=3 id=ImpPrice step=1 oninput="outputUpdate5(value)">
-            <output for=ImpPrice id=imp4>3</output>
-            <script>
-               function outputUpdate5(vol) {
-                  document.querySelector('#imp4').value = vol;
-               }
-            </script>
+      <p></p>            <!-- Trigger/Open The Modal -->
+      <div class = row>
+         <button id="myBtn" data-toggle="modal" data-target="#myModal">Update Weights</button>
+         <!-- The Modal -->
+         <div id="myModal" class="modal fade">       
+            <!-- Modal content -->
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Our App: Assign weights to these factors.</h4>
+                        <p>Total should be 0.8</p>
+                     </div>
+                     <div class="modal-body">
+                        <div class = "row">
+                           <div class = "col-sm-4 text-left">
+                              <p>Competition</p>
+                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCompetition">
+                              <p>Rent</p>
+                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRent">
+                           </div>
+                           <div class = "col-sm-4 text-left">
+                              <p>Connectivity</p>
+                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtConnectivity">
+                              <p>Popularity</p>
+                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtPopularity">
+                              <br>
+                              <br>
+                              <button type="submit" class="btn btn-primary" onclick = "update()" >Submit</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </div>
-         <div class = "col-sm-2 text-left">
-            <h4>Assign weights to each of these factors. Weights should total 100%.</h4>
-            <p>CF Score</p>
-            <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCFScore">
-            <p>Subway</p>
-            <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtSubway">
-            <p>Competition</p>
-            <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCompetition">
-            <p>Rent</p>
-            <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRent">
-            <p>Connectivity</p>
-            <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtConnectivity">
-            <p>Price</p>
-            <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtPrice">
-            <p>Rating</p>
-            <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRating">
-            <p>Review</p>
-            <input type="number" placeholder="0.0" step="0.1" min="0" max="1" id="WtReview">
-            <input type="submit" value="submit" onclick="return mapData(data);" />
-         </div>-->
-         <div class = "col-sm-8 text-left">   
-            <div id="map" style="width: 800px; height: 800px; border: 1px solid #AAA;"></div>
+      <div class = "row">
+            <div id="map" style="width: 800px; height: 1000px; border: 1px solid #AAA;"></div>
             <script type='text/javascript'>
                var map = L.map( 'map').setView([40.7613292,-73.9834088],12);
                
@@ -88,28 +64,11 @@
             //</script>
             <script>
             function update() {
-               var WtCompetition = document.getElementById("WtCompetition").value;
-               var WtRent = document.getElementById("WtRent").value;
-               var WtConnectivity = document.getElementById("WtConnectivity").value;
-               var WtPopularity = document.getElementById("WtPopularity").value;
-               $('myModal').modal('hide');
-            //
-            //   $.getJSON('https://amla26.github.io/columbia_capstone_2017/nyc-check-ins/viz.geojson', function (geojson) {
-            //      L.choropleth(geojson, {
-            //         valueProperty: function (feature) {
-            //            return WtCompetition * feature.properties.competitors + WtRating * feature.properties.rating + WtReview * feature.properties.review_count + WtRent * feature.properties.rent + WtCFScore * feature.properties.unsupervised + WtPrice * feature.properties.price;
-            //         },
-            //         scale: ['white', 'red'], // chroma.js scale - include as many as you like
-            //         steps: 8, // number of breaks or steps in range
-            //         mode: 'q', // q for quantile, e for equidistant, k for k-means
-            //         style: {
-            //            color: '#fff', // border color
-            //            weight: 2,
-            //            fillOpacity: 0.8
-            //         }
-            //      }).addTo(map)
-            //   })
-            //}
+               var WtCompetition = $("#WtCompetition").val();
+               var WtRent = $("#WtRent").val();
+               var WtConnectivity = $("#WtConnectivity").val();
+               var WtPopularity = $("#WtPopularity").val();
+               $('#myModal').modal('hide');
 
                
                $.get('https://amla26.github.io/columbia_capstone_2017/nyc-check-ins/final_viz_mh_df.csv', function(data) {mapData(data);
@@ -137,12 +96,8 @@
                   for (var i = 0; i < datasetLength; i++) {
                      var currentDataPoint = dataset[i];
                      
-                     var weightedscore = WtCompetition * currentDataPoint.competitors + WtPopularity * currentDataPoint.rating + WtRent * currentDataPoint.rent + WtConnectivity * currentDataPoint.sub_count + 0.2 * currentDataPoint.unsupervised ;
+                     var weightedscore = WtCompetition * currentDataPoint.competitors + WtPopularity * currentDataPoint.rating + WtRent * currentDataPoint.rent + WtConnectivity * currentDataPoint.sub_count + 0.2 * currentDataPoint.unsupervised_score ;
 
-                     //var avg_score = currentDataPoint.competitors + currentDataPoint.rating + currentDataPoint.review_count + currentDataPoint.rent + currentDataPoint.unsupervised + currentDataPoint.price;
-                     //var avg_score = currentDataPoint.rent
-                     
-                     //avg_score = currentDataPoint.price
                      var geojsonMarkerOptions = {
                         radius: 4,
                         fillColor: getColor(weightedscore),
@@ -157,46 +112,6 @@
                }
             }
          </script>
-         </div>
-         <div class = "col-sm-4 text-left">
-            <!-- Trigger/Open The Modal -->
-            <button id="myBtn">Update Weights</button>
-            <!-- The Modal -->
-            <div id="myModal" class="modal fade">
-               
-               <!-- Modal content -->
-               <div class="modal-dialog">
-                  <div class="modal-content">
-                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title">Our App: Assign weights to these factors.</h4>
-                        <p>Total should be 0.8</p>
-                     </div>
-                     <div class="modal-body">
-                        <div class = row>
-                           <div class = "col-sm-4 text-left">
-                              <p>Competition</p>
-                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCompetition">
-                              <p>Rent</p>
-                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRent">
-                          </div>
-                           <div class = "col-sm-4 text-left">
-                              <p>Connectivity</p>
-                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtConnectivity">
-                              <p>Popularity</p>
-                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtPopularity">
-                              <br>
-                              <br>
-                              <button type="submit" class="btn btn-primary" onclick = "update()" >Submit</button>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <script>
-            </script>
-         </div>
       </div>
    </body>
 </html>
