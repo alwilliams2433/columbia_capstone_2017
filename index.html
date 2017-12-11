@@ -10,8 +10,11 @@
       <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.markers.min.js'></script>
       <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.min.js'></script>
       <script src="jquery.csv-0.71.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function(){
+         $("#myModal").modal('show');
+         });
       </script>
-      
    </head>
    
    <body>
@@ -127,7 +130,7 @@
                         color: '#000000'
                      }
                      // sets data points to block centers
-                     marker = new L.BarChartMarker(new L.LatLng(currentDataPoint.lat,currentDataPoint.long), options);
+                     marker = new L.BarChartMarker(new L.LatLng(currentDataPoint.lat,currentDataPoint.lng), options);
                      map.addLayer(marker);
                   }
                }
