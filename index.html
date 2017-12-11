@@ -86,9 +86,9 @@
          <div class = "col-sm-1 text-left">
          </div>
          <div class = "col-sm-10 text-left">
-            <div id="map" style="width: 800px; height: 600px; border: 1px solid #AAA;"></div>
+            <div id="map" style="width: 800px; height: 500px; border: 1px solid #AAA;"></div>
             <script type='text/javascript'>
-               var map = L.map( 'map').setView([40.7613292,-73.9834088],12);
+               var map = L.map( 'map').setView([40.768565,-73.961597],13);
                
                L.tileLayer( 'https://api.mapbox.com/styles/v1/rcastellanes/cjb22z4ui7jfz2stqtdw2f2kg/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicmNhc3RlbGxhbmVzIiwiYSI6IkVRd0dDaVEifQ.EsWXaa4BxE2qtGQ658rXqQ', {
                   attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">MapBox</a>'
@@ -150,12 +150,12 @@
                      var weightedscore = WtCompetition * currentDataPoint.competitors + WtPopularity * currentDataPoint.rating + WtRent * currentDataPoint.rent + WtConnectivity * currentDataPoint.sub_count + 0.2 * currentDataPoint.unsupervised_score ;
 
                      var geojsonMarkerOptions = {
-                        radius: 6,
+                        radius: 7,
                         fillColor: getColor(weightedscore),
                         color: getColor(weightedscore),
                         weight: 1,
-                        opacity: 0.6,
-                        fillOpacity: 0.6
+                        opacity: 0.8,
+                        fillOpacity: 0.9
                         }
                      marker = L.circleMarker([currentDataPoint.latitude, currentDataPoint.longitude], geojsonMarkerOptions);
                      map.addLayer(marker);
