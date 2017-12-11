@@ -116,6 +116,18 @@
                
                $.get('https://amla26.github.io/columbia_capstone_2017/nyc-check-ins/final_viz_mh_df.csv', function(data) {mapData(data);
                         });
+               function getColor(d) {
+                        weight = WtCompetition * d.competitors + WtRating * d.rating + WtReview * d.review_count + WtRent * d.rent + WtCFScore * d.unsupervised + WtPrice * d.price;
+                        return weight > 0.875 ? '#005824' :
+                        weight > 0.750 ? '#238B45' :
+                        weight > 0.625 ? '#41AE76' :
+                        weight > 0.500 ? '#66C2A4' :
+                        weight > 0.375 ? '#99D8C9' :
+                        weight > 0.250 ? '#CCECE6' :
+                        weight > 0.125 ? '#E5f5F9' :
+                        '#f7FCFD';
+                     }
+               
                function mapData(data) {
                   
                   var dataset = $.csv.toObjects(data);
@@ -124,29 +136,15 @@
                   
                   for (var i = 0; i < datasetLength; i++) {
                      var currentDataPoint = dataset[i];
-                     
-                     function getColor() {
-                        d = WtCompetition * currentDataPoint.competitors + WtRating * currentDataPoint.rating + WtReview * currentDataPoint.review_count + WtRent * currentDataPoint.rent + WtCFScore * currentDataPoint.unsupervised + WtPrice * currentDataPoint.price;
-                        return d > 0.875 ? '#005824' :
-                        d > 0.750 ? '#238B45' :
-                        d > 0.625 ? '#41AE76' :
-                        d > 0.500 ? '#66C2A4' :
-                        d > 0.375 ? '#99D8C9' :
-                        d > 0.250 ? '#CCECE6' :
-                        d > 0.125 ? '#E5f5F9' :
-                        '#f7FCFD';
-                     }
-                     
-                     var x = getColor()
-                     
+                  
                      //var avg_score = currentDataPoint.competitors + currentDataPoint.rating + currentDataPoint.review_count + currentDataPoint.rent + currentDataPoint.unsupervised + currentDataPoint.price;
                      //var avg_score = currentDataPoint.rent
                      
                      //avg_score = currentDataPoint.price
                      var geojsonMarkerOptions = {
                         radius: 4,
-                        fillColor: x,
-                        color: x,
+                        fillColor: getColor(currentDataPoint),
+                        color: getColor(currentDataPoint),
                         weight: 1,
                         opacity: 0.6,
                         fillOpacity: 0.6
