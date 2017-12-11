@@ -85,9 +85,7 @@
                L.tileLayer( 'https://api.mapbox.com/styles/v1/rcastellanes/cjb22z4ui7jfz2stqtdw2f2kg/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicmNhc3RlbGxhbmVzIiwiYSI6IkVRd0dDaVEifQ.EsWXaa4BxE2qtGQ658rXqQ', {
                   attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">MapBox</a>'
                }).addTo( map );
-
-               // Pulls data from the CSV
-            </script>
+            //</script>
             <script>
             function update() {
                var WtCFScore = document.getElementById("WtCFScore").value;
@@ -97,64 +95,67 @@
                var WtPrice = document.getElementById("WtPrice").value;
                var WtRating = document.getElementById("WtRating").value;
                var WtReview = document.getElementById("WtReview").value;
-            
-               $.getJSON('viz.geojson', function (geojson) {
-                  L.choropleth(geojsonData, {
-                     valueProperty: function weight(d) {
-                        return WtCompetition * competitors + WtRating * rating + WtReview * review_count + WtRent * rent + WtCFScore * unsupervised + WtPrice * price;
-                     },
-                     scale: ['white', 'red'], // chroma.js scale - include as many as you like
-                     steps: 8, // number of breaks or steps in range
-                     mode: 'q', // q for quantile, e for equidistant, k for k-means
-                     style: {
-                        color: '#fff', // border color
-                        weight: 2,
-                        fillOpacity: 0.8
-                     }
-                  }).addTo(map)
-               })
-            }
-               
-            
-            //      function mapData(data) {
-            //         var dataset = $.csv.toObjects(data);
-            //         var datasetLength = dataset.length;
-            //         var marker;
-            //         
-            //         for (var i = 0; i < datasetLength; i++) {
-            //            var currentDataPoint = dataset[i];
-            //            
-            //            function getColor(d) {
-            //               d = WtCompetition * currentDataPoint.competitors + WtRating * currentDataPoint.rating + WtReview * currentDataPoint.review_count + WtRent * currentDataPoint.rent + WtCFScore * currentDataPoint.unsupervised + WtPrice * currentDataPoint.price;
-            //               return d > 0.875 ? '#005824' :
-            //               d > 0.750 ? '#238B45' :
-            //               d > 0.625 ? '#41AE76' :
-            //               d > 0.500 ? '#66C2A4' :
-            //               d > 0.375 ? '#99D8C9' :
-            //               d > 0.250 ? '#CCECE6' :
-            //               d > 0.125 ? '#E5f5F9' :
-            //               '#f7FCFD';
-            //            }
-            //            
-            //            //var x = getColor()
-            //            
-            //            //var avg_score = currentDataPoint.competitors + currentDataPoint.rating + currentDataPoint.review_count + currentDataPoint.rent + currentDataPoint.unsupervised + currentDataPoint.price;
-            //            //var avg_score = currentDataPoint.rent
-            //            
-            //            //avg_score = currentDataPoint.price
-            //            var geojsonMarkerOptions = {
-            //               radius: 4,
-            //               fillColor: x,
-            //               color: x,
-            //               weight: 1,
-            //               opacity: 0.6,
-            //               fillOpacity: 0.6
-            //               };
-            //            marker = L.circleMarker([currentDataPoint.latitude, currentDataPoint.longitude], geojsonMarkerOptions);
-            //            map.addLayer(marker);
+            //
+            //   $.getJSON('https://amla26.github.io/columbia_capstone_2017/nyc-check-ins/viz.geojson', function (geojson) {
+            //      L.choropleth(geojson, {
+            //         valueProperty: function (feature) {
+            //            return WtCompetition * feature.properties.competitors + WtRating * feature.properties.rating + WtReview * feature.properties.review_count + WtRent * feature.properties.rent + WtCFScore * feature.properties.unsupervised + WtPrice * feature.properties.price;
+            //         },
+            //         scale: ['white', 'red'], // chroma.js scale - include as many as you like
+            //         steps: 8, // number of breaks or steps in range
+            //         mode: 'q', // q for quantile, e for equidistant, k for k-means
+            //         style: {
+            //            color: '#fff', // border color
+            //            weight: 2,
+            //            fillOpacity: 0.8
             //         }
-            //      }
+            //      }).addTo(map)
+            //   })
+            //}
 
+               
+               $.get('https://amla26.github.io/columbia_capstone_2017/nyc-check-ins/final_viz_mh_df.csv', function(data) {mapData(data);
+                        });
+               function mapData(data) {
+                  
+                  var dataset = $.csv.toObjects(data);
+                  var datasetLength = dataset.length;
+                  var marker;
+                  
+                  for (var i = 0; i < datasetLength; i++) {
+                     var currentDataPoint = dataset[i];
+                     
+                     function getColor() {
+                        d = WtCompetition * currentDataPoint.competitors + WtRating * currentDataPoint.rating + WtReview * currentDataPoint.review_count + WtRent * currentDataPoint.rent + WtCFScore * currentDataPoint.unsupervised + WtPrice * currentDataPoint.price;
+                        return d > 0.875 ? '#005824' :
+                        d > 0.750 ? '#238B45' :
+                        d > 0.625 ? '#41AE76' :
+                        d > 0.500 ? '#66C2A4' :
+                        d > 0.375 ? '#99D8C9' :
+                        d > 0.250 ? '#CCECE6' :
+                        d > 0.125 ? '#E5f5F9' :
+                        '#f7FCFD';
+                     }
+                     
+                     var x = getColor()
+                     
+                     //var avg_score = currentDataPoint.competitors + currentDataPoint.rating + currentDataPoint.review_count + currentDataPoint.rent + currentDataPoint.unsupervised + currentDataPoint.price;
+                     //var avg_score = currentDataPoint.rent
+                     
+                     //avg_score = currentDataPoint.price
+                     var geojsonMarkerOptions = {
+                        radius: 4,
+                        fillColor: x,
+                        color: x,
+                        weight: 1,
+                        opacity: 0.6,
+                        fillOpacity: 0.6
+                        };
+                     marker = L.circleMarker([currentDataPoint.latitude, currentDataPoint.longitude], geojsonMarkerOptions);
+                     map.addLayer(marker);
+                  }
+               }
+            }
          </script>
          </div>
          <div class = "col-sm-4 text-left">
