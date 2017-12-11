@@ -3,8 +3,8 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
       <link rel="stylesheet" type="text/css" href="bootstrap.css">
-      <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
-      <script type='text/javascript' src='http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js?2'></script>
+      <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+      <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js'></script>
       <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.js'></script>
       <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.markers.js'></script>
       <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.markers.min.js'></script>
@@ -17,66 +17,6 @@
    <body>
       <h1>Best Location New Business App</h1>
       <p></p>
-      <div class = "row">
-            <!-- Trigger/Open The Modal -->
-            <button id="myBtn">Open Modal</button>
-            
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-               
-               <!-- Modal content -->
-               <div class="modal-content">
-               <span class="close">&times;</span>
-                  <h4>Assign weights to each of these factors. Weights should total 100%.</h4>
-                  <p>CF Score</p>
-                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCFScore">
-                  <p>Subway</p>
-                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtSubway">
-                  <p>Competition</p>
-                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCompetition">
-                  <p>Rent</p>
-                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRent">
-                  <p>Connectivity</p>
-                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtConnectivity">
-                  <p>Price</p>
-                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtPrice">
-                  <p>Rating</p>
-                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRating">
-                  <p>Review</p>
-                  <input type="number" placeholder="0.0" step="0.1" min="0" max="1" id="WtReview">
-                  <br>
-                  <input type="submit" value="submit" onclick="return mapData(data);">
-              </div>
-            </div>
-         </div>
-         <script>// Get the modal
-            var modal = document.getElementById('myModal');
-            
-            // Get the button that opens the modal
-            var btn = document.getElementById("myBtn");
-            
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
-            
-            // When the user clicks on the button, open the modal 
-            btn.onclick = function() {
-                modal.style.display = "block";
-            }
-            
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function() {
-                modal.style.display = "none";
-            }
-            
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function(event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-         </script>
-         
-      </div>
       <div class = "row">
 <!--         <div class = "col-sm-2 center-block">
             <h4>Rate 1-5 each factor by importance (1 lowest, 5 highest)</h4>         
@@ -150,7 +90,7 @@
                var legendControl = new L.Control.Legend();
                legendControl.addTo(map);
                // Pulls data from the CSV
-               $.get('http://rcastellanes.github.io/projects/Capstone/App/datafile.csv', function(data) {mapData(data);
+               $.get('nyc-check-ins/datafile.csv', function(data) {mapData(data);
                });
                function mapData(data) {
                   var dataset = $.csv.toObjects(data);
@@ -168,7 +108,7 @@
                         
                         data: {
                            //var weightedscore = currentDataPoint.A1CF + currentDataPoint.A1subway + currentDataPoint.A1competition + currentDataPoint.A1rent + currentDataPoint.A1review + currentDataPoint.A1rating + currentDataPoint.A1price
-                           'WeightedScore': currentDataPoint.subway1
+                           'WeightedScore': currentDataPoint.rating
                         },
                         chartOptions: {
                            
@@ -187,9 +127,68 @@
                         color: '#000000'
                      }
                      // sets data points to block centers
-                     marker = new L.BarChartMarker(new L.LatLng(currentDataPoint.YCoord,currentDataPoint.XCoord), options);
+                     marker = new L.BarChartMarker(new L.LatLng(currentDataPoint.lat,currentDataPoint.long), options);
                      map.addLayer(marker);
                   }
+               }
+            </script>
+         </div>
+         <div class = "col-sm-4 text-left">
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">Input Weights</button>
+            
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+               
+               <!-- Modal content -->
+               <div class="modal-content">
+               <span class="close">&times;</span>
+                  <h4>Assign weights to each of these factors. Weights should total 100%.</h4>
+                  <p>CF Score</p>
+                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCFScore">
+                  <p>Subway</p>
+                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtSubway">
+                  <p>Competition</p>
+                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCompetition">
+                  <p>Rent</p>
+                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRent">
+                  <p>Connectivity</p>
+                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtConnectivity">
+                  <p>Price</p>
+                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtPrice">
+                  <p>Rating</p>
+                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRating">
+                  <p>Review</p>
+                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtReview">
+                  <br>
+                  <br>
+                  <input type="submit" value="submit" onclick="return mapData(data);">
+              </div>
+            </div>
+            <script>// Get the modal
+               var modal = document.getElementById('myModal');
+               
+               // Get the button that opens the modal
+               var btn = document.getElementById("myBtn");
+               
+               // Get the <span> element that closes the modal
+               var span = document.getElementsByClassName("close")[0];
+               
+               // When the user clicks on the button, open the modal 
+               btn.onclick = function() {
+                   modal.style.display = "block";
+               }
+               
+               // When the user clicks on <span> (x), close the modal
+               span.onclick = function() {
+                   modal.style.display = "none";
+               }
+               
+               // When the user clicks anywhere outside of the modal, close it
+               window.onclick = function(event) {
+                   if (event.target == modal) {
+                       modal.style.display = "none";
+                   }
                }
             </script>
          </div>
