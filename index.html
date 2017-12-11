@@ -5,12 +5,9 @@
       <link rel="stylesheet" type="text/css" href="bootstrap.css">
       <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
       <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js'></script>
-      <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.js'></script>
-      <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.markers.js'></script>
-      <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.markers.min.js'></script>
-      <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.min.js'></script>
-      <script src="jquery.csv-0.71.js"></script>
+      <script src="jquery.csv.min.js"></script>
       <script src="bootstrap.min.js"></script>
+      <script src="choropleth.js"></script>
       <script type="text/javascript">
       $(document).ready(function(){
          $("#myModal").modal('show');
@@ -85,55 +82,80 @@
             <script type='text/javascript'>
                var map = L.map( 'map').setView([40.7613292,-73.9834088],12);
                
-               L.tileLayer( 'https://{s}.tiles.mapbox.com/v4/rcastellanes.d1bd2cf7/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicmNhc3RlbGxhbmVzIiwiYSI6IkVRd0dDaVEifQ.EsWXaa4BxE2qtGQ658rXqQ', {
+               L.tileLayer( 'https://api.mapbox.com/styles/v1/rcastellanes/cjb22z4ui7jfz2stqtdw2f2kg/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicmNhc3RlbGxhbmVzIiwiYSI6IkVRd0dDaVEifQ.EsWXaa4BxE2qtGQ658rXqQ', {
                   attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">MapBox</a>'
                }).addTo( map );
-               // Create control
-               var legendControl = new L.Control.Legend();
-               legendControl.addTo(map);
+
                // Pulls data from the CSV
-               $.get('nyc-check-ins/rank_df.csv', function(data) {mapData(data);
-               });
-               function mapData(data) {
-                  var dataset = $.csv.toObjects(data);
-                  var datasetLength = dataset.length;
-                  var marker;
-                  for (var i = 0; i < datasetLength; i++) {
-                     var currentDataPoint = dataset[i];
-                     //var weightedsum = currentDataPoint.A1CF + currentDataPoint.A1subway + currentDataPoint.A1competition + currentDataPoint.A1rent + currentDataPoint.A1review + currentDataPoint.A1rating + currentDataPoint.A1price;
-                     // removes null variables
-                     // if (!currentDataPoint.BlockHeight || !currentDataPoint.RoadbedDist || !currentDataPoint.XCoord || !currentDataPoint.YCoord) {
-                     //    continue;
-                     // }
-                     // sets data point
-                     //var options = {
-                     //   
-                     //   data: {
-                     //      //var weightedscore = currentDataPoint.A1CF + currentDataPoint.A1subway + currentDataPoint.A1competition + currentDataPoint.A1rent + currentDataPoint.A1review + currentDataPoint.A1rating + currentDataPoint.A1price
-                     //      'WeightedScore': currentDataPoint.rating
-                     //   },
-                     //   chartOptions: {
-                     //      
-                     //      'WeightedScore': {
-                     //         fillColor: '#5DA5DA',
-                     //         gradient: false,
-                     //         minValue: 0,
-                     //         maxValue: 1,
-                     //         maxHeight: 1,
-                     //         displayText: function (value) {
-                     //            return value.toFixed(0);
-                     //         }
-                     //      }
-                     //   },
-                     //   weight: 1,
-                     //   color: '#000000'
-                     //}
-                     // sets data points to block centers
-                     marker = new L.circleMarker(L.LatLng(currentDataPoint.lat,currentDataPoint.lng), radius=10, color='#3388ff', fillOpacity=1.0);
-                     map.addLayer(marker);
-                  }
-               }
             </script>
+            <script>
+            function update() {
+               var WtCFScore = document.getElementById("WtCFScore").value;
+               var WtCompetition = document.getElementById("WtCompetition").value;
+               var WtRent = document.getElementById("WtRent").value;
+               var WtConnectivity = document.getElementById("WtConnectivity").value;
+               var WtPrice = document.getElementById("WtPrice").value;
+               var WtRating = document.getElementById("WtRating").value;
+               var WtReview = document.getElementById("WtReview").value;
+            
+               $.getJSON('viz.geojson', function (geojson) {
+                  L.choropleth(geojsonData, {
+                     valueProperty: function weight(d) {
+                        return WtCompetition * competitors + WtRating * rating + WtReview * review_count + WtRent * rent + WtCFScore * unsupervised + WtPrice * price;
+                     },
+                     scale: ['white', 'red'], // chroma.js scale - include as many as you like
+                     steps: 8, // number of breaks or steps in range
+                     mode: 'q', // q for quantile, e for equidistant, k for k-means
+                     style: {
+                        color: '#fff', // border color
+                        weight: 2,
+                        fillOpacity: 0.8
+                     }
+                  }).addTo(map)
+               })
+            }
+               
+            
+            //      function mapData(data) {
+            //         var dataset = $.csv.toObjects(data);
+            //         var datasetLength = dataset.length;
+            //         var marker;
+            //         
+            //         for (var i = 0; i < datasetLength; i++) {
+            //            var currentDataPoint = dataset[i];
+            //            
+            //            function getColor(d) {
+            //               d = WtCompetition * currentDataPoint.competitors + WtRating * currentDataPoint.rating + WtReview * currentDataPoint.review_count + WtRent * currentDataPoint.rent + WtCFScore * currentDataPoint.unsupervised + WtPrice * currentDataPoint.price;
+            //               return d > 0.875 ? '#005824' :
+            //               d > 0.750 ? '#238B45' :
+            //               d > 0.625 ? '#41AE76' :
+            //               d > 0.500 ? '#66C2A4' :
+            //               d > 0.375 ? '#99D8C9' :
+            //               d > 0.250 ? '#CCECE6' :
+            //               d > 0.125 ? '#E5f5F9' :
+            //               '#f7FCFD';
+            //            }
+            //            
+            //            //var x = getColor()
+            //            
+            //            //var avg_score = currentDataPoint.competitors + currentDataPoint.rating + currentDataPoint.review_count + currentDataPoint.rent + currentDataPoint.unsupervised + currentDataPoint.price;
+            //            //var avg_score = currentDataPoint.rent
+            //            
+            //            //avg_score = currentDataPoint.price
+            //            var geojsonMarkerOptions = {
+            //               radius: 4,
+            //               fillColor: x,
+            //               color: x,
+            //               weight: 1,
+            //               opacity: 0.6,
+            //               fillOpacity: 0.6
+            //               };
+            //            marker = L.circleMarker([currentDataPoint.latitude, currentDataPoint.longitude], geojsonMarkerOptions);
+            //            map.addLayer(marker);
+            //         }
+            //      }
+
+         </script>
          </div>
          <div class = "col-sm-4 text-left">
             <!-- Trigger/Open The Modal -->
@@ -149,28 +171,34 @@
                         <h4 class="modal-title">Our App: Assign weights to these factors</h4>
                      </div>
                      <div class="modal-body">
-                        <p>CF Score</p>
-                        <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCFScore">
-                        <p>Subway</p>
-                        <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtSubway">
-                        <p>Competition</p>
-                        <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCompetition">
-                        <p>Rent</p>
-                        <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRent">
-                        <p>Connectivity</p>
-                        <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtConnectivity">
-                        <p>Price</p>
-                        <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtPrice">
-                        <p>Rating</p>
-                        <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRating">
-                        <p>Review</p>
-                        <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtReview">
-                        <br>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <div class = row>
+                           <div class = "col-sm-2 text-left">
+                              <p>CF Score</p>
+                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCFScore">
+                              <p>Competition</p>
+                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCompetition">
+                              <p>Rent</p>
+                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRent">
+                              <p>Connectivity</p>
+                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtConnectivity">
+                           </div>
+                           <div class = "col-sm-2 text-left">
+                              <p>Price</p>
+                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtPrice">
+                              <p>Rating</p>
+                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRating">
+                              <p>Review</p>
+                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtReview">
+                              <br>
+                              <button type="submit" class="btn btn-primary" onclick = update()>Submit</button>
+                           </div>
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
+            <script>
+            </script>
          </div>
       </div>
    </body>
