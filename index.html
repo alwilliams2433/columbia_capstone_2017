@@ -9,9 +9,9 @@
       <script src="bootstrap.min.js"></script>
       <script src="choropleth.js"></script>
       <script type="text/javascript">
-      $(document).ready(function(){
-         $("#myModal").modal('show');
-         });
+         $(document).ready(function(){
+            $("#myModal").modal('show');
+            });
       </script>
    </head>
    
@@ -88,13 +88,11 @@
             //</script>
             <script>
             function update() {
-               var WtCFScore = document.getElementById("WtCFScore").value;
                var WtCompetition = document.getElementById("WtCompetition").value;
                var WtRent = document.getElementById("WtRent").value;
                var WtConnectivity = document.getElementById("WtConnectivity").value;
-               var WtPrice = document.getElementById("WtPrice").value;
-               var WtRating = document.getElementById("WtRating").value;
-               var WtReview = document.getElementById("WtReview").value;
+               var WtPopularity = document.getElementById("WtPopularity").value;
+               $('myModal').modal('hide');
             //
             //   $.getJSON('https://amla26.github.io/columbia_capstone_2017/nyc-check-ins/viz.geojson', function (geojson) {
             //      L.choropleth(geojson, {
@@ -116,16 +114,16 @@
                
                $.get('https://amla26.github.io/columbia_capstone_2017/nyc-check-ins/final_viz_mh_df.csv', function(data) {mapData(data);
                         });
+               
                function getColor(d) {
-                        weight = WtCompetition * d.competitors + WtRating * d.rating + WtReview * d.review_count + WtRent * d.rent + WtCFScore * d.unsupervised + WtPrice * d.price;
-                        return weight > 0.875 ? '#005824' :
-                        weight > 0.750 ? '#238B45' :
-                        weight > 0.625 ? '#41AE76' :
-                        weight > 0.500 ? '#66C2A4' :
-                        weight > 0.375 ? '#99D8C9' :
-                        weight > 0.250 ? '#CCECE6' :
-                        weight > 0.125 ? '#E5f5F9' :
-                        '#f7FCFD';
+                        return d > 0.875 ? '#005824' :
+                        d > 0.750 ? '#238B45' :
+                        d > 0.625 ? '#41AE76' :
+                        d > 0.500 ? '#66C2A4' :
+                        d > 0.375 ? '#99D8C9' :
+                        d > 0.250 ? '#CCECE6' :
+                        d > 0.125 ? '#E5f5F9' :
+                        '#F7FCFD';
                      }
                
                function mapData(data) {
@@ -134,21 +132,25 @@
                   var datasetLength = dataset.length;
                   var marker;
                   
+                  
+                  
                   for (var i = 0; i < datasetLength; i++) {
                      var currentDataPoint = dataset[i];
-                  
+                     
+                     var weightedscore = WtCompetition * currentDataPoint.competitors + WtPopularity * currentDataPoint.rating + WtRent * currentDataPoint.rent + WtConnectivity * currentDataPoint.sub_count + 0.2 * currentDataPoint.unsupervised ;
+
                      //var avg_score = currentDataPoint.competitors + currentDataPoint.rating + currentDataPoint.review_count + currentDataPoint.rent + currentDataPoint.unsupervised + currentDataPoint.price;
                      //var avg_score = currentDataPoint.rent
                      
                      //avg_score = currentDataPoint.price
                      var geojsonMarkerOptions = {
                         radius: 4,
-                        fillColor: getColor(currentDataPoint),
-                        color: getColor(currentDataPoint),
+                        fillColor: getColor(weightedscore),
+                        color: getColor(weightedscore),
                         weight: 1,
                         opacity: 0.6,
                         fillOpacity: 0.6
-                        };
+                        }
                      marker = L.circleMarker([currentDataPoint.latitude, currentDataPoint.longitude], geojsonMarkerOptions);
                      map.addLayer(marker);
                   }
@@ -158,7 +160,7 @@
          </div>
          <div class = "col-sm-4 text-left">
             <!-- Trigger/Open The Modal -->
-            <button id="myBtn">Input Weights</button>
+            <button id="myBtn">Update Weights</button>
             <!-- The Modal -->
             <div id="myModal" class="modal fade">
                
@@ -167,29 +169,25 @@
                   <div class="modal-content">
                      <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title">Our App: Assign weights to these factors</h4>
+                        <h4 class="modal-title">Our App: Assign weights to these factors.</h4>
+                        <p>Total should be 0.8</p>
                      </div>
                      <div class="modal-body">
                         <div class = row>
-                           <div class = "col-sm-2 text-left">
-                              <p>CF Score</p>
-                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCFScore">
+                           <div class = "col-sm-4 text-left">
                               <p>Competition</p>
                               <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCompetition">
                               <p>Rent</p>
                               <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRent">
+                          </div>
+                           <div class = "col-sm-4 text-left">
                               <p>Connectivity</p>
                               <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtConnectivity">
-                           </div>
-                           <div class = "col-sm-2 text-left">
-                              <p>Price</p>
-                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtPrice">
-                              <p>Rating</p>
-                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRating">
-                              <p>Review</p>
-                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtReview">
+                              <p>Popularity</p>
+                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtPopularity">
                               <br>
-                              <button type="submit" class="btn btn-primary" onclick = update()>Submit</button>
+                              <br>
+                              <button type="submit" class="btn btn-primary" onclick = "update()" >Submit</button>
                            </div>
                         </div>
                      </div>
