@@ -16,33 +16,61 @@
    </head>
    
    <body>
-      <h1>Best Location New Business App</h1>
-      <p></p>            <!-- Trigger/Open The Modal -->
       <div class = row>
-         <button id="myBtn" data-toggle="modal" data-target="#myModal">Update Weights</button>
-         <!-- The Modal -->
-         <div id="myModal" class="modal fade">       
-            <!-- Modal content -->
+         <div class = "col-sm-1 text-left">
+         </div>
+         <div class = "col-sm-10 text-left">
+            <h1>Best Location for a New Business App</h1>
+            <p>Results by Score (0 to 1)</p>
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn" data-toggle="modal" data-target="#myModal">Update Weights</button>
+            <!-- The Modal -->
+            <div id="myModal" class="modal fade">       
+               <!-- Modal content -->
                <div class="modal-dialog">
                   <div class="modal-content">
                      <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title">Our App: Assign weights to these factors.</h4>
-                        <p>Total should be 0.8</p>
+                        <h4 class="modal-title">Best Location for a New Business App</h4>
+                        <p>Select each feature's importance from 1 (lowest) to 5 (highest).</p>
                      </div>
                      <div class="modal-body">
                         <div class = "row">
                            <div class = "col-sm-4 text-left">
                               <p>Competition</p>
-                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCompetition">
+                              <input type="range" value="3.0" step="1.0" min="1.0" max="5.0" oninput="outputUpdate1(value)" id="WtCompetition">
+                              <output for="WtCompetition" id=imp1>3</output>
+                                 <script>
+                                 function outputUpdate1(vol) {
+                                    document.querySelector('#imp1').value = vol;
+                                 }
+                                 </script>
                               <p>Rent</p>
-                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRent">
+                              <input type="range" value="3.0" step="1.0" min="1.0" max="5.0" oninput="outputUpdate2(value)" id="WtRent">
+                              <output for="WtRent" id=imp2>3</output>
+                                 <script>
+                                 function outputUpdate2(vol) {
+                                    document.querySelector('#imp2').value = vol;
+                                 }
+                                 </script>
                            </div>
                            <div class = "col-sm-4 text-left">
                               <p>Connectivity</p>
-                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtConnectivity">
+                              <input type="range" value="3.0" step="1.0" min="1.0" max="5.0" oninput="outputUpdate3(value)"  id="WtConnectivity">
+                              <output for="WtConnectivity" id=imp3>3</output>
+                                 <script>
+                                 function outputUpdate3(vol) {
+                                    document.querySelector('#imp3').value = vol;
+                                 }
+                                 </script>
                               <p>Popularity</p>
-                              <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtPopularity">
+                              <input type="range" value="3.0" step="1.0" min="1.0" max="5.0" oninput="outputUpdate4(value)"  id="WtPopularity">
+                              <output for="WtPopularity" id=imp4>3</output>     
+                                 <script>
+                                 function outputUpdate4(vol) {
+                                    document.querySelector('#imp4').value = vol;
+                                 }
+                                 </script>                         
                               <br>
                               <br>
                               <button type="submit" class="btn btn-primary" onclick = "update()">Submit</button>
@@ -53,8 +81,12 @@
                </div>
             </div>
          </div>
+      </div>
       <div class = "row">
-            <div id="map" style="width: 800px; height: 1000px; border: 1px solid #AAA;"></div>
+         <div class = "col-sm-1 text-left">
+         </div>
+         <div class = "col-sm-10 text-left">
+            <div id="map" style="width: 800px; height: 600px; border: 1px solid #AAA;"></div>
             <script type='text/javascript'>
                var map = L.map( 'map').setView([40.7613292,-73.9834088],12);
                
@@ -64,10 +96,11 @@
             //</script>
             <script>
             function update() {
-               var WtCompetition = $("#WtCompetition").val();
-               var WtRent = $("#WtRent").val();
-               var WtConnectivity = $("#WtConnectivity").val();
-               var WtPopularity = $("#WtPopularity").val();
+               var totalWeight = parseFloat($("#WtCompetition").val()) + parseFloat($("#WtRent").val()) + parseFloat($("#WtConnectivity").val()) + parseFloat($("#WtPopularity").val());
+               var WtCompetition = 0.8 * parseFloat($("#WtCompetition").val()) / totalWeight;
+               var WtRent = 0.8* parseFloat($("#WtRent").val()) / totalWeight;
+               var WtConnectivity = 0.8* parseFloat($("#WtConnectivity").val()) / totalWeight;
+               var WtPopularity = 0.8* parseFloat($("#WtPopularity").val()) / totalWeight;
                $('#myModal').modal('hide');
 
                
@@ -117,7 +150,7 @@
                      var weightedscore = WtCompetition * currentDataPoint.competitors + WtPopularity * currentDataPoint.rating + WtRent * currentDataPoint.rent + WtConnectivity * currentDataPoint.sub_count + 0.2 * currentDataPoint.unsupervised_score ;
 
                      var geojsonMarkerOptions = {
-                        radius: 4,
+                        radius: 6,
                         fillColor: getColor(weightedscore),
                         color: getColor(weightedscore),
                         weight: 1,
@@ -129,7 +162,8 @@
                   }
                }
             }
-         </script>
+            </script>
+         </div>
       </div>
    </body>
 </html>
