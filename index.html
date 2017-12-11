@@ -1,0 +1,198 @@
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+   <head profile="http://gmpg.org/xfn/11">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+      <link rel="stylesheet" type="text/css" href="bootstrap.css">
+      <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+      <script type='text/javascript' src='http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js?2'></script>
+      <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.js'></script>
+      <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.markers.js'></script>
+      <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.markers.min.js'></script>
+      <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/leaflet-dvf/0.2/leaflet-dvf.min.js'></script>
+      <script src="jquery.csv-0.71.js"></script>
+      </script>
+      
+   </head>
+   
+   <body>
+      <h1>Best Location New Business App</h1>
+      <p></p>
+      <div class = "row">
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">Open Modal</button>
+            
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+               
+               <!-- Modal content -->
+               <div class="modal-content">
+               <span class="close">&times;</span>
+                  <h4>Assign weights to each of these factors. Weights should total 100%.</h4>
+                  <p>CF Score</p>
+                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCFScore">
+                  <p>Subway</p>
+                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtSubway">
+                  <p>Competition</p>
+                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCompetition">
+                  <p>Rent</p>
+                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRent">
+                  <p>Connectivity</p>
+                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtConnectivity">
+                  <p>Price</p>
+                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtPrice">
+                  <p>Rating</p>
+                  <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRating">
+                  <p>Review</p>
+                  <input type="number" placeholder="0.0" step="0.1" min="0" max="1" id="WtReview">
+                  <br>
+                  <input type="submit" value="submit" onclick="return mapData(data);">
+              </div>
+            </div>
+         </div>
+         <script>// Get the modal
+            var modal = document.getElementById('myModal');
+            
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks on the button, open the modal 
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+         </script>
+         
+      </div>
+      <div class = "row">
+<!--         <div class = "col-sm-2 center-block">
+            <h4>Rate 1-5 each factor by importance (1 lowest, 5 highest)</h4>         
+            <p>Competition</p>
+            <input type=range min=1 max=5 value=3 id=ImpCompetition step=1 oninput="outputUpdate2(value)">
+            <output for=ImpCompetition id=imp1>3</output>
+            <script>
+               function outputUpdate2(vol) {
+                  document.querySelector('#imp1').value = vol;
+               }
+            </script>
+            </br>            
+            <p>Rent</p>
+            <input type=range min=1 max=5 value=3 id=ImpRent step=1 oninput="outputUpdate3(value)">
+            <output for=ImpRent id=imp2>3</output>
+            <script>
+               function outputUpdate3(vol) {
+                  document.querySelector('#imp2').value = vol;
+               }
+            </script>
+            </br>            
+            <p>Connectivity</p>
+            <input type=range min=1 max=5 value=3 id=ImpConnectivity step=1 oninput="outputUpdate4(value)">
+            <output for=ImpConnectivity id=imp3>3</output>
+            <script>
+               function outputUpdate4(vol) {
+                  document.querySelector('#imp3').value = vol;
+               }
+            </script>
+            </br>            
+            <p>Price</p>
+            <input type=range min=1 max=5 value=3 id=ImpPrice step=1 oninput="outputUpdate5(value)">
+            <output for=ImpPrice id=imp4>3</output>
+            <script>
+               function outputUpdate5(vol) {
+                  document.querySelector('#imp4').value = vol;
+               }
+            </script>
+         </div>
+         <div class = "col-sm-2 text-left">
+            <h4>Assign weights to each of these factors. Weights should total 100%.</h4>
+            <p>CF Score</p>
+            <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCFScore">
+            <p>Subway</p>
+            <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtSubway">
+            <p>Competition</p>
+            <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtCompetition">
+            <p>Rent</p>
+            <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRent">
+            <p>Connectivity</p>
+            <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtConnectivity">
+            <p>Price</p>
+            <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtPrice">
+            <p>Rating</p>
+            <input type="number" value="0.0" step="0.1" min="0" max="1" id="WtRating">
+            <p>Review</p>
+            <input type="number" placeholder="0.0" step="0.1" min="0" max="1" id="WtReview">
+            <input type="submit" value="submit" onclick="return mapData(data);" />
+         </div>-->
+         <div class = "col-sm-8 text-left">   
+            <div id="map" style="width: 600px; height: 800px; border: 1px solid #AAA;"></div>
+            <script type='text/javascript'>
+               var map = L.map( 'map', {
+                  center: [40.7613292,-73.9834088],
+                  zoom: 12
+               });
+               L.tileLayer( 'http://{s}.tiles.mapbox.com/v4/rcastellanes.d1bd2cf7/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicmNhc3RlbGxhbmVzIiwiYSI6IkVRd0dDaVEifQ.EsWXaa4BxE2qtGQ658rXqQ', {
+                  attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">MapBox</a>'
+               }).addTo( map );
+               // Create control
+               var legendControl = new L.Control.Legend();
+               legendControl.addTo(map);
+               // Pulls data from the CSV
+               $.get('http://rcastellanes.github.io/projects/Capstone/App/datafile.csv', function(data) {mapData(data);
+               });
+               function mapData(data) {
+                  var dataset = $.csv.toObjects(data);
+                  var datasetLength = dataset.length;
+                  var marker;
+                  for (var i = 0; i < datasetLength; i++) {
+                     var currentDataPoint = dataset[i];
+                     //var weightedsum = currentDataPoint.A1CF + currentDataPoint.A1subway + currentDataPoint.A1competition + currentDataPoint.A1rent + currentDataPoint.A1review + currentDataPoint.A1rating + currentDataPoint.A1price;
+                     // removes null variables
+                     // if (!currentDataPoint.BlockHeight || !currentDataPoint.RoadbedDist || !currentDataPoint.XCoord || !currentDataPoint.YCoord) {
+                     //    continue;
+                     // }
+                     // sets data point
+                     var options = {
+                        
+                        data: {
+                           //var weightedscore = currentDataPoint.A1CF + currentDataPoint.A1subway + currentDataPoint.A1competition + currentDataPoint.A1rent + currentDataPoint.A1review + currentDataPoint.A1rating + currentDataPoint.A1price
+                           'WeightedScore': currentDataPoint.subway1
+                        },
+                        chartOptions: {
+                           
+                           'WeightedScore': {
+                              fillColor: '#5DA5DA',
+                              gradient: false,
+                              minValue: 0,
+                              maxValue: 1,
+                              maxHeight: 1,
+                              displayText: function (value) {
+                                 return value.toFixed(0);
+                              }
+                           }
+                        },
+                        weight: 1,
+                        color: '#000000'
+                     }
+                     // sets data points to block centers
+                     marker = new L.BarChartMarker(new L.LatLng(currentDataPoint.YCoord,currentDataPoint.XCoord), options);
+                     map.addLayer(marker);
+                  }
+               }
+            </script>
+         </div>
+      </div>
+   </body>
+</html>
