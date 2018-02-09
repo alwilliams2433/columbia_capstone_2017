@@ -92,21 +92,7 @@
                
                L.tileLayer( 'https://api.mapbox.com/styles/v1/rcastellanes/cjb22z4ui7jfz2stqtdw2f2kg/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicmNhc3RlbGxhbmVzIiwiYSI6IkVRd0dDaVEifQ.EsWXaa4BxE2qtGQ658rXqQ', {
                   attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">MapBox</a>'
-               }).addTo( map );
-            //</script>
-            <script>
-            function update() {
-               var totalWeight = parseFloat($("#WtCompetition").val()) + parseFloat($("#WtRent").val()) + parseFloat($("#WtConnectivity").val()) + parseFloat($("#WtPopularity").val());
-               var WtCompetition = 0.8 * parseFloat($("#WtCompetition").val()) / totalWeight;
-               var WtRent = 0.8* parseFloat($("#WtRent").val()) / totalWeight;
-               var WtConnectivity = 0.8* parseFloat($("#WtConnectivity").val()) / totalWeight;
-               var WtPopularity = 0.8* parseFloat($("#WtPopularity").val()) / totalWeight;
-               $('#myModal').modal('hide');
-
-               
-               $.get('https://amla26.github.io/columbia_capstone_2017/nyc-check-ins/final_viz_mh_df.csv', function(data) {mapData(data);
-                        });
-               
+               }).addTo( map );               
                function getColor(d) {
                         return d > 0.8875 ? '#005824' :
                         d > 0.825 ? '#238B45' :
@@ -133,6 +119,20 @@
                      
                   return div;
                };
+            //</script>
+            <script>
+            function update() {
+               var totalWeight = parseFloat($("#WtCompetition").val()) + parseFloat($("#WtRent").val()) + parseFloat($("#WtConnectivity").val()) + parseFloat($("#WtPopularity").val());
+               var WtCompetition = 0.8 * parseFloat($("#WtCompetition").val()) / totalWeight;
+               var WtRent = 0.8* parseFloat($("#WtRent").val()) / totalWeight;
+               var WtConnectivity = 0.8* parseFloat($("#WtConnectivity").val()) / totalWeight;
+               var WtPopularity = 0.8* parseFloat($("#WtPopularity").val()) / totalWeight;
+               $('#myModal').modal('hide');
+
+               
+               $.get('https://amla26.github.io/columbia_capstone_2017/nyc-check-ins/final_viz_mh_df.csv', function(data) {mapData(data);
+                        });
+
                
                legend.addTo(map);
                
